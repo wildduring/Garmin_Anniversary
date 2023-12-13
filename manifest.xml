@@ -26,6 +26,7 @@
             palette to edit your compatible language list.
         -->
         <iq:languages>
+            <iq:language>eng</iq:language>
             <iq:language>zhs</iq:language>
         </iq:languages>
         <!--

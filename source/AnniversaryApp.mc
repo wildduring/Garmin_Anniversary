@@ -22,7 +22,7 @@ class AnniversaryApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() as Array<Views or InputDelegates>? {
-        return [ new AnniversaryView(), new AnniversaryDelegate() ] as Array<Views or InputDelegates>;
+        return [ new AnniversaryView() ] as Array<Views or InputDelegates>;
     }
 
     function getGlanceView() as Array<GlanceView or GlanceViewDelegate>? {

@@ -1,6 +1,6 @@
 <resources>
     <properties>
-        <property id="Anniversary_num" type="number">2</property>
+        <property id="Anniversary_num" type="number">3</property>
 
         <property id="name1" type="string">汉江畔</property>
         <property id="date1" type="number">1674172800</property>
