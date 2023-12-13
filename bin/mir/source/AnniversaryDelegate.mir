@@ -1,0 +1,34 @@
+[ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryDelegate.mc"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryDelegate.mc"; @line = 2; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryDelegate.mc"; @line = 4; ]
+class AnniversaryDelegate extends WatchUi.BehaviorDelegate{
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryDelegate.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryDelegate.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryDelegate.mc"; @line = 6; ]
+    function initialize() as Void {
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryDelegate_mc_6_26_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryDelegate.mc" 7 8 ]
+        %tmp.2 = getv ? :BehaviorDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryDelegate_mc_6_26_stop:
+    }
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryDelegate.mc"; @line = 10; ]
+    function onMenu() as Boolean {
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryDelegate_mc_10_33_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryDelegate.mc" 12 8 ]
+        %tmp.1 = true;
+        ret %tmp.1;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryDelegate_mc_10_33_stop:
+    }
+}
+[ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryDelegate.mc"; @line = 1; ]
+<init> {
+}

@@ -1,0 +1,36 @@
+<strings>
+    <string id="AppName">Anniversary</string>
+
+    <string id="prompt">Click the menu button</string>
+
+    <string id="menu_label_1">Item 1</string>
+    <string id="menu_label_2">Item 2</string>
+
+    <string id="setting_tittle_anni_num">Number of Anniversary</string>
+    <string id="setting_tittle_group1">Anniversary1</string>
+    <string id="setting_group1_description">Anniversary's group1 will be displayed on the glance too.</string>
+    <string id="setting_tittle_group2">Anniversary2</string>
+    <string id="setting_tittle_group3">Anniversary3</string>
+    <string id="setting_tittle_group4">Anniversary4</string>
+    <string id="setting_tittle_group5">Anniversary5</string>
+    <string id="setting_nametext_tittle">Anniversary's Name</string>
+    <string id="setting_datetext_tittle">Anniversary's Date</string>
+    <string id="setting_iconlist_tittle">Icon</string>
+
+    <string id="anniversary">Anniversary</string>
+    <string id="work">Work</string>
+    <string id="love">Love</string>
+    <string id="marry">Marry</string>
+    <string id="graduate">Graduate</string>
+    <string id="birth">Birth</string>
+    <string id="studay">Studay</string>
+    <string id="spring">Spring</string>
+
+    <string id="passed">has passed</string>
+    <string id="left">only left</string>
+    <string id="day">day</string>
+    <string id="days">days</string>
+
+    <string id="lanber">2</string>
+
+</strings>

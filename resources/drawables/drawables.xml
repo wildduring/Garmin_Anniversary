@@ -1,0 +1,6 @@
+<drawables>
+    <bitmap id="LauncherIcon" filename="anniversary.png"/>
+    <bitmap id="anniversary" filename="anniversary.png"/>
+    <bitmap id="birth" filename="birth.png"/>
+    <bitmap id="spring" filename="spring.png"/>
+</drawables>
