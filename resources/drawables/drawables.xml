@@ -1,6 +1,6 @@
 <drawables>
     <bitmap id="LauncherIcon" filename="anniversary.png"/>
-   <bitmap id="anniversary" filename="anniversary.png"/>
+    <bitmap id="anniversary" filename="anniversary.png"/>
     <bitmap id="work" filename="work.png"/>
     <bitmap id="love" filename="love.png"/>
     <bitmap id="marry" filename="marry.png"/>

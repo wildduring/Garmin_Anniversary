@@ -1,3 +1,4 @@
-<menu id="MainMenu">
-    <menu-item id="item_1"/>
-</menu>
+<menu2 id="MainMenu" title="@Strings.anniversary" icon="@Drawables.LauncherIcon">
+    <menu-item id="generic1" label="Generic 1" subLabel="With Sublabel"></menu-item>
+    <menu-item id="generic2" label="Generic 2"></menu-item>
+</menu2>
