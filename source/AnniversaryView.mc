@@ -1,5 +1,19 @@
 import Toybox.Graphics;
 import Toybox.WatchUi;
+import Toybox.Lang;
+
+/*
+enum ImageKeys {
+    1 = $.Rez.Drawables.anniversary,
+    2 = $.Rez.Drawables.work,
+    3 = $.Rez.Drawables.love, 
+    4 = $.Rez.Drawables.marry,
+    5 = $.Rez.Drawables.graduate,
+    6 = $.Rez.Drawables.birth,
+    7 = $.Rez.Drawables.studay,
+    8 = $.Rez.Drawables.spring
+}
+*/
 
 class AnniversaryView extends WatchUi.View {
 
@@ -9,7 +23,6 @@ class AnniversaryView extends WatchUi.View {
 
     // Load your resources here
     function onLayout(dc as Dc) as Void {
-        setLayout(Rez.Layouts.MainLayout(dc));
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -21,7 +34,7 @@ class AnniversaryView extends WatchUi.View {
     // Update the view
     function onUpdate(dc as Dc) as Void {
         // Call the parent onUpdate function to redraw the layout
-        View.onUpdate(dc);
+        //View.onUpdate(dc);
     }
 
     // Called when this View is removed from the screen. Save the

@@ -1,0 +1,40 @@
+[ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 1; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 2; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 3; ]
+import Toybox.Lang;
+[ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 18; ]
+class AnniversaryView extends WatchUi.View{
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 18; ]
+    <init> {
+    }
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 18; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 20; ]
+    function initialize() as Void {
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_20_26_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 21 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_20_26_stop:
+    }
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 25; ]
+    function onLayout(dc as Dc) as Void {
+    }
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 31; ]
+    function onShow() as Void {
+    }
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 35; ]
+    function onUpdate(dc as Dc) as Void {
+    }
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 43; ]
+    function onHide() as Void {
+    }
+}
+[ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 1; ]
+<init> {
+}

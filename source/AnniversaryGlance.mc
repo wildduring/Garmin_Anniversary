@@ -7,8 +7,8 @@ import Toybox.Time;
 import Toybox.Time.Gregorian;
 
 enum PropKeys {
-    PROP_NAME = "name1",
-    PROP_DATE = "date1"
+    PROP_NAME = "name0",
+    PROP_DATE = "date0"
 }
 
 class AnniversaryGlance extends WatchUi.GlanceView{
@@ -38,15 +38,15 @@ class AnniversaryGlance extends WatchUi.GlanceView{
     }
 
     function onUpdate(dc){
-        _dura = calculate_duration(Properties.getValue(PROP_DATE));
+        _dura = calculate_duration(Properties.getValue($.PROP_DATE));
 
         updateLabelText("anniversary_name", Properties.getValue($.PROP_NAME).toString());
         updateLabelText("anniversary_PoL", PoLText(_dura));
         updateLabelText("anniversary_date", dateText(_dura));
 
-        updateLabelLocat("anniversary_name", 0, dc.getHeight()/10);
-        updateLabelLocat("anniversary_PoL", Graphics.getFontDescent(Graphics.FONT_SMALL)*Properties.getValue($.PROP_NAME).toString().length()*_lanber.toNumber(), dc.getHeight()/10+Graphics.getFontDescent(Graphics.FONT_SMALL)-Graphics.getFontDescent(Graphics.FONT_XTINY));
-        updateLabelLocat("anniversary_date", 0, dc.getHeight()/10+Graphics.getFontAscent(Graphics.FONT_SMALL));
+        updateLabelLocat("anniversary_name", 0, dc.getHeight()/14);
+        updateLabelLocat("anniversary_PoL", Graphics.getFontDescent(Graphics.FONT_SMALL)*Properties.getValue($.PROP_NAME).toString().length()*_lanber.toNumber()+10, dc.getHeight()/14+Graphics.getFontDescent(Graphics.FONT_SMALL)-Graphics.getFontDescent(Graphics.FONT_XTINY));
+        updateLabelLocat("anniversary_date", 0, dc.getHeight()/14+Graphics.getFontAscent(Graphics.FONT_SMALL));
 
         View.onUpdate(dc);
     }

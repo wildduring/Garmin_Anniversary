@@ -1,18 +1,15 @@
 <strings>
     <string id="AppName">Anniversary</string>
 
-    <string id="prompt">Click the menu button</string>
-
-    <string id="menu_label_1">Item 1</string>
-    <string id="menu_label_2">Item 2</string>
+    <string id="anniversary">纪念日</string>
 
     <string id="setting_tittle_anni_num">纪念日的数量</string>
-    <string id="setting_tittle_group1">第一组</string>
+    <string id="setting_tittle_group0">第一组</string>
     <string id="setting_group1_description">第一组纪念日也会被显示在小组件上</string>
-    <string id="setting_tittle_group2">第二组</string>
-    <string id="setting_tittle_group3">第三组</string>
-    <string id="setting_tittle_group4">第四组</string>
-    <string id="setting_tittle_group5">第五组</string>
+    <string id="setting_tittle_group1">第二组</string>
+    <string id="setting_tittle_group2">第三组</string>
+    <string id="setting_tittle_group3">第四组</string>
+    <string id="setting_tittle_group4">第五组</string>
     <string id="setting_nametext_tittle">纪念日的名字</string>
     <string id="setting_datetext_tittle">纪念日日期</string>
     <string id="setting_iconlist_tittle">图标</string>

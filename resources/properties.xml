@@ -2,25 +2,25 @@
     <properties>
         <property id="Anniversary_num" type="number">3</property>
 
-        <property id="name1" type="string">汉江畔</property>
-        <property id="date1" type="number">1674172800</property>
+        <property id="name0" type="string">汉江畔</property>
+        <property id="date0" type="number">1674144000</property>
+        <property id="icon0" type="number">1</property>
+
+        <property id="name1" type="string">除夕</property>
+        <property id="date1" type="number">1707436800</property>
         <property id="icon1" type="number">1</property>
 
-        <property id="name2" type="string">除夕</property>
-        <property id="date2" type="number">1707436800</property>
+        <property id="name2" type="string">Ann3</property>
+        <property id="date2" type="number">1674144000</property>
         <property id="icon2" type="number">1</property>
 
-        <property id="name3" type="string">Ann3</property>
-        <property id="date3" type="number">1674172800</property>
+        <property id="name3" type="string">Ann4</property>
+        <property id="date3" type="number">1674144000</property>
         <property id="icon3" type="number">1</property>
 
-        <property id="name4" type="string">Ann4</property>
-        <property id="date4" type="number">1674172800</property>
+        <property id="name4" type="string">Ann5</property>
+        <property id="date4" type="number">1674144000</property>
         <property id="icon4" type="number">1</property>
-
-        <property id="name5" type="string">Ann5</property>
-        <property id="date5" type="number">1674172800</property>
-        <property id="icon5" type="number">1</property>
     </properties>
 
     <settings>
@@ -35,7 +35,28 @@
             </settingConfig>
         </setting>
 
-        <group id="group1" title="@Strings.setting_tittle_group1" description="@Strings.setting_group1_description">
+        <group id="group0" title="@Strings.setting_tittle_group0" description="@Strings.setting_group1_description">
+            <setting propertyKey="@Properties.name0" title="@Strings.setting_nametext_tittle">
+                <settingConfig type="alphaNumeric" required="true"/>
+            </setting>
+            <setting propertyKey="@Properties.date0" title="@Strings.setting_datetext_tittle">
+                <settingConfig type="date" required="true"/>
+            </setting>
+            <setting propertyKey="@Properties.icon0" title="@Strings.setting_iconlist_tittle">
+                <settingConfig type="list">
+                    <listEntry value="1">@Strings.anniversary</listEntry>
+                    <listEntry value="2">@Strings.work</listEntry>
+                    <listEntry value="3">@Strings.love</listEntry>
+                    <listEntry value="4">@Strings.marry</listEntry>
+                    <listEntry value="5">@Strings.graduate</listEntry>
+                    <listEntry value="6">@Strings.birth</listEntry>
+                    <listEntry value="7">@Strings.studay</listEntry>
+                    <listEntry value="8">@Strings.spring</listEntry>
+                </settingConfig>
+            </setting>
+        </group>
+
+        <group id="group1" title="@Strings.setting_tittle_group1">
             <setting propertyKey="@Properties.name1" title="@Strings.setting_nametext_tittle">
                 <settingConfig type="alphaNumeric" required="true"/>
             </setting>
@@ -106,27 +127,6 @@
                 <settingConfig type="date" required="true"/>
             </setting>
             <setting propertyKey="@Properties.icon4" title="@Strings.setting_iconlist_tittle">
-                <settingConfig type="list">
-                    <listEntry value="1">@Strings.anniversary</listEntry>
-                    <listEntry value="2">@Strings.work</listEntry>
-                    <listEntry value="3">@Strings.love</listEntry>
-                    <listEntry value="4">@Strings.marry</listEntry>
-                    <listEntry value="5">@Strings.graduate</listEntry>
-                    <listEntry value="6">@Strings.birth</listEntry>
-                    <listEntry value="7">@Strings.studay</listEntry>
-                    <listEntry value="8">@Strings.spring</listEntry>
-                </settingConfig>
-            </setting>
-        </group>
-
-        <group id="group5" title="@Strings.setting_tittle_group5">
-            <setting propertyKey="@Properties.name5" title="@Strings.setting_nametext_tittle">
-                <settingConfig type="alphaNumeric" required="true"/>
-            </setting>
-            <setting propertyKey="@Properties.date5" title="@Strings.setting_datetext_tittle">
-                <settingConfig type="date" required="true"/>
-            </setting>
-            <setting propertyKey="@Properties.icon5" title="@Strings.setting_iconlist_tittle">
                 <settingConfig type="list">
                     <listEntry value="1">@Strings.anniversary</listEntry>
                     <listEntry value="2">@Strings.work</listEntry>
