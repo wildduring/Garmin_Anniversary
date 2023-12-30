@@ -13,62 +13,43 @@ import Toybox.Time;
 [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 7; ]
 import Toybox.Time.Gregorian;
 [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 9; ]
-enum ImageKeys {
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 10; @position = 4; ]
-    a1 = ,
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 11; @position = 4; ]
-    a2 = ,
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 12; @position = 4; ]
-    a3 = ,
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 13; @position = 4; ]
-    a4 = ,
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 14; @position = 4; ]
-    a5 = ,
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 15; @position = 4; ]
-    a6 = ,
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 16; @position = 4; ]
-    a7 = ,
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 17; @position = 4; ]
-    a8 = 
-}
-[ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 20; ]
 class AnniversaryView extends WatchUi.View{
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 20; ]
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 9; ]
     <init> {
     }
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 20; ]
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 9; ]
     static
     <init> {
     }
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 22; @position = 16; ]
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 11; @position = 16; ]
     private
     var _passed as String;
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 23; @position = 16; ]
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 12; @position = 16; ]
     private
     var _left as String;
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 24; @position = 16; ]
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 13; @position = 16; ]
     private
     var _day as String;
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 25; @position = 16; ]
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 14; @position = 16; ]
     private
     var _days as String;
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 26; @position = 16; ]
-    private
-    var _lanber as Number;
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 28; @position = 16; ]
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 16; @position = 16; ]
     private
     var _anni;
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 29; @position = 16; ]
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 17; @position = 16; ]
     private
     var _dura;
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 31; ]
-    function initialize() as Void {
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_31_26_start:
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 32 8 ]
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 19; @position = 16; ]
+    private
+    var _thiswindow as Number;
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 21; ]
+    function initialize(ThisWindow as Number) as Void {
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_21_46_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 22 8 ]
         %tmp.2 = getv ? :View;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 34 8 ]
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 23 8 ]
         %tmp.4 = getm $.Toybox.WatchUi;
         %tmp.5 = getv function %tmp.4 :loadResource;
         %tmp.6 = getm $;
@@ -78,7 +59,7 @@ C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_31_26_start:
         %tmp.10 = invoke %tmp.4 %tmp.5(%tmp.9);
         %tmp.11 = as %tmp.10 String;
         putv self :_passed %tmp.11;
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 35 8 ]
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 24 8 ]
         %tmp.12 = getm $.Toybox.WatchUi;
         %tmp.13 = getv function %tmp.12 :loadResource;
         %tmp.14 = getm $;
@@ -88,7 +69,7 @@ C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_31_26_start:
         %tmp.18 = invoke %tmp.12 %tmp.13(%tmp.17);
         %tmp.19 = as %tmp.18 String;
         putv self :_left %tmp.19;
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 36 8 ]
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 25 8 ]
         %tmp.20 = getm $.Toybox.WatchUi;
         %tmp.21 = getv function %tmp.20 :loadResource;
         %tmp.22 = getm $;
@@ -98,7 +79,7 @@ C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_31_26_start:
         %tmp.26 = invoke %tmp.20 %tmp.21(%tmp.25);
         %tmp.27 = as %tmp.26 String;
         putv self :_day %tmp.27;
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 37 8 ]
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 26 8 ]
         %tmp.28 = getm $.Toybox.WatchUi;
         %tmp.29 = getv function %tmp.28 :loadResource;
         %tmp.30 = getm $;
@@ -108,28 +89,21 @@ C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_31_26_start:
         %tmp.34 = invoke %tmp.28 %tmp.29(%tmp.33);
         %tmp.35 = as %tmp.34 String;
         putv self :_days %tmp.35;
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 38 8 ]
-        %tmp.36 = getm $.Toybox.WatchUi;
-        %tmp.37 = getv function %tmp.36 :loadResource;
-        %tmp.38 = getm $;
-        %tmp.39 = getv %tmp.38 :Rez;
-        %tmp.40 = getv %tmp.39 :Strings;
-        %tmp.41 = getv %tmp.40 :lanber;
-        %tmp.42 = invoke %tmp.36 %tmp.37(%tmp.41);
-        %tmp.43 = as %tmp.42 Number;
-        putv self :_lanber %tmp.43;
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 39 8 ]
-        %tmp.44 = 0;
-        putv self :_anni %tmp.44;
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 40 8 ]
-        %tmp.45 = 0;
-        putv self :_dura %tmp.45;
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_31_26_stop:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 27 8 ]
+        %tmp.36 = 0;
+        putv self :_anni %tmp.36;
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 28 8 ]
+        %tmp.37 = 0;
+        putv self :_dura %tmp.37;
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 30 8 ]
+        %tmp.39 = lgetv %ThisWindow;
+        putv self :_thiswindow %tmp.39;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_21_46_stop:
     }
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 44; ]
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 34; ]
     function onLayout(dc as Dc) as Void {
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_44_40_start:
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 45 8 ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_34_40_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 35 8 ]
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :setLayout;
         %tmp.3 = getm $;
@@ -139,145 +113,173 @@ C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_44_40_start:
         %tmp.8 = lgetv %dc;
         %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
         invoke %tmp.1 %tmp.2(%tmp.9);
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_44_40_stop:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_34_40_stop:
     }
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 51; ]
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 41; ]
     function onShow() as Void {
     }
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 55; ]
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 45; ]
     function onUpdate(dc as Dc) as Void {
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_55_40_start:
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 58 8 ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_45_40_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 48 8 ]
         %tmp.3 = getm $.Toybox.Time;
         %tmp.4 = getv function ? %tmp.3 :Moment;
         %tmp.5 = getm $.Toybox.Application.Properties;
         %tmp.6 = getv function %tmp.5 :getValue;
-        %tmp.7 = "date0";
-        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
-        %tmp.1 = newc %tmp.4 (%tmp.8);
+        %tmp.7 = "date";
+        %tmp.9 = getv ? :_thiswindow;
+        %tmp.10 = getv function %tmp.9 :toString;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        %tmp.12 = add %tmp.7 %tmp.11;
+        %tmp.13 = invoke %tmp.5 %tmp.6(%tmp.12);
+        %tmp.1 = newc %tmp.4 (%tmp.13);
         putv self :_anni %tmp.1;
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 59 8 ]
-        %tmp.9 = self;
-        %tmp.10 = getv function %tmp.9 :calculate_duration;
-        %tmp.12 = getv ? :_anni;
-        %tmp.13 = invoke %tmp.9 %tmp.10(%tmp.12);
-        putv self :_dura %tmp.13;
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 61 8 ]
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 49 8 ]
         %tmp.14 = self;
-        %tmp.15 = getv function %tmp.14 :updateLabelText;
-        %tmp.16 = "anniversary_name";
-        %tmp.17 = getm $.Toybox.Application.Properties;
-        %tmp.18 = getv function %tmp.17 :getValue;
-        %tmp.19 = "name0";
-        %tmp.20 = invoke %tmp.17 %tmp.18(%tmp.19);
-        %tmp.21 = getv function %tmp.20 :toString;
-        %tmp.22 = invoke %tmp.20 %tmp.21();
-        invoke %tmp.14 %tmp.15(%tmp.16, %tmp.22);
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 62 8 ]
-        %tmp.23 = self;
-        %tmp.24 = getv function %tmp.23 :updateLabelText;
-        %tmp.25 = "anniversary_date";
-        %tmp.26 = self;
-        %tmp.27 = getv function %tmp.26 :date_translate;
-        %tmp.29 = getv ? :_anni;
-        %tmp.30 = invoke %tmp.26 %tmp.27(%tmp.29);
-        invoke %tmp.23 %tmp.24(%tmp.25, %tmp.30);
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 63 8 ]
-        %tmp.31 = self;
-        %tmp.32 = getv function %tmp.31 :updateLabelText;
-        %tmp.33 = "anniversary_PoL";
-        %tmp.34 = self;
-        %tmp.35 = getv function %tmp.34 :PoLText;
-        %tmp.37 = getv ? :_dura;
-        %tmp.38 = invoke %tmp.34 %tmp.35(%tmp.37);
-        invoke %tmp.31 %tmp.32(%tmp.33, %tmp.38);
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 64 8 ]
-        %tmp.39 = self;
-        %tmp.40 = getv function %tmp.39 :updateLabelText;
-        %tmp.41 = "anniversary_number_text";
-        %tmp.43 = getv ? :_dura;
+        %tmp.15 = getv function %tmp.14 :calculate_duration;
+        %tmp.17 = getv ? :_anni;
+        %tmp.18 = invoke %tmp.14 %tmp.15(%tmp.17);
+        putv self :_dura %tmp.18;
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 51 8 ]
+        %tmp.19 = self;
+        %tmp.20 = getv function %tmp.19 :updateBitmapIcon;
+        %tmp.21 = "anniversary_icon";
+        %tmp.22 = self;
+        %tmp.23 = getv function %tmp.22 :icon_translate;
+        %tmp.24 = getm $.Toybox.Application.Properties;
+        %tmp.25 = getv function %tmp.24 :getValue;
+        %tmp.26 = "icon";
+        %tmp.28 = getv ? :_thiswindow;
+        %tmp.29 = getv function %tmp.28 :toString;
+        %tmp.30 = invoke %tmp.28 %tmp.29();
+        %tmp.31 = add %tmp.26 %tmp.30;
+        %tmp.32 = invoke %tmp.24 %tmp.25(%tmp.31);
+        %tmp.33 = getv function %tmp.32 :toString;
+        %tmp.34 = invoke %tmp.32 %tmp.33();
+        %tmp.35 = invoke %tmp.22 %tmp.23(%tmp.34);
+        invoke %tmp.19 %tmp.20(%tmp.21, %tmp.35);
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 53 8 ]
+        %tmp.36 = self;
+        %tmp.37 = getv function %tmp.36 :updateLabelText;
+        %tmp.38 = "anniversary_name";
+        %tmp.39 = getm $.Toybox.Application.Properties;
+        %tmp.40 = getv function %tmp.39 :getValue;
+        %tmp.41 = "name";
+        %tmp.43 = getv ? :_thiswindow;
         %tmp.44 = getv function %tmp.43 :toString;
         %tmp.45 = invoke %tmp.43 %tmp.44();
-        invoke %tmp.39 %tmp.40(%tmp.41, %tmp.45);
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 65 8 ]
-        %tmp.46 = self;
-        %tmp.47 = getv function %tmp.46 :updateLabelText;
-        %tmp.48 = "anniversary_day_text";
-        %tmp.49 = self;
-        %tmp.50 = getv function %tmp.49 :dayText;
-        %tmp.52 = getv ? :_dura;
-        %tmp.53 = invoke %tmp.49 %tmp.50(%tmp.52);
-        invoke %tmp.46 %tmp.47(%tmp.48, %tmp.53);
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 67 8 ]
-        %tmp.55 = getv ? :View;
-        %tmp.56 = getv function %tmp.55 :onUpdate;
-        %tmp.58 = lgetv %dc;
-        invoke %tmp.55 %tmp.56(%tmp.58);
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_55_40_stop:
+        %tmp.46 = add %tmp.41 %tmp.45;
+        %tmp.47 = invoke %tmp.39 %tmp.40(%tmp.46);
+        %tmp.48 = getv function %tmp.47 :toString;
+        %tmp.49 = invoke %tmp.47 %tmp.48();
+        invoke %tmp.36 %tmp.37(%tmp.38, %tmp.49);
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 54 8 ]
+        %tmp.50 = self;
+        %tmp.51 = getv function %tmp.50 :updateLabelText;
+        %tmp.52 = "anniversary_date";
+        %tmp.53 = self;
+        %tmp.54 = getv function %tmp.53 :date_translate;
+        %tmp.56 = getv ? :_anni;
+        %tmp.57 = invoke %tmp.53 %tmp.54(%tmp.56);
+        invoke %tmp.50 %tmp.51(%tmp.52, %tmp.57);
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 55 8 ]
+        %tmp.58 = self;
+        %tmp.59 = getv function %tmp.58 :updateLabelText;
+        %tmp.60 = "anniversary_PoL";
+        %tmp.61 = self;
+        %tmp.62 = getv function %tmp.61 :PoLText;
+        %tmp.64 = getv ? :_dura;
+        %tmp.65 = invoke %tmp.61 %tmp.62(%tmp.64);
+        invoke %tmp.58 %tmp.59(%tmp.60, %tmp.65);
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 56 8 ]
+        %tmp.66 = self;
+        %tmp.67 = getv function %tmp.66 :updateLabelText;
+        %tmp.68 = "anniversary_number_text";
+        %tmp.70 = getv ? :_dura;
+        %tmp.71 = getv function %tmp.70 :abs;
+        %tmp.72 = invoke %tmp.70 %tmp.71();
+        %tmp.73 = getv function %tmp.72 :toString;
+        %tmp.74 = invoke %tmp.72 %tmp.73();
+        invoke %tmp.66 %tmp.67(%tmp.68, %tmp.74);
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 57 8 ]
+        %tmp.75 = self;
+        %tmp.76 = getv function %tmp.75 :updateLabelText;
+        %tmp.77 = "anniversary_day_text";
+        %tmp.78 = self;
+        %tmp.79 = getv function %tmp.78 :dayText;
+        %tmp.81 = getv ? :_dura;
+        %tmp.82 = invoke %tmp.78 %tmp.79(%tmp.81);
+        invoke %tmp.75 %tmp.76(%tmp.77, %tmp.82);
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 59 8 ]
+        %tmp.84 = getv ? :View;
+        %tmp.85 = getv function %tmp.84 :onUpdate;
+        %tmp.87 = lgetv %dc;
+        invoke %tmp.84 %tmp.85(%tmp.87);
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_45_40_stop:
     }
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 73; ]
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 65; ]
     function onHide() as Void {
     }
     //! Update a label with new text
     //! @param labelId The label to update
     //! @param labelText The text for the label
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 79; ]
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 71; ]
     private
     function updateLabelText(labelId as String, labelText as String) as Void {
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_79_85_start:
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 80 8 ]
-        [ "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_79_85_start" "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_79_85_stop" ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_71_85_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 72 8 ]
+        [ "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_71_85_start" "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_71_85_stop" ]
         %drawable.1 = local;
         %tmp.2 = getv ? :View;
         %tmp.3 = getv function %tmp.2 :findDrawableById;
         %tmp.5 = lgetv %labelId;
         %tmp.6 = invoke %tmp.2 %tmp.3(%tmp.5);
         lputv %drawable.1 %tmp.6;
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 81 8 ]
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_81_8_if_stmt:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 73 8 ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_73_8_if_stmt:
         %tmp.8 = lgetv %drawable.1;
         %tmp.9 = null;
         %tmp.10 = ne %tmp.8 %tmp.9;
-        bf %tmp.10 @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_81_8_if_end;
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_81_8_if_true:
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_81_30_start:
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 82 12 ]
+        bf %tmp.10 @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_73_8_if_end;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_73_8_if_true:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_73_30_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 74 12 ]
         %tmp.12 = lgetv %drawable.1;
         %tmp.13 = as %tmp.12 { (!Null) };
         %tmp.14 = as %tmp.13 Text;
         %tmp.15 = getv function %tmp.14 :setText;
         %tmp.17 = lgetv %labelText;
         invoke %tmp.14 %tmp.15(%tmp.17);
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_81_30_stop:
-        goto @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_81_8_if_end;
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_81_8_if_end:
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_79_85_stop:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_73_30_stop:
+        goto @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_73_8_if_end;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_73_8_if_end:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_71_85_stop:
     }
     //! Update a label with new location
     //! @param labelId The label to update
     //! @param labelX The X for the label
     //! @param labelY The Y for the label
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 90; ]
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 82; ]
     private
     function updateLabelLocat(labelId as String, labelX as Number, labelY as Number) as Void {
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_90_101_start:
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 91 8 ]
-        [ "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_90_101_start" "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_90_101_stop" ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_82_101_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 83 8 ]
+        [ "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_82_101_start" "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_82_101_stop" ]
         %drawable.1 = local;
         %tmp.2 = getv ? :View;
         %tmp.3 = getv function %tmp.2 :findDrawableById;
         %tmp.5 = lgetv %labelId;
         %tmp.6 = invoke %tmp.2 %tmp.3(%tmp.5);
         lputv %drawable.1 %tmp.6;
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 92 8 ]
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_92_8_if_stmt:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 84 8 ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_84_8_if_stmt:
         %tmp.8 = lgetv %drawable.1;
         %tmp.9 = null;
         %tmp.10 = ne %tmp.8 %tmp.9;
-        bf %tmp.10 @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_92_8_if_end;
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_92_8_if_true:
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_92_30_start:
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 93 12 ]
+        bf %tmp.10 @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_84_8_if_end;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_84_8_if_true:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_84_30_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 85 12 ]
         %tmp.12 = lgetv %drawable.1;
         %tmp.13 = as %tmp.12 { (!Null) };
         %tmp.14 = as %tmp.13 Text;
@@ -285,17 +287,55 @@ C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_92_30_start:
         %tmp.17 = lgetv %labelX;
         %tmp.19 = lgetv %labelY;
         invoke %tmp.14 %tmp.15(%tmp.17, %tmp.19);
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_92_30_stop:
-        goto @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_92_8_if_end;
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_92_8_if_end:
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_90_101_stop:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_84_30_stop:
+        goto @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_84_8_if_end;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_84_8_if_end:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_82_101_stop:
     }
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 97; ]
+    //! Update a bitmap with new icon
+    //! @param bitmapId The Bitmap to update
+    //! @param identifier The Bitmap Icon
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 92; ]
+    private
+    function updateBitmapIcon(bitmapId as String, identifier as Lang.Symbol) as Void {
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_92_93_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 93 8 ]
+        [ "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_92_93_start" "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_92_93_stop" ]
+        %drawable.1 = local;
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :findDrawableById;
+        %tmp.5 = lgetv %bitmapId;
+        %tmp.6 = invoke %tmp.2 %tmp.3(%tmp.5);
+        lputv %drawable.1 %tmp.6;
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 94 8 ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_94_8_if_stmt:
+        %tmp.8 = lgetv %drawable.1;
+        %tmp.9 = null;
+        %tmp.10 = ne %tmp.8 %tmp.9;
+        bf %tmp.10 @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_94_8_if_end;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_94_8_if_true:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_94_30_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 95 12 ]
+        %tmp.12 = lgetv %drawable.1;
+        %tmp.13 = as %tmp.12 { (!Null) };
+        %tmp.14 = as %tmp.13 Bitmap;
+        %tmp.15 = getv function %tmp.14 :setBitmap;
+        %tmp.16 = getm $.Toybox.WatchUi;
+        %tmp.17 = getv function %tmp.16 :loadResource;
+        %tmp.19 = lgetv %identifier;
+        %tmp.20 = invoke %tmp.16 %tmp.17(%tmp.19);
+        invoke %tmp.14 %tmp.15(%tmp.20);
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_94_30_stop:
+        goto @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_94_8_if_end;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_94_8_if_end:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_92_93_stop:
+    }
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 99; ]
     private
     function calculate_duration(anni as Time.Moment) as Number {
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_97_70_start:
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 98 8 ]
-        [ "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_97_70_start" "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_97_70_stop" ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_99_70_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 100 8 ]
+        [ "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_99_70_start" "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_99_70_stop" ]
         %today.1 = local;
         %tmp.3 = getm $.Toybox.Time;
         %tmp.4 = getv function ? %tmp.3 :Moment;
@@ -306,8 +346,8 @@ C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_97_70_start:
         %tmp.9 = invoke %tmp.7 %tmp.8();
         %tmp.1 = newc %tmp.4 (%tmp.9);
         lputv %today.1 %tmp.1;
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 99 8 ]
-        [ "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_97_70_start" "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_97_70_stop" ]
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 101 8 ]
+        [ "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_99_70_start" "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_99_70_stop" ]
         %dura.2 = local;
         %tmp.10 = lgetv %today.1;
         %tmp.11 = getv function %tmp.10 :compare;
@@ -318,17 +358,176 @@ C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_97_70_start:
         %tmp.17 = 24;
         %tmp.18 = div %tmp.16 %tmp.17;
         lputv %dura.2 %tmp.18;
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 100 8 ]
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 102 8 ]
         %tmp.20 = lgetv %dura.2;
         ret %tmp.20;
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_97_70_stop:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_99_70_stop:
     }
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 103; ]
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 106; ]
+    private
+    function icon_translate(icon_number as String) as Lang.Symbol {
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_106_73_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 107 8 ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_107_8_if_stmt:
+        %tmp.1 = lgetv %icon_number;
+        %tmp.2 = getv function %tmp.1 :equals;
+        %tmp.3 = "1";
+        %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
+        bf %tmp.4 @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_107_8_if_end;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_107_8_if_true:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_107_36_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 108 12 ]
+        %tmp.5 = getm $;
+        %tmp.6 = getv %tmp.5 :Rez;
+        %tmp.7 = getv %tmp.6 :Drawables;
+        %tmp.8 = getv %tmp.7 :anniversary40;
+        ret %tmp.8;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_107_36_stop:
+        goto @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_107_8_if_end;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_107_8_if_end:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 110 8 ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_110_8_if_stmt:
+        %tmp.9 = lgetv %icon_number;
+        %tmp.10 = getv function %tmp.9 :equals;
+        %tmp.11 = "2";
+        %tmp.12 = invoke %tmp.9 %tmp.10(%tmp.11);
+        bf %tmp.12 @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_110_8_if_end;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_110_8_if_true:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_110_36_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 111 12 ]
+        %tmp.13 = getm $;
+        %tmp.14 = getv %tmp.13 :Rez;
+        %tmp.15 = getv %tmp.14 :Drawables;
+        %tmp.16 = getv %tmp.15 :work40;
+        ret %tmp.16;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_110_36_stop:
+        goto @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_110_8_if_end;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_110_8_if_end:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 113 8 ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_113_8_if_stmt:
+        %tmp.17 = lgetv %icon_number;
+        %tmp.18 = getv function %tmp.17 :equals;
+        %tmp.19 = "3";
+        %tmp.20 = invoke %tmp.17 %tmp.18(%tmp.19);
+        bf %tmp.20 @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_113_8_if_end;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_113_8_if_true:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_113_36_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 114 12 ]
+        %tmp.21 = getm $;
+        %tmp.22 = getv %tmp.21 :Rez;
+        %tmp.23 = getv %tmp.22 :Drawables;
+        %tmp.24 = getv %tmp.23 :love40;
+        ret %tmp.24;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_113_36_stop:
+        goto @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_113_8_if_end;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_113_8_if_end:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 116 8 ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_116_8_if_stmt:
+        %tmp.25 = lgetv %icon_number;
+        %tmp.26 = getv function %tmp.25 :equals;
+        %tmp.27 = "4";
+        %tmp.28 = invoke %tmp.25 %tmp.26(%tmp.27);
+        bf %tmp.28 @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_116_8_if_end;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_116_8_if_true:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_116_36_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 117 12 ]
+        %tmp.29 = getm $;
+        %tmp.30 = getv %tmp.29 :Rez;
+        %tmp.31 = getv %tmp.30 :Drawables;
+        %tmp.32 = getv %tmp.31 :marry40;
+        ret %tmp.32;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_116_36_stop:
+        goto @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_116_8_if_end;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_116_8_if_end:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 119 8 ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_119_8_if_stmt:
+        %tmp.33 = lgetv %icon_number;
+        %tmp.34 = getv function %tmp.33 :equals;
+        %tmp.35 = "5";
+        %tmp.36 = invoke %tmp.33 %tmp.34(%tmp.35);
+        bf %tmp.36 @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_119_8_if_end;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_119_8_if_true:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_119_36_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 120 12 ]
+        %tmp.37 = getm $;
+        %tmp.38 = getv %tmp.37 :Rez;
+        %tmp.39 = getv %tmp.38 :Drawables;
+        %tmp.40 = getv %tmp.39 :graduate40;
+        ret %tmp.40;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_119_36_stop:
+        goto @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_119_8_if_end;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_119_8_if_end:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 122 8 ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_122_8_if_stmt:
+        %tmp.41 = lgetv %icon_number;
+        %tmp.42 = getv function %tmp.41 :equals;
+        %tmp.43 = "6";
+        %tmp.44 = invoke %tmp.41 %tmp.42(%tmp.43);
+        bf %tmp.44 @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_122_8_if_end;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_122_8_if_true:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_122_36_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 123 12 ]
+        %tmp.45 = getm $;
+        %tmp.46 = getv %tmp.45 :Rez;
+        %tmp.47 = getv %tmp.46 :Drawables;
+        %tmp.48 = getv %tmp.47 :birth40;
+        ret %tmp.48;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_122_36_stop:
+        goto @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_122_8_if_end;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_122_8_if_end:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 125 8 ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_125_8_if_stmt:
+        %tmp.49 = lgetv %icon_number;
+        %tmp.50 = getv function %tmp.49 :equals;
+        %tmp.51 = "7";
+        %tmp.52 = invoke %tmp.49 %tmp.50(%tmp.51);
+        bf %tmp.52 @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_125_8_if_end;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_125_8_if_true:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_125_36_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 126 12 ]
+        %tmp.53 = getm $;
+        %tmp.54 = getv %tmp.53 :Rez;
+        %tmp.55 = getv %tmp.54 :Drawables;
+        %tmp.56 = getv %tmp.55 :studay40;
+        ret %tmp.56;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_125_36_stop:
+        goto @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_125_8_if_end;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_125_8_if_end:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 128 8 ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_128_8_if_stmt:
+        %tmp.57 = lgetv %icon_number;
+        %tmp.58 = getv function %tmp.57 :equals;
+        %tmp.59 = "8";
+        %tmp.60 = invoke %tmp.57 %tmp.58(%tmp.59);
+        bf %tmp.60 @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_128_8_if_false;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_128_8_if_true:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_128_36_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 129 12 ]
+        %tmp.61 = getm $;
+        %tmp.62 = getv %tmp.61 :Rez;
+        %tmp.63 = getv %tmp.62 :Drawables;
+        %tmp.64 = getv %tmp.63 :spring40;
+        ret %tmp.64;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_128_36_stop:
+        goto @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_128_8_if_end;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_128_8_if_false:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_131_13_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 132 12 ]
+        %tmp.65 = getm $;
+        %tmp.66 = getv %tmp.65 :Rez;
+        %tmp.67 = getv %tmp.66 :Drawables;
+        %tmp.68 = getv %tmp.67 :anniversary40;
+        ret %tmp.68;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_131_13_stop:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_128_8_if_end:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_106_73_stop:
+    }
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 136; ]
     private
     function date_translate(date as Time.Moment) as String {
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_103_66_start:
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 104 8 ]
-        [ "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_103_66_start" "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_103_66_stop" ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_136_66_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 137 8 ]
+        [ "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_136_66_start" "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_136_66_stop" ]
         %language.1 = local;
         %tmp.1 = getm $.Toybox.WatchUi;
         %tmp.2 = getv function %tmp.1 :loadResource;
@@ -339,17 +538,17 @@ C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_103_66_start:
         %tmp.7 = invoke %tmp.1 %tmp.2(%tmp.6);
         %tmp.8 = as %tmp.7 String;
         lputv %language.1 %tmp.8;
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 105 8 ]
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_105_8_if_stmt:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 138 8 ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_138_8_if_stmt:
         %tmp.9 = lgetv %language.1;
         %tmp.10 = getv function %tmp.9 :equals;
         %tmp.11 = "ENG";
         %tmp.12 = invoke %tmp.9 %tmp.10(%tmp.11);
-        bf %tmp.12 @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_105_8_if_false;
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_105_8_if_true:
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_105_35_start:
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 106 12 ]
-        [ "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_105_35_start" "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_105_35_stop" ]
+        bf %tmp.12 @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_138_8_if_false;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_138_8_if_true:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_138_35_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 139 12 ]
+        [ "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_138_35_start" "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_138_35_stop" ]
         %trans_day.2 = local;
         %tmp.13 = getm $.Toybox.Time.Gregorian;
         %tmp.14 = getv function %tmp.13 :info;
@@ -358,8 +557,8 @@ C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_105_35_start:
         %tmp.18 = getv %tmp.17 :FORMAT_MEDIUM;
         %tmp.19 = invoke %tmp.13 %tmp.14(%tmp.16, %tmp.18);
         lputv %trans_day.2 %tmp.19;
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 107 12 ]
-        [ "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_105_35_start" "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_105_35_stop" ]
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 140 12 ]
+        [ "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_138_35_start" "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_138_35_stop" ]
         %dateString.3 = local;
         %tmp.20 = getm $.Toybox.Lang;
         %tmp.21 = getv function %tmp.20 :format;
@@ -379,23 +578,23 @@ C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_105_35_start:
         %tmp.35 = aputv %tmp.34 2 %tmp.33;
         %tmp.36 = invoke %tmp.20 %tmp.21(%tmp.22, %tmp.35);
         lputv %dateString.3 %tmp.36;
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 115 12 ]
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 148 12 ]
         %tmp.38 = lgetv %dateString.3;
         ret %tmp.38;
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_105_35_stop:
-        goto @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_105_8_if_end;
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_105_8_if_false:
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 117 13 ]
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_117_13_if_stmt:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_138_35_stop:
+        goto @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_138_8_if_end;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_138_8_if_false:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 150 13 ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_150_13_if_stmt:
         %tmp.39 = lgetv %language.1;
         %tmp.40 = getv function %tmp.39 :equals;
         %tmp.41 = "ZHS";
         %tmp.42 = invoke %tmp.39 %tmp.40(%tmp.41);
-        bf %tmp.42 @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_117_13_if_false;
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_117_13_if_true:
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_117_40_start:
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 118 12 ]
-        [ "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_117_40_start" "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_117_40_stop" ]
+        bf %tmp.42 @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_150_13_if_false;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_150_13_if_true:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_150_40_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 151 12 ]
+        [ "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_150_40_start" "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_150_40_stop" ]
         %trans_day.4 = local;
         %tmp.43 = getm $.Toybox.Time.Gregorian;
         %tmp.44 = getv function %tmp.43 :info;
@@ -404,8 +603,8 @@ C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_117_40_start:
         %tmp.48 = getv %tmp.47 :FORMAT_SHORT;
         %tmp.49 = invoke %tmp.43 %tmp.44(%tmp.46, %tmp.48);
         lputv %trans_day.4 %tmp.49;
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 119 12 ]
-        [ "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_117_40_start" "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_117_40_stop" ]
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 152 12 ]
+        [ "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_150_40_start" "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_150_40_stop" ]
         %dateString.5 = local;
         %tmp.50 = getm $.Toybox.Lang;
         %tmp.51 = getv function %tmp.50 :format;
@@ -425,15 +624,15 @@ C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_117_40_start:
         %tmp.65 = aputv %tmp.64 2 %tmp.63;
         %tmp.66 = invoke %tmp.50 %tmp.51(%tmp.52, %tmp.65);
         lputv %dateString.5 %tmp.66;
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 127 12 ]
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 160 12 ]
         %tmp.68 = lgetv %dateString.5;
         ret %tmp.68;
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_117_40_stop:
-        goto @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_117_13_if_end;
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_117_13_if_false:
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_129_12_start:
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 130 12 ]
-        [ "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_129_12_start" "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_129_12_stop" ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_150_40_stop:
+        goto @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_150_13_if_end;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_150_13_if_false:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_162_12_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 163 12 ]
+        [ "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_162_12_start" "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_162_12_stop" ]
         %trans_day.6 = local;
         %tmp.69 = getm $.Toybox.Time.Gregorian;
         %tmp.70 = getv function %tmp.69 :info;
@@ -442,8 +641,8 @@ C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_129_12_start:
         %tmp.74 = getv %tmp.73 :FORMAT_MEDIUM;
         %tmp.75 = invoke %tmp.69 %tmp.70(%tmp.72, %tmp.74);
         lputv %trans_day.6 %tmp.75;
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 131 12 ]
-        [ "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_129_12_start" "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_129_12_stop" ]
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 164 12 ]
+        [ "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_162_12_start" "C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_162_12_stop" ]
         %dateString.7 = local;
         %tmp.76 = getm $.Toybox.Lang;
         %tmp.77 = getv function %tmp.76 :format;
@@ -463,115 +662,184 @@ C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_129_12_start:
         %tmp.91 = aputv %tmp.90 2 %tmp.89;
         %tmp.92 = invoke %tmp.76 %tmp.77(%tmp.78, %tmp.91);
         lputv %dateString.7 %tmp.92;
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 139 12 ]
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 172 12 ]
         %tmp.94 = lgetv %dateString.7;
         ret %tmp.94;
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_129_12_stop:
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_117_13_if_end:
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_105_8_if_end:
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_103_66_stop:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_162_12_stop:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_150_13_if_end:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_138_8_if_end:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_136_66_stop:
     }
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 144; ]
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 177; ]
     private
     function PoLText(duration as Number) as String {
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_144_58_start:
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 145 8 ]
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_145_8_if_stmt:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_177_58_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 178 8 ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_178_8_if_stmt:
         %tmp.2 = lgetv %duration;
         %tmp.3 = 0;
         %tmp.4 = lte %tmp.2 %tmp.3;
-        bf %tmp.4 @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_145_8_if_false;
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_145_8_if_true:
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_145_27_start:
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 146 12 ]
+        bf %tmp.4 @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_178_8_if_false;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_178_8_if_true:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_178_27_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 179 12 ]
         %tmp.6 = getv ? :_left;
         ret %tmp.6;
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_145_27_stop:
-        goto @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_145_8_if_end;
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_145_8_if_false:
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_148_13_start:
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 149 12 ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_178_27_stop:
+        goto @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_178_8_if_end;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_178_8_if_false:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_181_13_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 182 12 ]
         %tmp.8 = getv ? :_passed;
         ret %tmp.8;
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_148_13_stop:
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_145_8_if_end:
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_144_58_stop:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_181_13_stop:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_178_8_if_end:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_177_58_stop:
     }
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 153; ]
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 186; ]
     private
     function dayText(duration as Number) as String {
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_153_58_start:
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 154 8 ]
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_154_8_if_stmt:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_186_58_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 187 8 ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_187_8_if_stmt:
         %tmp.2 = lgetv %duration;
         %tmp.3 = 0;
         %tmp.4 = eq %tmp.2 %tmp.3;
-        bf %tmp.4 @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_154_8_if_false;
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_154_8_if_true:
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_154_27_start:
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 155 12 ]
+        bf %tmp.4 @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_187_8_if_false;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_187_8_if_true:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_187_27_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 188 12 ]
         %tmp.6 = getv ? :_day;
         ret %tmp.6;
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_154_27_stop:
-        goto @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_154_8_if_end;
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_154_8_if_false:
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_157_13_start:
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 158 12 ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_187_27_stop:
+        goto @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_187_8_if_end;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_187_8_if_false:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_190_13_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 191 12 ]
         %tmp.8 = getv ? :_days;
         ret %tmp.8;
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_157_13_stop:
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_154_8_if_end:
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_153_58_stop:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_190_13_stop:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_187_8_if_end:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_186_58_stop:
+    }
+}
+[ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 197; ]
+class AnniversaryViewDelegate extends WatchUi.BehaviorDelegate{
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 197; ]
+    <init> {
+    }
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 197; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 199; @position = 16; ]
+    private
+    var _thiswindow as Number;
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 200; @position = 16; ]
+    private
+    var _totalwindow as Number;
+    //! Constructor
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 203; ]
+    public
+    function initialize(ThisWindow as Number, TotalWindow as Number) as Void {
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_203_76_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 204 8 ]
+        %tmp.2 = getv ? :BehaviorDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 205 8 ]
+        %tmp.5 = lgetv %ThisWindow;
+        putv self :_thiswindow %tmp.5;
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 206 8 ]
+        %tmp.7 = lgetv %TotalWindow;
+        putv self :_totalwindow %tmp.7;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_203_76_stop:
+    }
+    //! Handle going to the next view
+    //! @return true if handled, false otherwise
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 211; ]
+    public
+    function onNextPage() as Boolean {
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_211_44_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 212 8 ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_212_8_if_stmt:
+        %tmp.2 = getv ? :_thiswindow;
+        %tmp.4 = getv ? :_totalwindow;
+        %tmp.5 = lt %tmp.2 %tmp.4;
+        bf %tmp.5 @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_212_8_if_end;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_212_8_if_true:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_212_38_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 213 12 ]
+        %tmp.6 = getm $.Toybox.WatchUi;
+        %tmp.7 = getv function %tmp.6 :switchToView;
+        %tmp.11 = getv ? :AnniversaryView;
+        %tmp.13 = getv ? :_thiswindow;
+        %tmp.14 = 1;
+        %tmp.15 = add %tmp.13 %tmp.14;
+        %tmp.8 = newc %tmp.11 (%tmp.15);
+        %tmp.19 = getv ? :AnniversaryViewDelegate;
+        %tmp.21 = getv ? :_thiswindow;
+        %tmp.22 = 1;
+        %tmp.23 = add %tmp.21 %tmp.22;
+        %tmp.25 = getv ? :_totalwindow;
+        %tmp.16 = newc %tmp.19 (%tmp.23, %tmp.25);
+        %tmp.26 = getm $.Toybox.WatchUi;
+        %tmp.27 = getv %tmp.26 :SLIDE_LEFT;
+        invoke %tmp.6 %tmp.7(%tmp.8, %tmp.16, %tmp.27);
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 214 12 ]
+        %tmp.28 = true;
+        ret %tmp.28;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_212_38_stop:
+        goto @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_212_8_if_end;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_212_8_if_end:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 216 8 ]
+        %tmp.29 = false;
+        ret %tmp.29;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_211_44_stop:
+    }
+    //! Handle going to the previous view
+    //! @return true if handled, false otherwise
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 221; ]
+    public
+    function onPreviousPage() as Boolean {
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_221_48_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 222 8 ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_222_8_if_stmt:
+        %tmp.2 = getv ? :_thiswindow;
+        %tmp.3 = 0;
+        %tmp.4 = gt %tmp.2 %tmp.3;
+        bf %tmp.4 @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_222_8_if_end;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_222_8_if_true:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_222_27_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 223 12 ]
+        %tmp.5 = getm $.Toybox.WatchUi;
+        %tmp.6 = getv function %tmp.5 :switchToView;
+        %tmp.10 = getv ? :AnniversaryView;
+        %tmp.12 = getv ? :_thiswindow;
+        %tmp.13 = 1;
+        %tmp.14 = sub %tmp.12 %tmp.13;
+        %tmp.7 = newc %tmp.10 (%tmp.14);
+        %tmp.18 = getv ? :AnniversaryViewDelegate;
+        %tmp.20 = getv ? :_thiswindow;
+        %tmp.21 = 1;
+        %tmp.22 = sub %tmp.20 %tmp.21;
+        %tmp.24 = getv ? :_totalwindow;
+        %tmp.15 = newc %tmp.18 (%tmp.22, %tmp.24);
+        %tmp.25 = getm $.Toybox.WatchUi;
+        %tmp.26 = getv %tmp.25 :SLIDE_RIGHT;
+        invoke %tmp.5 %tmp.6(%tmp.7, %tmp.15, %tmp.26);
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 224 12 ]
+        %tmp.27 = true;
+        ret %tmp.27;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_222_27_stop:
+        goto @C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_222_8_if_end;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_222_8_if_end:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 226 8 ]
+        %tmp.28 = false;
+        ret %tmp.28;
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryView_mc_221_48_stop:
     }
 }
 [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc"; @line = 1; ]
 <init> {
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 10 4 ]
-    %tmp.9 = getm $;
-    %tmp.10 = getv %tmp.9 :Rez;
-    %tmp.11 = getv %tmp.10 :Drawables;
-    %tmp.12 = getv %tmp.11 :anniversary;
-    putv self :a1 %tmp.12;
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 11 4 ]
-    %tmp.13 = getm $;
-    %tmp.14 = getv %tmp.13 :Rez;
-    %tmp.15 = getv %tmp.14 :Drawables;
-    %tmp.16 = getv %tmp.15 :work;
-    putv self :a2 %tmp.16;
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 12 4 ]
-    %tmp.17 = getm $;
-    %tmp.18 = getv %tmp.17 :Rez;
-    %tmp.19 = getv %tmp.18 :Drawables;
-    %tmp.20 = getv %tmp.19 :love;
-    putv self :a3 %tmp.20;
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 13 4 ]
-    %tmp.21 = getm $;
-    %tmp.22 = getv %tmp.21 :Rez;
-    %tmp.23 = getv %tmp.22 :Drawables;
-    %tmp.24 = getv %tmp.23 :marry;
-    putv self :a4 %tmp.24;
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 14 4 ]
-    %tmp.25 = getm $;
-    %tmp.26 = getv %tmp.25 :Rez;
-    %tmp.27 = getv %tmp.26 :Drawables;
-    %tmp.28 = getv %tmp.27 :graduate;
-    putv self :a5 %tmp.28;
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 15 4 ]
-    %tmp.29 = getm $;
-    %tmp.30 = getv %tmp.29 :Rez;
-    %tmp.31 = getv %tmp.30 :Drawables;
-    %tmp.32 = getv %tmp.31 :birth;
-    putv self :a6 %tmp.32;
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 16 4 ]
-    %tmp.33 = getm $;
-    %tmp.34 = getv %tmp.33 :Rez;
-    %tmp.35 = getv %tmp.34 :Drawables;
-    %tmp.36 = getv %tmp.35 :studay;
-    putv self :a7 %tmp.36;
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryView.mc" 17 4 ]
-    %tmp.37 = getm $;
-    %tmp.38 = getv %tmp.37 :Rez;
-    %tmp.39 = getv %tmp.38 :Drawables;
-    %tmp.40 = getv %tmp.39 :spring;
-    putv self :a8 %tmp.40;
 }

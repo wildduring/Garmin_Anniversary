@@ -6,6 +6,7 @@ using Toybox.Graphics as Gfx;
 
 module Rez {
     module Drawables {
+        (:initialized) var LauncherIcon as Symbol;
         (:initialized) var anniversary as Symbol;
         (:initialized) var work as Symbol;
         (:initialized) var love as Symbol;
@@ -14,8 +15,16 @@ module Rez {
         (:initialized) var birth as Symbol;
         (:initialized) var studay as Symbol;
         (:initialized) var spring as Symbol;
+        (:initialized) var anniversary40 as Symbol;
+        (:initialized) var work40 as Symbol;
+        (:initialized) var love40 as Symbol;
+        (:initialized) var marry40 as Symbol;
+        (:initialized) var graduate40 as Symbol;
+        (:initialized) var birth40 as Symbol;
+        (:initialized) var studay40 as Symbol;
+        (:initialized) var spring40 as Symbol;
         (:initialized) var anniversary_icon as Symbol;
-        (:initialized) var LauncherIcon as Symbol;
+        (:initialized) var LauncherIcon40 as Symbol;
     } // Drawables
 
     module Fonts {

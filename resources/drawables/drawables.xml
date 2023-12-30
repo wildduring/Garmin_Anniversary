@@ -8,4 +8,14 @@
     <bitmap id="birth" filename="birth.png"/>
     <bitmap id="studay" filename="studay.png"/>
     <bitmap id="spring" filename="spring.png"/>
+
+    <bitmap id="LauncherIcon40" filename="anniversary40.png"/>
+    <bitmap id="anniversary40" filename="anniversary40.png"/>
+    <bitmap id="work40" filename="work40.png"/>
+    <bitmap id="love40" filename="love40.png"/>
+    <bitmap id="marry40" filename="marry40.png"/>
+    <bitmap id="graduate40" filename="graduate40.png"/>
+    <bitmap id="birth40" filename="birth40.png"/>
+    <bitmap id="studay40" filename="studay40.png"/>
+    <bitmap id="spring40" filename="spring40.png"/>
 </drawables>

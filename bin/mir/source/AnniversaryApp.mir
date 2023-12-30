@@ -43,12 +43,22 @@ C_Users_wolfa_Desktop_Anniversary_source_AnniversaryApp_mc_20_41_stop:
     function getInitialView() as Array<Views or InputDelegates> or Null {
 C_Users_wolfa_Desktop_Anniversary_source_AnniversaryApp_mc_25_65_start:
 [ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc" 26 8 ]
-        %tmp.1 = newa Array<Views or InputDelegates> 1;
+        %tmp.1 = newa Array<Views or InputDelegates> 2;
         %tmp.5 = getv ? :AnniversaryView;
-        %tmp.2 = newc %tmp.5 ();
-        %tmp.6 = dup %tmp.1;
-        %tmp.7 = aputv %tmp.6 0 %tmp.2;
-        ret %tmp.7;
+        %tmp.6 = 0;
+        %tmp.2 = newc %tmp.5 (%tmp.6);
+        %tmp.7 = dup %tmp.1;
+        %tmp.8 = aputv %tmp.7 0 %tmp.2;
+        %tmp.12 = getv ? :AnniversaryViewDelegate;
+        %tmp.13 = 0;
+        %tmp.15 = getv ? :Properties;
+        %tmp.16 = getv function %tmp.15 :getValue;
+        %tmp.17 = "Anniversary_num";
+        %tmp.18 = invoke %tmp.15 %tmp.16(%tmp.17);
+        %tmp.9 = newc %tmp.12 (%tmp.13, %tmp.18);
+        %tmp.19 = dup %tmp.8;
+        %tmp.20 = aputv %tmp.19 1 %tmp.9;
+        ret %tmp.20;
 C_Users_wolfa_Desktop_Anniversary_source_AnniversaryApp_mc_25_65_stop:
     }
     [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc"; @line = 29; ]

@@ -6,38 +6,28 @@ import Toybox.Application.Properties;
 import Toybox.Time;
 import Toybox.Time.Gregorian;
 
-enum ImageKeys {
-    a1 = $.Rez.Drawables.anniversary,
-    a2 = $.Rez.Drawables.work,
-    a3 = $.Rez.Drawables.love,
-    a4 = $.Rez.Drawables.marry,
-    a5 = $.Rez.Drawables.graduate,
-    a6 = $.Rez.Drawables.birth,
-    a7 = $.Rez.Drawables.studay,
-    a8 = $.Rez.Drawables.spring
-}
-
 class AnniversaryView extends WatchUi.View {
 
     private var _passed as String;
     private var _left as String;
     private var _day as String;
     private var _days as String;
-    private var _lanber as Number;
 
     private var _anni;
     private var _dura;
 
-    function initialize() {
-        View.initialize();
+    private var _thiswindow as Number;
 
+    function initialize(ThisWindow as Number) {
+        View.initialize();
         _passed = WatchUi.loadResource($.Rez.Strings.passed) as String;
         _left = WatchUi.loadResource($.Rez.Strings.left) as String;
         _day = WatchUi.loadResource($.Rez.Strings.day) as String;
         _days = WatchUi.loadResource($.Rez.Strings.days) as String;
-        _lanber = WatchUi.loadResource($.Rez.Strings.lanber) as Number;
         _anni = 0;
         _dura = 0;
+
+        _thiswindow = ThisWindow;
     }
 
     // Load your resources here
@@ -55,13 +45,15 @@ class AnniversaryView extends WatchUi.View {
     function onUpdate(dc as Dc) as Void {
         // Call the parent onUpdate function to redraw the layout
         
-        _anni = new Time.Moment(Properties.getValue("date0"));
+        _anni = new Time.Moment(Properties.getValue("date"+_thiswindow.toString()));
         _dura = calculate_duration(_anni);
 
-        updateLabelText("anniversary_name", Properties.getValue("name0").toString());
+        updateBitmapIcon("anniversary_icon", icon_translate(Properties.getValue("icon"+_thiswindow.toString()).toString()));
+
+        updateLabelText("anniversary_name", Properties.getValue("name"+_thiswindow.toString()).toString());
         updateLabelText("anniversary_date", date_translate(_anni));
         updateLabelText("anniversary_PoL", PoLText(_dura));
-        updateLabelText("anniversary_number_text", _dura.toString());
+        updateLabelText("anniversary_number_text", _dura.abs().toString());
         updateLabelText("anniversary_day_text", dayText(_dura));
         
         View.onUpdate(dc);
@@ -94,10 +86,51 @@ class AnniversaryView extends WatchUi.View {
         }
     }
 
+    //! Update a bitmap with new icon
+    //! @param bitmapId The Bitmap to update
+    //! @param identifier The Bitmap Icon
+    private function updateBitmapIcon(bitmapId as String, identifier as Lang.Symbol) as Void {
+        var drawable = View.findDrawableById(bitmapId);
+        if (drawable != null) {
+            (drawable as Bitmap).setBitmap(WatchUi.loadResource(identifier));
+        }
+    }
+
     private function calculate_duration(anni as Time.Moment) as Number{
         var today = new Time.Moment(Time.today().value());
         var dura = today.compare(anni)/3600/24;
         return dura;
+    }
+
+
+    private function icon_translate(icon_number as String) as Lang.Symbol{
+        if (icon_number.equals("1")){
+            return $.Rez.Drawables.anniversary40;
+        }
+        if (icon_number.equals("2")){
+            return $.Rez.Drawables.work40;
+        }
+        if (icon_number.equals("3")){
+            return $.Rez.Drawables.love40;
+        }
+        if (icon_number.equals("4")){
+            return $.Rez.Drawables.marry40;
+        }
+        if (icon_number.equals("5")){
+            return $.Rez.Drawables.graduate40;
+        }
+        if (icon_number.equals("6")){
+            return $.Rez.Drawables.birth40;
+        }
+        if (icon_number.equals("7")){
+            return $.Rez.Drawables.studay40;
+        }
+        if (icon_number.equals("8")){
+            return $.Rez.Drawables.spring40;
+        }
+        else {
+            return $.Rez.Drawables.anniversary40;
+        }
     }
 
     private function date_translate(date as Time.Moment) as String{
@@ -159,4 +192,37 @@ class AnniversaryView extends WatchUi.View {
         }
     }
 
+}
+
+class AnniversaryViewDelegate extends WatchUi.BehaviorDelegate{
+
+    private var _thiswindow as Number;
+    private var _totalwindow as Number;
+
+    //! Constructor
+    public function initialize(ThisWindow as Number, TotalWindow as Number) {
+        BehaviorDelegate.initialize();
+        _thiswindow = ThisWindow;
+        _totalwindow = TotalWindow;
+    }
+
+    //! Handle going to the next view
+    //! @return true if handled, false otherwise
+    public function onNextPage() as Boolean {
+        if(_thiswindow < _totalwindow){
+            WatchUi.switchToView(new AnniversaryView(_thiswindow+1), new AnniversaryViewDelegate(_thiswindow+1, _totalwindow), WatchUi.SLIDE_LEFT);
+            return true;
+        }
+        return false;
+    }
+
+    //! Handle going to the previous view
+    //! @return true if handled, false otherwise
+    public function onPreviousPage() as Boolean {
+        if(_thiswindow > 0){
+            WatchUi.switchToView(new AnniversaryView(_thiswindow-1), new AnniversaryViewDelegate(_thiswindow-1, _totalwindow), WatchUi.SLIDE_RIGHT);
+            return true;
+        }
+        return false;
+    }
 }
