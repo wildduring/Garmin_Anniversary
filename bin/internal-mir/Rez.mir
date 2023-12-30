@@ -381,7 +381,7 @@ C_Users_wolfa_Desktop_Anniversary_bin_gen_006_B3906_00_source_Rez_mcgen_47_74_st
             %tmp.228 = aputv %tmp.227 %tmp.224 %tmp.226;
             %tmp.230 = const :locX;
             %tmp.231 = 260;
-            %tmp.232 = 70;
+            %tmp.232 = 65;
             %tmp.233 = 100.0;
             %tmp.234 = div %tmp.232 %tmp.233;
             %tmp.235 = mul %tmp.231 %tmp.234;
@@ -389,7 +389,7 @@ C_Users_wolfa_Desktop_Anniversary_bin_gen_006_B3906_00_source_Rez_mcgen_47_74_st
             %tmp.237 = aputv %tmp.236 %tmp.230 %tmp.235;
             %tmp.239 = const :locY;
             %tmp.240 = 260;
-            %tmp.241 = 70;
+            %tmp.241 = 75;
             %tmp.242 = 100.0;
             %tmp.243 = div %tmp.241 %tmp.242;
             %tmp.244 = mul %tmp.240 %tmp.243;

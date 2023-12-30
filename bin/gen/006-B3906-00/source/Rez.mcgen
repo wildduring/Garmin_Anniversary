@@ -56,7 +56,7 @@ module Rez {
 
             var rez_cmp_local_text_anniversary_number_text = new WatchUi.Text({:identifier=>"anniversary_number_text", :color=>Graphics.COLOR_WHITE, :locX=>(260 * 0.5), :locY=>(260 * (40 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_NUMBER_THAI_HOT});
 
-            var rez_cmp_local_text_anniversary_day_text = new WatchUi.Text({:identifier=>"anniversary_day_text", :color=>Graphics.COLOR_LT_GRAY, :locX=>(260 * (70 / 100.0)), :locY=>(260 * (70 / 100.0)), :font=>Graphics.FONT_TINY});
+            var rez_cmp_local_text_anniversary_day_text = new WatchUi.Text({:identifier=>"anniversary_day_text", :color=>Graphics.COLOR_LT_GRAY, :locX=>(260 * (65 / 100.0)), :locY=>(260 * (75 / 100.0)), :font=>Graphics.FONT_TINY});
 
             return [rez_cmp_local_bitmap_anniversary_icon, rez_cmp_local_text_anniversary_name, rez_cmp_local_text_anniversary_date, rez_cmp_local_text_anniversary_PoL, rez_cmp_local_text_anniversary_number_text, rez_cmp_local_text_anniversary_day_text] as Array<WatchUi.Drawable>;
         }
