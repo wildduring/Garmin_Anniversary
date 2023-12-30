@@ -14,6 +14,7 @@ module Rez {
         (:initialized) var birth as Symbol;
         (:initialized) var studay as Symbol;
         (:initialized) var spring as Symbol;
+        (:initialized) var anniversary_icon as Symbol;
         (:initialized) var LauncherIcon as Symbol;
     } // Drawables
 
@@ -33,16 +34,26 @@ module Rez {
 
             return [rez_cmp_local_text_anniversary_name, rez_cmp_local_text_anniversary_PoL, rez_cmp_local_text_anniversary_date] as Array<WatchUi.Drawable>;
         }
+
+        function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_bitmap_anniversary_icon = new WatchUi.Bitmap({:identifier=>"anniversary_icon", :rezId=>$.Rez.Drawables.anniversary_icon, :locX=>(260 * (15 / 100.0)), :locY=>(260 * (15 / 100.0))});
+            rez_cmp_local_bitmap_anniversary_icon.setLocation((260 * (15 / 100.0)), (260 * (15 / 100.0)));
+
+            var rez_cmp_local_text_anniversary_name = new WatchUi.Text({:identifier=>"anniversary_name", :color=>Graphics.COLOR_WHITE, :locX=>(260 * (33 / 100.0)), :locY=>(260 * (10 / 100.0)), :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_text_anniversary_date = new WatchUi.Text({:identifier=>"anniversary_date", :color=>Graphics.COLOR_LT_GRAY, :locX=>(260 * (33 / 100.0)), :locY=>(260 * (20 / 100.0)), :font=>Graphics.FONT_TINY});
+
+            var rez_cmp_local_text_anniversary_PoL = new WatchUi.Text({:identifier=>"anniversary_PoL", :color=>Graphics.COLOR_LT_GRAY, :locX=>(260 * (10 / 100.0)), :locY=>(260 * (35 / 100.0)), :font=>Graphics.FONT_TINY});
+
+            var rez_cmp_local_text_anniversary_number_text = new WatchUi.Text({:identifier=>"anniversary_number_text", :color=>Graphics.COLOR_WHITE, :locX=>(260 * 0.5), :locY=>(260 * (40 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_NUMBER_THAI_HOT});
+
+            var rez_cmp_local_text_anniversary_day_text = new WatchUi.Text({:identifier=>"anniversary_day_text", :color=>Graphics.COLOR_LT_GRAY, :locX=>(260 * (70 / 100.0)), :locY=>(260 * (70 / 100.0)), :font=>Graphics.FONT_TINY});
+
+            return [rez_cmp_local_bitmap_anniversary_icon, rez_cmp_local_text_anniversary_name, rez_cmp_local_text_anniversary_date, rez_cmp_local_text_anniversary_PoL, rez_cmp_local_text_anniversary_number_text, rez_cmp_local_text_anniversary_day_text] as Array<WatchUi.Drawable>;
+        }
     } // Layouts
 
     module Menus {
-        class MainMenu extends WatchUi.Menu2 {
-            function initialize() {
-                Menu2.initialize({:icon=>new $.Toybox.WatchUi.Bitmap({:rezId=>$.Rez.Drawables.LauncherIcon, :locX=>$.Toybox.WatchUi.LAYOUT_HALIGN_CENTER, :locY=>$.Toybox.WatchUi.LAYOUT_VALIGN_CENTER}), :title=>$.Rez.Strings.anniversary});
-                addItem(new WatchUi.MenuItem("Generic 1", "With Sublabel", :generic1, null));
-                addItem(new WatchUi.MenuItem("Generic 2", null, :generic2, null));
-            }
-        }
     } // Menus
 
     module Strings {
@@ -52,22 +63,23 @@ module Rez {
         (:initialized) var setting_tittle_group3 as Symbol;
         (:initialized) var setting_tittle_group4 as Symbol;
         (:initialized) var lanber as Symbol;
-        (:initialized) var setting_nametext_tittle as Symbol;
         (:initialized) var setting_iconlist_tittle as Symbol;
-        (:initialized) var setting_datetext_tittle as Symbol;
-        (:initialized) var work as Symbol;
         (:initialized) var setting_tittle_group0 as Symbol;
         (:initialized) var marry as Symbol;
-        (:initialized) var birth as Symbol;
         (:initialized) var AppName as Symbol;
         (:initialized) var setting_tittle_anni_num as Symbol;
         (:initialized) var spring as Symbol;
-        (:initialized) var left as Symbol;
         (:initialized) var graduate as Symbol;
-        (:initialized) var days as Symbol;
         (:initialized) var passed as Symbol;
-        (:initialized) var setting_group1_description as Symbol;
         (:initialized) var day as Symbol;
+        (:initialized) var setting_nametext_tittle as Symbol;
+        (:initialized) var setting_datetext_tittle as Symbol;
+        (:initialized) var work as Symbol;
+        (:initialized) var birth as Symbol;
+        (:initialized) var left as Symbol;
+        (:initialized) var days as Symbol;
+        (:initialized) var UserLanguage as Symbol;
+        (:initialized) var setting_group1_description as Symbol;
         (:initialized) var anniversary as Symbol;
         (:initialized) var studay as Symbol;
     } // Strings

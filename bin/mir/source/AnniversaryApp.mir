@@ -4,74 +4,76 @@ import Toybox.Application;
 import Toybox.Lang;
 [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc"; @line = 3; ]
 import Toybox.WatchUi;
-[ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc"; @line = 5; ]
+[ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc"; @line = 4; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc"; @line = 6; ]
 class AnniversaryApp extends Application.AppBase{
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc"; @line = 5; ]
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc"; @line = 6; ]
     <init> {
     }
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc"; @line = 5; ]
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc"; @line = 6; ]
     static
     <init> {
     }
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc"; @line = 7; ]
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc"; @line = 8; ]
     function initialize() as Void {
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryApp_mc_7_26_start:
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc" 8 8 ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryApp_mc_8_26_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc" 9 8 ]
         %tmp.2 = getv ? :AppBase;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryApp_mc_7_26_stop:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryApp_mc_8_26_stop:
     }
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc"; @line = 12; ]
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc"; @line = 13; ]
     function onStart(state as Dictionary or Null) as Void {
     }
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc"; @line = 16; ]
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc"; @line = 17; ]
     function onStop(state as Dictionary or Null) as Void {
     }
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc"; @line = 19; ]
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc"; @line = 20; ]
     function onSettingsChanged() as Void {
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryApp_mc_19_41_start:
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc" 20 8 ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryApp_mc_20_41_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc" 21 8 ]
         %tmp.1 = getm $.Toybox.WatchUi;
         %tmp.2 = getv function %tmp.1 :requestUpdate;
         invoke %tmp.1 %tmp.2();
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryApp_mc_19_41_stop:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryApp_mc_20_41_stop:
     }
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc"; @line = 24; ]
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc"; @line = 25; ]
     function getInitialView() as Array<Views or InputDelegates> or Null {
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryApp_mc_24_65_start:
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc" 25 8 ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryApp_mc_25_65_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc" 26 8 ]
         %tmp.1 = newa Array<Views or InputDelegates> 1;
         %tmp.5 = getv ? :AnniversaryView;
         %tmp.2 = newc %tmp.5 ();
         %tmp.6 = dup %tmp.1;
         %tmp.7 = aputv %tmp.6 0 %tmp.2;
         ret %tmp.7;
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryApp_mc_24_65_stop:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryApp_mc_25_65_stop:
     }
-    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc"; @line = 28; ]
+    [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc"; @line = 29; ]
     function getGlanceView() as Array<GlanceView or GlanceViewDelegate> or Null {
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryApp_mc_28_73_start:
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc" 29 8 ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryApp_mc_29_73_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc" 30 8 ]
         %tmp.1 = newa Array<GlanceView or GlanceViewDelegate> 1;
         %tmp.5 = getv ? :AnniversaryGlance;
         %tmp.2 = newc %tmp.5 ();
         %tmp.6 = dup %tmp.1;
         %tmp.7 = aputv %tmp.6 0 %tmp.2;
         ret %tmp.7;
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryApp_mc_28_73_stop:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryApp_mc_29_73_stop:
     }
 }
-[ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc"; @line = 34; ]
+[ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc"; @line = 35; ]
 function getApp() as AnniversaryApp {
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryApp_mc_34_36_start:
-[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc" 35 4 ]
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryApp_mc_35_36_start:
+[ "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc" 36 4 ]
     %tmp.1 = getm $.Toybox.Application;
     %tmp.2 = getv function %tmp.1 :getApp;
     %tmp.3 = invoke %tmp.1 %tmp.2();
     %tmp.4 = as %tmp.3 AnniversaryApp;
     ret %tmp.4;
-C_Users_wolfa_Desktop_Anniversary_source_AnniversaryApp_mc_34_36_stop:
+C_Users_wolfa_Desktop_Anniversary_source_AnniversaryApp_mc_35_36_stop:
 }
 [ @file = "C:\Users\wolfa\Desktop\Anniversary\source\AnniversaryApp.mc"; @line = 1; ]
 <init> {
