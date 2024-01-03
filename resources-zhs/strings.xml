@@ -29,6 +29,12 @@
     <string id="day">天啦</string>
     <string id="days">天啦</string>
 
+    <string id="one">1个</string>
+    <string id="two">2个</string>
+    <string id="three">3个</string>
+    <string id="four">4个</string>
+    <string id="five">5个</string>
+
     <string id="lanber">3</string>
 
 </strings>

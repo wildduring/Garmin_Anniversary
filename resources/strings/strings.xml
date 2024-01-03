@@ -29,6 +29,12 @@
     <string id="day">day</string>
     <string id="days">days</string>
 
+    <string id="one">1</string>
+    <string id="two">2</string>
+    <string id="three">3</string>
+    <string id="four">4</string>
+    <string id="five">5</string>
+
     <string id="lanber">2</string>
 
 </strings>

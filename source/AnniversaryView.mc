@@ -5,6 +5,7 @@ import Toybox.Application;
 import Toybox.Application.Properties;
 import Toybox.Time;
 import Toybox.Time.Gregorian;
+import Toybox.Math;
 
 class AnniversaryView extends WatchUi.View {
 
@@ -98,7 +99,7 @@ class AnniversaryView extends WatchUi.View {
 
     private function calculate_duration(anni as Time.Moment) as Number{
         var today = new Time.Moment(Time.today().value());
-        var dura = today.compare(anni)/3600/24;
+        var dura = Math.ceil(today.compare(anni).toDouble()/3600/24).toNumber();
         return dura;
     }
 
@@ -184,7 +185,7 @@ class AnniversaryView extends WatchUi.View {
     }
 
     private function dayText(duration as Number) as String{
-        if (duration == 0) {
+        if (duration.abs() <= 1) {
             return _day;
         }
         else {

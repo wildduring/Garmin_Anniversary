@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\wolfa\Desktop\Anniversary\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryApp.mc" id="1" lineNum="6" parent="globals/AnniversaryApp" pc="268435457" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryApp.mc" id="3" lineNum="31" parent="globals/AnniversaryApp" pc="268435476" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryApp.mc" id="3" lineNum="32" parent="globals/AnniversaryApp" pc="268435478" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryApp.mc" id="4" lineNum="21" parent="globals/AnniversaryApp" pc="268435495" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryApp.mc" id="4" lineNum="22" parent="globals/AnniversaryApp" pc="268435497" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryApp.mc" id="5" lineNum="8" parent="globals/AnniversaryApp" pc="268435602" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryApp.mc" id="5" lineNum="9" parent="globals/AnniversaryApp" pc="268435604" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryApp.mc" id="6" lineNum="25" parent="globals/AnniversaryApp" pc="268435623" symbol="getGlanceView"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryApp.mc" id="6" lineNum="26" parent="globals/AnniversaryApp" pc="268435625" symbol="getGlanceView"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="8" lineNum="10" parent="globals/AnniversaryView" pc="268435666" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="10" lineNum="35" parent="globals/AnniversaryView" pc="268435685" symbol="onLayout"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="10" lineNum="36" parent="globals/AnniversaryView" pc="268435687" symbol="onLayout"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="11" lineNum="178" parent="globals/AnniversaryView" pc="268435729" symbol="&lt;globals/AnniversaryView/&lt;&gt;PoLText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="11" lineNum="179" parent="globals/AnniversaryView" pc="268435731" symbol="&lt;globals/AnniversaryView/&lt;&gt;PoLText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="11" lineNum="180" parent="globals/AnniversaryView" pc="268435742" symbol="&lt;globals/AnniversaryView/&lt;&gt;PoLText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="11" lineNum="183" parent="globals/AnniversaryView" pc="268435754" symbol="&lt;globals/AnniversaryView/&lt;&gt;PoLText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="12" lineNum="100" parent="globals/AnniversaryView" pc="268435764" symbol="&lt;globals/AnniversaryView/&lt;&gt;calculate_duration&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="12" lineNum="101" parent="globals/AnniversaryView" pc="268435768" symbol="&lt;globals/AnniversaryView/&lt;&gt;calculate_duration&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="12" lineNum="102" parent="globals/AnniversaryView" pc="268435820" symbol="&lt;globals/AnniversaryView/&lt;&gt;calculate_duration&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="12" lineNum="103" parent="globals/AnniversaryView" pc="268435880" symbol="&lt;globals/AnniversaryView/&lt;&gt;calculate_duration&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="13" lineNum="187" parent="globals/AnniversaryView" pc="268435883" symbol="&lt;globals/AnniversaryView/&lt;&gt;dayText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="13" lineNum="188" parent="globals/AnniversaryView" pc="268435885" symbol="&lt;globals/AnniversaryView/&lt;&gt;dayText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="13" lineNum="189" parent="globals/AnniversaryView" pc="268435905" symbol="&lt;globals/AnniversaryView/&lt;&gt;dayText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="13" lineNum="192" parent="globals/AnniversaryView" pc="268435917" symbol="&lt;globals/AnniversaryView/&lt;&gt;dayText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="14" lineNum="83" parent="globals/AnniversaryView" pc="268435927" symbol="&lt;globals/AnniversaryView/&lt;&gt;updateLabelLocat&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="14" lineNum="84" parent="globals/AnniversaryView" pc="268435931" symbol="&lt;globals/AnniversaryView/&lt;&gt;updateLabelLocat&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="14" lineNum="85" parent="globals/AnniversaryView" pc="268435952" symbol="&lt;globals/AnniversaryView/&lt;&gt;updateLabelLocat&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="14" lineNum="86" parent="globals/AnniversaryView" pc="268435959" symbol="&lt;globals/AnniversaryView/&lt;&gt;updateLabelLocat&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="15" lineNum="107" parent="globals/AnniversaryView" pc="268435976" symbol="&lt;globals/AnniversaryView/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="15" lineNum="108" parent="globals/AnniversaryView" pc="268435978" symbol="&lt;globals/AnniversaryView/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="15" lineNum="109" parent="globals/AnniversaryView" pc="268435997" symbol="&lt;globals/AnniversaryView/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="15" lineNum="111" parent="globals/AnniversaryView" pc="268436022" symbol="&lt;globals/AnniversaryView/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="15" lineNum="112" parent="globals/AnniversaryView" pc="268436041" symbol="&lt;globals/AnniversaryView/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="15" lineNum="114" parent="globals/AnniversaryView" pc="268436066" symbol="&lt;globals/AnniversaryView/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="15" lineNum="115" parent="globals/AnniversaryView" pc="268436085" symbol="&lt;globals/AnniversaryView/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="15" lineNum="117" parent="globals/AnniversaryView" pc="268436110" symbol="&lt;globals/AnniversaryView/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="15" lineNum="118" parent="globals/AnniversaryView" pc="268436129" symbol="&lt;globals/AnniversaryView/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="15" lineNum="120" parent="globals/AnniversaryView" pc="268436154" symbol="&lt;globals/AnniversaryView/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="15" lineNum="121" parent="globals/AnniversaryView" pc="268436173" symbol="&lt;globals/AnniversaryView/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="15" lineNum="123" parent="globals/AnniversaryView" pc="268436198" symbol="&lt;globals/AnniversaryView/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="15" lineNum="124" parent="globals/AnniversaryView" pc="268436217" symbol="&lt;globals/AnniversaryView/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="15" lineNum="126" parent="globals/AnniversaryView" pc="268436242" symbol="&lt;globals/AnniversaryView/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="15" lineNum="127" parent="globals/AnniversaryView" pc="268436261" symbol="&lt;globals/AnniversaryView/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="15" lineNum="129" parent="globals/AnniversaryView" pc="268436286" symbol="&lt;globals/AnniversaryView/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="15" lineNum="130" parent="globals/AnniversaryView" pc="268436305" symbol="&lt;globals/AnniversaryView/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="15" lineNum="133" parent="globals/AnniversaryView" pc="268436333" symbol="&lt;globals/AnniversaryView/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="16" lineNum="72" parent="globals/AnniversaryView" pc="268436359" symbol="&lt;globals/AnniversaryView/&lt;&gt;updateLabelText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="16" lineNum="73" parent="globals/AnniversaryView" pc="268436363" symbol="&lt;globals/AnniversaryView/&lt;&gt;updateLabelText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="16" lineNum="74" parent="globals/AnniversaryView" pc="268436384" symbol="&lt;globals/AnniversaryView/&lt;&gt;updateLabelText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="16" lineNum="75" parent="globals/AnniversaryView" pc="268436391" symbol="&lt;globals/AnniversaryView/&lt;&gt;updateLabelText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="17" lineNum="22" parent="globals/AnniversaryView" pc="268436406" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="17" lineNum="23" parent="globals/AnniversaryView" pc="268436408" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="17" lineNum="24" parent="globals/AnniversaryView" pc="268436426" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="17" lineNum="25" parent="globals/AnniversaryView" pc="268436473" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="17" lineNum="26" parent="globals/AnniversaryView" pc="268436520" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="17" lineNum="27" parent="globals/AnniversaryView" pc="268436567" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="17" lineNum="28" parent="globals/AnniversaryView" pc="268436614" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="17" lineNum="29" parent="globals/AnniversaryView" pc="268436627" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="17" lineNum="31" parent="globals/AnniversaryView" pc="268436640" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="19" lineNum="93" parent="globals/AnniversaryView" pc="268436651" symbol="&lt;globals/AnniversaryView/&lt;&gt;updateBitmapIcon&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="19" lineNum="94" parent="globals/AnniversaryView" pc="268436655" symbol="&lt;globals/AnniversaryView/&lt;&gt;updateBitmapIcon&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="19" lineNum="95" parent="globals/AnniversaryView" pc="268436676" symbol="&lt;globals/AnniversaryView/&lt;&gt;updateBitmapIcon&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="19" lineNum="96" parent="globals/AnniversaryView" pc="268436683" symbol="&lt;globals/AnniversaryView/&lt;&gt;updateBitmapIcon&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="20" lineNum="46" parent="globals/AnniversaryView" pc="268436713" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="20" lineNum="49" parent="globals/AnniversaryView" pc="268436715" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="20" lineNum="50" parent="globals/AnniversaryView" pc="268436787" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="20" lineNum="52" parent="globals/AnniversaryView" pc="268436814" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="20" lineNum="54" parent="globals/AnniversaryView" pc="268436889" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="20" lineNum="55" parent="globals/AnniversaryView" pc="268436953" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="20" lineNum="56" parent="globals/AnniversaryView" pc="268436989" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="20" lineNum="57" parent="globals/AnniversaryView" pc="268437025" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="20" lineNum="58" parent="globals/AnniversaryView" pc="268437068" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="20" lineNum="60" parent="globals/AnniversaryView" pc="268437104" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="21" lineNum="137" parent="globals/AnniversaryView" pc="268437125" symbol="&lt;globals/AnniversaryView/&lt;&gt;date_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="21" lineNum="138" parent="globals/AnniversaryView" pc="268437129" symbol="&lt;globals/AnniversaryView/&lt;&gt;date_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="21" lineNum="139" parent="globals/AnniversaryView" pc="268437170" symbol="&lt;globals/AnniversaryView/&lt;&gt;date_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="21" lineNum="140" parent="globals/AnniversaryView" pc="268437189" symbol="&lt;globals/AnniversaryView/&lt;&gt;date_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="21" lineNum="141" parent="globals/AnniversaryView" pc="268437213" symbol="&lt;globals/AnniversaryView/&lt;&gt;date_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="21" lineNum="149" parent="globals/AnniversaryView" pc="268437289" symbol="&lt;globals/AnniversaryView/&lt;&gt;date_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="21" lineNum="151" parent="globals/AnniversaryView" pc="268437295" symbol="&lt;globals/AnniversaryView/&lt;&gt;date_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="21" lineNum="152" parent="globals/AnniversaryView" pc="268437314" symbol="&lt;globals/AnniversaryView/&lt;&gt;date_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="21" lineNum="153" parent="globals/AnniversaryView" pc="268437338" symbol="&lt;globals/AnniversaryView/&lt;&gt;date_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="21" lineNum="161" parent="globals/AnniversaryView" pc="268437414" symbol="&lt;globals/AnniversaryView/&lt;&gt;date_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="21" lineNum="164" parent="globals/AnniversaryView" pc="268437420" symbol="&lt;globals/AnniversaryView/&lt;&gt;date_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="21" lineNum="165" parent="globals/AnniversaryView" pc="268437444" symbol="&lt;globals/AnniversaryView/&lt;&gt;date_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="21" lineNum="173" parent="globals/AnniversaryView" pc="268437520" symbol="&lt;globals/AnniversaryView/&lt;&gt;date_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryApp.mc" id="22" lineNum="38" parent="globals" pc="268437524" symbol="getApp"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryApp.mc" id="22" lineNum="39" parent="globals" pc="268437534" symbol="getApp"/>
+        <entry filename="c:\\Users\\wolfa\\Desktop\\Anniversary\\build\\gen\\006-B3906-00\\source\\Rez.mcgen" id="23" lineNum="7" parent="globals/Rez" pc="268437550" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="24" lineNum="10" parent="globals/AnniversaryGlance" pc="268437574" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="25" lineNum="89" parent="globals/AnniversaryGlance" pc="268437593" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;dateText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="25" lineNum="90" parent="globals/AnniversaryGlance" pc="268437595" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;dateText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="25" lineNum="91" parent="globals/AnniversaryGlance" pc="268437606" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;dateText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="25" lineNum="94" parent="globals/AnniversaryGlance" pc="268437639" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;dateText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="26" lineNum="34" parent="globals/AnniversaryGlance" pc="268437670" symbol="onLayout"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="26" lineNum="35" parent="globals/AnniversaryGlance" pc="268437672" symbol="onLayout"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="27" lineNum="80" parent="globals/AnniversaryGlance" pc="268437714" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;PoLText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="27" lineNum="81" parent="globals/AnniversaryGlance" pc="268437716" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;PoLText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="27" lineNum="82" parent="globals/AnniversaryGlance" pc="268437727" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;PoLText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="27" lineNum="85" parent="globals/AnniversaryGlance" pc="268437739" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;PoLText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="28" lineNum="74" parent="globals/AnniversaryGlance" pc="268437749" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;calculate_duration&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="28" lineNum="75" parent="globals/AnniversaryGlance" pc="268437753" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;calculate_duration&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="28" lineNum="76" parent="globals/AnniversaryGlance" pc="268437805" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;calculate_duration&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="28" lineNum="77" parent="globals/AnniversaryGlance" pc="268437865" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;calculate_duration&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="29" lineNum="67" parent="globals/AnniversaryGlance" pc="268437868" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelLocat&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="29" lineNum="68" parent="globals/AnniversaryGlance" pc="268437872" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelLocat&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="29" lineNum="69" parent="globals/AnniversaryGlance" pc="268437897" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelLocat&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="29" lineNum="70" parent="globals/AnniversaryGlance" pc="268437904" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelLocat&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="30" lineNum="56" parent="globals/AnniversaryGlance" pc="268437921" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="30" lineNum="57" parent="globals/AnniversaryGlance" pc="268437925" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="30" lineNum="58" parent="globals/AnniversaryGlance" pc="268437950" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="30" lineNum="59" parent="globals/AnniversaryGlance" pc="268437957" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="31" lineNum="21" parent="globals/AnniversaryGlance" pc="268437972" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="31" lineNum="22" parent="globals/AnniversaryGlance" pc="268437974" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="31" lineNum="24" parent="globals/AnniversaryGlance" pc="268437992" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="31" lineNum="25" parent="globals/AnniversaryGlance" pc="268438039" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="31" lineNum="26" parent="globals/AnniversaryGlance" pc="268438086" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="31" lineNum="27" parent="globals/AnniversaryGlance" pc="268438133" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="31" lineNum="28" parent="globals/AnniversaryGlance" pc="268438180" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="31" lineNum="29" parent="globals/AnniversaryGlance" pc="268438227" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="31" lineNum="30" parent="globals/AnniversaryGlance" pc="268438240" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="32" lineNum="38" parent="globals/AnniversaryGlance" pc="268438254" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="32" lineNum="39" parent="globals/AnniversaryGlance" pc="268438256" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="32" lineNum="40" parent="globals/AnniversaryGlance" pc="268438310" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="32" lineNum="42" parent="globals/AnniversaryGlance" pc="268438337" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="32" lineNum="43" parent="globals/AnniversaryGlance" pc="268438383" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="32" lineNum="44" parent="globals/AnniversaryGlance" pc="268438419" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="32" lineNum="46" parent="globals/AnniversaryGlance" pc="268438455" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="32" lineNum="47" parent="globals/AnniversaryGlance" pc="268438494" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="32" lineNum="48" parent="globals/AnniversaryGlance" pc="268438653" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryGlance.mc" id="32" lineNum="50" parent="globals/AnniversaryGlance" pc="268438713" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="33" lineNum="198" parent="globals/AnniversaryViewDelegate" pc="268438738" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="34" lineNum="222" parent="globals/AnniversaryViewDelegate" pc="268438757" symbol="onPreviousPage"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="34" lineNum="223" parent="globals/AnniversaryViewDelegate" pc="268438759" symbol="onPreviousPage"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="34" lineNum="224" parent="globals/AnniversaryViewDelegate" pc="268438776" symbol="onPreviousPage"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="34" lineNum="225" parent="globals/AnniversaryViewDelegate" pc="268438881" symbol="onPreviousPage"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="34" lineNum="227" parent="globals/AnniversaryViewDelegate" pc="268438884" symbol="onPreviousPage"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="35" lineNum="204" parent="globals/AnniversaryViewDelegate" pc="268438887" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="35" lineNum="205" parent="globals/AnniversaryViewDelegate" pc="268438889" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="35" lineNum="206" parent="globals/AnniversaryViewDelegate" pc="268438907" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="35" lineNum="207" parent="globals/AnniversaryViewDelegate" pc="268438917" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="36" lineNum="212" parent="globals/AnniversaryViewDelegate" pc="268438928" symbol="onNextPage"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="36" lineNum="213" parent="globals/AnniversaryViewDelegate" pc="268438930" symbol="onNextPage"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="36" lineNum="214" parent="globals/AnniversaryViewDelegate" pc="268438950" symbol="onNextPage"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="36" lineNum="215" parent="globals/AnniversaryViewDelegate" pc="268439055" symbol="onNextPage"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Anniversary\\source\\AnniversaryView.mc" id="36" lineNum="217" parent="globals/AnniversaryViewDelegate" pc="268439058" symbol="onNextPage"/>
+        <entry filename="c:\\Users\\wolfa\\Desktop\\Anniversary\\build\\gen\\006-B3906-00\\source\\Rez.mcgen" id="37" lineNum="37" parent="globals/Rez/Layouts" pc="268439061" symbol="GlanceLayout"/>
+        <entry filename="c:\\Users\\wolfa\\Desktop\\Anniversary\\build\\gen\\006-B3906-00\\source\\Rez.mcgen" id="37" lineNum="38" parent="globals/Rez/Layouts" pc="268439073" symbol="GlanceLayout"/>
+        <entry filename="c:\\Users\\wolfa\\Desktop\\Anniversary\\build\\gen\\006-B3906-00\\source\\Rez.mcgen" id="37" lineNum="40" parent="globals/Rez/Layouts" pc="268439146" symbol="GlanceLayout"/>
+        <entry filename="c:\\Users\\wolfa\\Desktop\\Anniversary\\build\\gen\\006-B3906-00\\source\\Rez.mcgen" id="37" lineNum="42" parent="globals/Rez/Layouts" pc="268439219" symbol="GlanceLayout"/>
+        <entry filename="c:\\Users\\wolfa\\Desktop\\Anniversary\\build\\gen\\006-B3906-00\\source\\Rez.mcgen" id="37" lineNum="44" parent="globals/Rez/Layouts" pc="268439292" symbol="GlanceLayout"/>
+        <entry filename="c:\\Users\\wolfa\\Desktop\\Anniversary\\build\\gen\\006-B3906-00\\source\\Rez.mcgen" id="38" lineNum="47" parent="globals/Rez/Layouts" pc="268439329" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\wolfa\\Desktop\\Anniversary\\build\\gen\\006-B3906-00\\source\\Rez.mcgen" id="38" lineNum="48" parent="globals/Rez/Layouts" pc="268439341" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\wolfa\\Desktop\\Anniversary\\build\\gen\\006-B3906-00\\source\\Rez.mcgen" id="38" lineNum="49" parent="globals/Rez/Layouts" pc="268439446" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\wolfa\\Desktop\\Anniversary\\build\\gen\\006-B3906-00\\source\\Rez.mcgen" id="38" lineNum="51" parent="globals/Rez/Layouts" pc="268439468" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\wolfa\\Desktop\\Anniversary\\build\\gen\\006-B3906-00\\source\\Rez.mcgen" id="38" lineNum="53" parent="globals/Rez/Layouts" pc="268439567" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\wolfa\\Desktop\\Anniversary\\build\\gen\\006-B3906-00\\source\\Rez.mcgen" id="38" lineNum="55" parent="globals/Rez/Layouts" pc="268439666" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\wolfa\\Desktop\\Anniversary\\build\\gen\\006-B3906-00\\source\\Rez.mcgen" id="38" lineNum="57" parent="globals/Rez/Layouts" pc="268439765" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\wolfa\\Desktop\\Anniversary\\build\\gen\\006-B3906-00\\source\\Rez.mcgen" id="38" lineNum="59" parent="globals/Rez/Layouts" pc="268439877" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\wolfa\\Desktop\\Anniversary\\build\\gen\\006-B3906-00\\source\\Rez.mcgen" id="38" lineNum="61" parent="globals/Rez/Layouts" pc="268439976" symbol="MainLayout"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry field="true" id="72" symbol="setting_datetext_tittle"/>
+        <entry id="63" method="true" symbol="GlanceLayout"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="11" object="true" symbol="AnniversaryView"/>
+        <entry field="true" id="71" symbol="one"/>
+        <entry field="true" id="31" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;_anni&gt;"/>
+        <entry id="7" module="true" symbol="globals/Rez/Menus"/>
+        <entry id="25" method="true" symbol="&lt;globals/AnniversaryView/&lt;&gt;updateBitmapIcon&gt;"/>
+        <entry field="true" id="45" symbol="LauncherIcon40"/>
+        <entry id="64" method="true" symbol="MainLayout"/>
+        <entry id="8389683" method="true" symbol="onSettingsChanged"/>
+        <entry id="40" method="true" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelLocat&gt;"/>
+        <entry field="true" id="76" symbol="setting_tittle_anni_num"/>
+        <entry field="true" id="19" symbol="&lt;globals/AnniversaryView/&lt;&gt;_passed&gt;"/>
+        <entry id="30" method="true" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;PoLText&gt;"/>
+        <entry field="true" id="82" symbol="three"/>
+        <entry id="8388924" module="true" symbol="Gregorian"/>
+        <entry field="true" id="56" symbol="marry40"/>
+        <entry field="true" id="36" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;_left&gt;"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="50" symbol="birth40"/>
+        <entry id="21" method="true" symbol="&lt;globals/AnniversaryView/&lt;&gt;calculate_duration&gt;"/>
+        <entry field="true" id="83" symbol="two"/>
+        <entry field="true" id="8389341" symbol="days"/>
+        <entry field="true" id="35" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;_lanber&gt;"/>
+        <entry field="true" id="65" symbol="AppName"/>
+        <entry field="true" id="53" symbol="love"/>
+        <entry field="true" id="62" symbol="work40"/>
+        <entry id="8" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="8389345" symbol="rezId"/>
+        <entry id="27" method="true" symbol="&lt;globals/AnniversaryView/&lt;&gt;updateLabelText&gt;"/>
+        <entry field="true" id="67" symbol="five"/>
+        <entry field="true" id="73" symbol="setting_group1_description"/>
+        <entry id="23" method="true" symbol="&lt;globals/AnniversaryView/&lt;&gt;dayText&gt;"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry field="true" id="49" symbol="birth"/>
+        <entry id="24" method="true" symbol="&lt;globals/AnniversaryView/&lt;&gt;icon_translate&gt;"/>
+        <entry field="true" id="33" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;_days&gt;"/>
+        <entry id="8390425" module="true" symbol="Properties"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="52" symbol="graduate40"/>
+        <entry field="true" id="74" symbol="setting_iconlist_tittle"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry field="true" id="68" symbol="four"/>
+        <entry field="true" id="46" symbol="anniversary"/>
+        <entry field="true" id="20" symbol="&lt;globals/AnniversaryView/&lt;&gt;_thiswindow&gt;"/>
+        <entry field="true" id="51" symbol="graduate"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry field="true" id="43" symbol="&lt;globals/AnniversaryViewDelegate/&lt;&gt;_totalwindow&gt;"/>
+        <entry id="8389348" symbol="font"/>
+        <entry field="true" id="55" symbol="marry"/>
+        <entry id="8389079" method="true" symbol="onPreviousPage"/>
+        <entry id="29" module="true" symbol="Menus"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="41" method="true" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelText&gt;"/>
+        <entry field="true" id="66" symbol="UserLanguage"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="10" object="true" symbol="AnniversaryGlance"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry field="true" id="69" symbol="lanber"/>
+        <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
+        <entry field="true" id="34" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;_dura&gt;"/>
+        <entry field="true" id="14" symbol="&lt;globals/AnniversaryView/&lt;&gt;_anni&gt;"/>
+        <entry id="39" method="true" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;dateText&gt;"/>
+        <entry id="13" method="true" symbol="&lt;globals/AnniversaryView/&lt;&gt;PoLText&gt;"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="12" object="true" symbol="AnniversaryViewDelegate"/>
+        <entry id="38" method="true" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;calculate_duration&gt;"/>
+        <entry field="true" id="32" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;_day&gt;"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="18" symbol="&lt;globals/AnniversaryView/&lt;&gt;_left&gt;"/>
+        <entry field="true" id="75" symbol="setting_nametext_tittle"/>
+        <entry id="9" object="true" symbol="AnniversaryApp"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry field="true" id="59" symbol="studay"/>
+        <entry field="true" id="44" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry field="true" id="37" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;_passed&gt;"/>
+        <entry field="true" id="60" symbol="studay40"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry field="true" id="57" symbol="spring"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry field="true" id="54" symbol="love40"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry field="true" id="8389573" method="true" symbol="passed"/>
+        <entry field="true" id="16" symbol="&lt;globals/AnniversaryView/&lt;&gt;_days&gt;"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry field="true" id="81" symbol="setting_tittle_group4"/>
+        <entry field="true" id="80" symbol="setting_tittle_group3"/>
+        <entry field="true" id="79" symbol="setting_tittle_group2"/>
+        <entry field="true" id="78" symbol="setting_tittle_group1"/>
+        <entry field="true" id="77" symbol="setting_tittle_group0"/>
+        <entry field="true" id="15" symbol="&lt;globals/AnniversaryView/&lt;&gt;_day&gt;"/>
+        <entry field="true" id="48" symbol="anniversary_icon"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8389347" symbol="color"/>
+        <entry field="true" id="8388939" symbol="day"/>
+        <entry field="true" id="58" symbol="spring40"/>
+        <entry field="true" id="47" symbol="anniversary40"/>
+        <entry id="28" module="true" symbol="Layouts"/>
+        <entry id="22" method="true" symbol="&lt;globals/AnniversaryView/&lt;&gt;date_translate&gt;"/>
+        <entry field="true" id="70" symbol="left"/>
+        <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+        <entry field="true" id="61" symbol="work"/>
+        <entry id="8391457" method="true" symbol="getGlanceView"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="26" method="true" symbol="&lt;globals/AnniversaryView/&lt;&gt;updateLabelLocat&gt;"/>
+        <entry id="8389078" method="true" symbol="onNextPage"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="42" symbol="&lt;globals/AnniversaryViewDelegate/&lt;&gt;_thiswindow&gt;"/>
+        <entry field="true" id="17" symbol="&lt;globals/AnniversaryView/&lt;&gt;_dura&gt;"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435728" name="dc" stackId="1" startPc="268435685"/>
+        <entry arg="true" endPc="268435763" name="duration" stackId="1" startPc="268435729"/>
+        <entry arg="true" endPc="268435882" name="anni" stackId="1" startPc="268435764"/>
+        <entry endPc="268435882" name="today" stackId="2" startPc="268435768"/>
+        <entry endPc="268435882" name="dura" stackId="3" startPc="268435768"/>
+        <entry arg="true" endPc="268435926" name="duration" stackId="1" startPc="268435883"/>
+        <entry arg="true" endPc="268435975" name="labelId" stackId="1" startPc="268435927"/>
+        <entry arg="true" endPc="268435975" name="labelX" stackId="2" startPc="268435927"/>
+        <entry arg="true" endPc="268435975" name="labelY" stackId="3" startPc="268435927"/>
+        <entry endPc="268435974" name="drawable" stackId="4" startPc="268435931"/>
+        <entry arg="true" endPc="268436358" name="icon_number" stackId="1" startPc="268435976"/>
+        <entry arg="true" endPc="268436405" name="labelId" stackId="1" startPc="268436359"/>
+        <entry arg="true" endPc="268436405" name="labelText" stackId="2" startPc="268436359"/>
+        <entry endPc="268436404" name="drawable" stackId="3" startPc="268436363"/>
+        <entry arg="true" endPc="268436650" name="ThisWindow" stackId="1" startPc="268436406"/>
+        <entry arg="true" endPc="268436712" name="bitmapId" stackId="1" startPc="268436651"/>
+        <entry arg="true" endPc="268436712" name="identifier" stackId="2" startPc="268436651"/>
+        <entry endPc="268436711" name="drawable" stackId="3" startPc="268436655"/>
+        <entry arg="true" endPc="268437124" name="dc" stackId="1" startPc="268436713"/>
+        <entry arg="true" endPc="268437523" name="date" stackId="1" startPc="268437125"/>
+        <entry endPc="268437522" name="language" stackId="2" startPc="268437129"/>
+        <entry endPc="268437291" name="trans_day" stackId="3" startPc="268437189"/>
+        <entry endPc="268437291" name="dateString" stackId="4" startPc="268437189"/>
+        <entry endPc="268437416" name="trans_day" stackId="5" startPc="268437314"/>
+        <entry endPc="268437416" name="dateString" stackId="6" startPc="268437314"/>
+        <entry endPc="268437522" name="trans_day" stackId="7" startPc="268437420"/>
+        <entry endPc="268437522" name="dateString" stackId="8" startPc="268437420"/>
+        <entry arg="true" endPc="268437669" name="duration" stackId="1" startPc="268437593"/>
+        <entry arg="true" endPc="268437713" name="dc" stackId="1" startPc="268437670"/>
+        <entry arg="true" endPc="268437748" name="duration" stackId="1" startPc="268437714"/>
+        <entry arg="true" endPc="268437867" name="anni" stackId="1" startPc="268437749"/>
+        <entry endPc="268437867" name="today" stackId="2" startPc="268437753"/>
+        <entry endPc="268437867" name="dura" stackId="3" startPc="268437753"/>
+        <entry arg="true" endPc="268437920" name="labelId" stackId="1" startPc="268437868"/>
+        <entry arg="true" endPc="268437920" name="labelX" stackId="2" startPc="268437868"/>
+        <entry arg="true" endPc="268437920" name="labelY" stackId="3" startPc="268437868"/>
+        <entry endPc="268437919" name="drawable" stackId="4" startPc="268437872"/>
+        <entry arg="true" endPc="268437971" name="labelId" stackId="1" startPc="268437921"/>
+        <entry arg="true" endPc="268437971" name="labelText" stackId="2" startPc="268437921"/>
+        <entry endPc="268437970" name="drawable" stackId="3" startPc="268437925"/>
+        <entry arg="true" endPc="268438737" name="dc" stackId="1" startPc="268438254"/>
+        <entry arg="true" endPc="268438927" name="ThisWindow" stackId="1" startPc="268438887"/>
+        <entry arg="true" endPc="268438927" name="TotalWindow" stackId="2" startPc="268438887"/>
+        <entry arg="true" endPc="268439328" name="dc" stackId="1" startPc="268439061"/>
+        <entry endPc="268439328" name="rez_cmp_local_text_anniversary_name" stackId="2" startPc="268439073"/>
+        <entry endPc="268439328" name="rez_cmp_local_text_anniversary_PoL" stackId="3" startPc="268439073"/>
+        <entry endPc="268439328" name="rez_cmp_local_text_anniversary_date" stackId="4" startPc="268439073"/>
+        <entry arg="true" endPc="268440042" name="dc" stackId="1" startPc="268439329"/>
+        <entry endPc="268440042" name="rez_cmp_local_bitmap_anniversary_icon" stackId="2" startPc="268439341"/>
+        <entry endPc="268440042" name="rez_cmp_local_text_anniversary_name" stackId="3" startPc="268439341"/>
+        <entry endPc="268440042" name="rez_cmp_local_text_anniversary_date" stackId="4" startPc="268439341"/>
+        <entry endPc="268440042" name="rez_cmp_local_text_anniversary_PoL" stackId="5" startPc="268439341"/>
+        <entry endPc="268440042" name="rez_cmp_local_text_anniversary_number_text" stackId="6" startPc="268439341"/>
+        <entry endPc="268440042" name="rez_cmp_local_text_anniversary_day_text" stackId="7" startPc="268439341"/>
+    </localVars>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="marry"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="lanber"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="setting_nametext_tittle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="spring"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="two"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="setting_datetext_tittle"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="marry40"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="days"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="setting_tittle_anni_num"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="studay40"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="five"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="four"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="setting_group1_description"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="spring40"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="marry"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="one"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="graduate40"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="birth40"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="birth"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="day"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="passed"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="graduate"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="UserLanguage"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="left"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon40"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="three"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="work"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="anniversary_icon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="love"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="love40"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="love"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="anniversary"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="studay"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="anniversary"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="setting_tittle_group4"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="birth"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="anniversary40"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="spring"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="setting_tittle_group2"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="work"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="setting_tittle_group3"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="graduate"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="studay"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="setting_iconlist_tittle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="setting_tittle_group0"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="work40"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="setting_tittle_group1"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/AnniversaryApp" offset="174" parentId="globals" symbolId="AnniversaryApp" type="class"/>
+        <dataEntry label="globals/AnniversaryView" offset="261" parentId="globals" symbolId="AnniversaryView" type="class"/>
+        <dataEntry label="globals/Rez" offset="460" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/AnniversaryGlance" offset="539" parentId="globals" symbolId="AnniversaryGlance" type="class"/>
+        <dataEntry label="globals/AnniversaryViewDelegate" offset="698" parentId="globals" symbolId="AnniversaryViewDelegate" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="777" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="960" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="1007" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="1038" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1069" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="1340" parentId="Rez" symbolId="JsonData" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435475" name="&lt;init&gt;" parent="AnniversaryApp" startPc="268435457">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStart" parent="AnniversaryApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435494" name="onSettingsChanged" parent="AnniversaryApp" startPc="268435476">
+            <documentation><![CDATA[<div class="description"> For this app all that needs to be done is trigger a WatchUi refresh<br/> since the settings are only used in onUpdate().<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435601" name="getInitialView" parent="AnniversaryApp" startPc="268435495">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435622" name="initialize" parent="AnniversaryApp" startPc="268435602">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435665" name="getGlanceView" parent="AnniversaryApp" startPc="268435623">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStop" parent="AnniversaryApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435684" name="&lt;init&gt;" parent="AnniversaryView" startPc="268435666">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="AnniversaryView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435728" name="onLayout" parent="AnniversaryView" startPc="268435685">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268435763" name="&lt;globals/AnniversaryView/&lt;&gt;PoLText&gt;" parent="AnniversaryView" startPc="268435729">
+            <param id="duration"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268435882" name="&lt;globals/AnniversaryView/&lt;&gt;calculate_duration&gt;" parent="AnniversaryView" startPc="268435764">
+            <param id="anni"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268435926" name="&lt;globals/AnniversaryView/&lt;&gt;dayText&gt;" parent="AnniversaryView" startPc="268435883">
+            <param id="duration"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268435975" name="&lt;globals/AnniversaryView/&lt;&gt;updateLabelLocat&gt;" parent="AnniversaryView" startPc="268435927">
+            <param id="labelId"/>
+            <param id="labelX"/>
+            <param id="labelY"/>
+            <documentation><![CDATA[<div class="description"> Update a label with new location<br/> <div class="param"> labelId The label to update</div><br/> <div class="param"> labelX The X for the label</div><br/> <div class="param"> labelY The Y for the label</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436358" name="&lt;globals/AnniversaryView/&lt;&gt;icon_translate&gt;" parent="AnniversaryView" startPc="268435976">
+            <param id="icon_number"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436405" name="&lt;globals/AnniversaryView/&lt;&gt;updateLabelText&gt;" parent="AnniversaryView" startPc="268436359">
+            <param id="labelId"/>
+            <param id="labelText"/>
+            <documentation><![CDATA[<div class="description"> Update a label with new text<br/> <div class="param"> labelId The label to update</div><br/> <div class="param"> labelText The text for the label</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436650" name="initialize" parent="AnniversaryView" startPc="268436406">
+            <param id="ThisWindow"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="AnniversaryView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436712" name="&lt;globals/AnniversaryView/&lt;&gt;updateBitmapIcon&gt;" parent="AnniversaryView" startPc="268436651">
+            <param id="bitmapId"/>
+            <param id="identifier"/>
+            <documentation><![CDATA[<div class="description"> Update a bitmap with new icon<br/> <div class="param"> bitmapId The Bitmap to update</div><br/> <div class="param"> identifier The Bitmap Icon</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437124" name="onUpdate" parent="AnniversaryView" startPc="268436713">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437523" name="&lt;globals/AnniversaryView/&lt;&gt;date_translate&gt;" parent="AnniversaryView" startPc="268437125">
+            <param id="date"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437549" name="getApp" startPc="268437524">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437573" name="&lt;init&gt;" parent="Rez" startPc="268437550">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437592" name="&lt;init&gt;" parent="AnniversaryGlance" startPc="268437574">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437669" name="&lt;globals/AnniversaryGlance/&lt;&gt;dateText&gt;" parent="AnniversaryGlance" startPc="268437593">
+            <param id="duration"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437713" name="onLayout" parent="AnniversaryGlance" startPc="268437670">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437748" name="&lt;globals/AnniversaryGlance/&lt;&gt;PoLText&gt;" parent="AnniversaryGlance" startPc="268437714">
+            <param id="duration"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437867" name="&lt;globals/AnniversaryGlance/&lt;&gt;calculate_duration&gt;" parent="AnniversaryGlance" startPc="268437749">
+            <param id="anni"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437920" name="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelLocat&gt;" parent="AnniversaryGlance" startPc="268437868">
+            <param id="labelId"/>
+            <param id="labelX"/>
+            <param id="labelY"/>
+            <documentation><![CDATA[<div class="description"> Update a label with new location<br/> <div class="param"> labelId The label to update</div><br/> <div class="param"> labelX The X for the label</div><br/> <div class="param"> labelY The Y for the label</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437971" name="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelText&gt;" parent="AnniversaryGlance" startPc="268437921">
+            <param id="labelId"/>
+            <param id="labelText"/>
+            <documentation><![CDATA[<div class="description"> Update a label with new text<br/> <div class="param"> labelId The label to update</div><br/> <div class="param"> labelText The text for the label</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438253" name="initialize" parent="AnniversaryGlance" startPc="268437972">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438737" name="onUpdate" parent="AnniversaryGlance" startPc="268438254">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438756" name="&lt;init&gt;" parent="AnniversaryViewDelegate" startPc="268438738">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438886" name="onPreviousPage" parent="AnniversaryViewDelegate" startPc="268438757">
+            <documentation><![CDATA[<div class="description"> Handle going to the previous view<br/> <div class="returns">Returns  true if handled, false otherwise</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438927" name="initialize" parent="AnniversaryViewDelegate" startPc="268438887">
+            <param id="ThisWindow"/>
+            <param id="TotalWindow"/>
+            <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439060" name="onNextPage" parent="AnniversaryViewDelegate" startPc="268438928">
+            <documentation><![CDATA[<div class="description"> Handle going to the next view<br/> <div class="returns">Returns  true if handled, false otherwise</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439328" name="GlanceLayout" parent="Layouts" startPc="268439061">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440042" name="MainLayout" parent="Layouts" startPc="268439329">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

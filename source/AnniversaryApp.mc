@@ -17,10 +17,6 @@ class AnniversaryApp extends Application.AppBase {
     function onStop(state as Dictionary?) as Void {
     }
 
-    function onSettingsChanged() as Void {
-        WatchUi.requestUpdate();
-    }
-
     // Return the initial view of your application here
     function getInitialView() as Array<Views or InputDelegates>? {
         return [ new AnniversaryView(0), new AnniversaryViewDelegate(0, Properties.getValue("Anniversary_num"))] as Array<Views or InputDelegates>;
@@ -29,6 +25,13 @@ class AnniversaryApp extends Application.AppBase {
     function getGlanceView() as Array<GlanceView or GlanceViewDelegate>? {
         return [ new AnniversaryGlance() ] as Array<GlanceView or GlanceViewDelegate>;
     }
+
+    //! For this app all that needs to be done is trigger a WatchUi refresh
+    //! since the settings are only used in onUpdate().
+    public function onSettingsChanged() as Void {
+        WatchUi.requestUpdate();
+    }
+
 
 }
 

@@ -27,11 +27,11 @@
 
         <setting propertyKey="@Properties.Anniversary_num" title="@Strings.setting_tittle_anni_num">
             <settingConfig type="list">
-                <listEntry value="1">0</listEntry>
-                <listEntry value="2">1</listEntry>
-                <listEntry value="3">2</listEntry>
-                <listEntry value="4">3</listEntry>
-                <listEntry value="5">4</listEntry>
+                <listEntry value="0">@Strings.one</listEntry>
+                <listEntry value="1">@Strings.two</listEntry>
+                <listEntry value="2">@Strings.three</listEntry>
+                <listEntry value="3">@Strings.four</listEntry>
+                <listEntry value="4">@Strings.five</listEntry>
             </settingConfig>
         </setting>
 
