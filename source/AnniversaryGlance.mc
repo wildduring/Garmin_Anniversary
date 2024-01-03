@@ -87,7 +87,7 @@ class AnniversaryGlance extends WatchUi.GlanceView{
     }
 
     private function dateText(duration as Number) as String{
-        if (duration == 0) {
+        if (duration.abs() <= 1) {
             return duration.abs().toString() + _day;
         }
         else {
