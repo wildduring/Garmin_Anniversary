@@ -18,12 +18,12 @@ class AnniversaryApp extends Application.AppBase {
     }
 
     // Return the initial view of your application here
-    function getInitialView() as Array<Views or InputDelegates>? {
-        return [ new AnniversaryView(0), new AnniversaryViewDelegate(0, Properties.getValue("Anniversary_num"))] as Array<Views or InputDelegates>;
+    function getInitialView() as [Views] or [ Views, InputDelegates ] {
+        return [ new AnniversaryView(0), new AnniversaryViewDelegate(0, Properties.getValue("Anniversary_num"))];
     }
 
-    function getGlanceView() as Array<GlanceView or GlanceViewDelegate>? {
-        return [ new AnniversaryGlance() ] as Array<GlanceView or GlanceViewDelegate>;
+    function getGlanceView() as [ GlanceView ] or [ GlanceView, GlanceViewDelegate ] or Null {
+        return [ new AnniversaryGlance() ];
     }
 
     //! For this app all that needs to be done is trigger a WatchUi refresh

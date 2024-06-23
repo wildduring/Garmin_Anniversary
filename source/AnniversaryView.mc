@@ -90,10 +90,10 @@ class AnniversaryView extends WatchUi.View {
     //! Update a bitmap with new icon
     //! @param bitmapId The Bitmap to update
     //! @param identifier The Bitmap Icon
-    private function updateBitmapIcon(bitmapId as String, identifier as Lang.Symbol) as Void {
+    private function updateBitmapIcon(bitmapId as String, identifier as Lang.ResourceId) as Void {
         var drawable = View.findDrawableById(bitmapId);
         if (drawable != null) {
-            (drawable as Bitmap).setBitmap(WatchUi.loadResource(identifier));
+            (drawable as Bitmap).setBitmap(identifier);
         }
     }
 
@@ -104,7 +104,7 @@ class AnniversaryView extends WatchUi.View {
     }
 
 
-    private function icon_translate(icon_number as String) as Lang.Symbol{
+    private function icon_translate(icon_number as String) as Lang.ResourceId{
         if (icon_number.equals("1")){
             return $.Rez.Drawables.anniversary40;
         }
