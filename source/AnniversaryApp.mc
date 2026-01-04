@@ -19,7 +19,7 @@ class AnniversaryApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() as [Views] or [ Views, InputDelegates ] {
-        return [ new AnniversaryView(0), new AnniversaryViewDelegate(0, Properties.getValue("Anniversary_num"))];
+        return [ new AnniversaryMenu(), new AnniversaryMenuDelegate()];
     }
 
     function getGlanceView() as [ GlanceView ] or [ GlanceView, GlanceViewDelegate ] or Null {

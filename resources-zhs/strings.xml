@@ -3,19 +3,6 @@
     <string id="UserLanguage">ZHS</string>
 
     <string id="anniversary">纪念日</string>
-
-    <string id="setting_tittle_anni_num">纪念日的数量</string>
-    <string id="setting_tittle_group0">第一组</string>
-    <string id="setting_group1_description">第一组纪念日也会被显示在小组件上</string>
-    <string id="setting_tittle_group1">第二组</string>
-    <string id="setting_tittle_group2">第三组</string>
-    <string id="setting_tittle_group3">第四组</string>
-    <string id="setting_tittle_group4">第五组</string>
-    <string id="setting_nametext_tittle">纪念日的名字</string>
-    <string id="setting_datetext_tittle">纪念日日期</string>
-    <string id="setting_iconlist_tittle">图标</string>
-
-    <string id="anniversary">纪念日</string>
     <string id="work">工作</string>
     <string id="love">爱心</string>
     <string id="marry">结婚</string>
@@ -29,12 +16,30 @@
     <string id="day">天啦</string>
     <string id="days">天啦</string>
 
-    <string id="one">1个</string>
-    <string id="two">2个</string>
-    <string id="three">3个</string>
-    <string id="four">4个</string>
-    <string id="five">5个</string>
+    <string id="add_new">添加纪念日</string>
+    <string id="settings">设置</string>
+    <string id="set_anni_name">名称</string>
+    <string id="set_anni_date">日期</string>
+    <string id="set_anni_icon">图标</string>
+    <string id="set_anni_showInGlance">在Glance中显示</string>
+    <string id="set_anni_shouldNotify">提醒</string>
+    <string id="set_anni_NotifyTime">提醒时间</string>
+    <string id="set_anni_delete">删除</string>
 
-    <string id="lanber">3</string>
+    <string id="datePickerTitle">选择日期</string>
+    <string id="dateSeparator">-</string>
+
+    <string id="month01">1月</string>
+    <string id="month02">2月</string>
+    <string id="month03">3月</string>
+    <string id="month04">4月</string>
+    <string id="month05">5月</string>
+    <string id="month06">6月</string>
+    <string id="month07">7月</string>
+    <string id="month08">8月</string>
+    <string id="month09">9月</string>
+    <string id="month10">10月</string>
+    <string id="month11">11月</string>
+    <string id="month12">12月</string>
 
 </strings>

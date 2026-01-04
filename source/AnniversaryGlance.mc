@@ -1,11 +1,9 @@
-import Toybox.Graphics;
-import Toybox.WatchUi;
-import Toybox.Lang;
 import Toybox.Application;
-import Toybox.Application.Properties;
-import Toybox.Time;
-import Toybox.Time.Gregorian;
+import Toybox.Graphics;
+import Toybox.Lang;
 import Toybox.Math;
+import Toybox.Time;
+import Toybox.WatchUi;
 
 class AnniversaryGlance extends WatchUi.GlanceView{
 
@@ -13,8 +11,8 @@ class AnniversaryGlance extends WatchUi.GlanceView{
     private var _left as String;
     private var _day as String;
     private var _days as String;
-    private var _lanber as Number;
 
+    private var _name;
     private var _anni;
     private var _dura;
 
@@ -25,9 +23,22 @@ class AnniversaryGlance extends WatchUi.GlanceView{
         _left = WatchUi.loadResource($.Rez.Strings.left) as String;
         _day = WatchUi.loadResource($.Rez.Strings.day) as String;
         _days = WatchUi.loadResource($.Rez.Strings.days) as String;
-        _lanber = WatchUi.loadResource($.Rez.Strings.lanber) as Number;
-        _anni = 0;
+
+        _name = "汉江畔";
+        _anni = new Time.Moment(1674172800);
         _dura = 0;
+
+        var anniversaries = Storage.getValue("anniversaries");    //从 Storage 加载你的纪念日数据数组
+        if(anniversaries != null && anniversaries instanceof Array) {
+            for(var i = 0; i<anniversaries.size(); i++) {
+                var item = anniversaries[i] as Dictionary;
+                if(item["showInGlance"] == true) {
+                    _name = item["name"].toString();
+                    _anni = new Time.Moment(item["date"]);
+                    break;
+                }
+            }
+        }
     }
 
     // Load your resources here
@@ -36,16 +47,23 @@ class AnniversaryGlance extends WatchUi.GlanceView{
     }
 
     function onUpdate(dc){
-        _anni = new Time.Moment(Properties.getValue("date0"));
         _dura = calculate_duration(_anni);
 
-        updateLabelText("anniversary_name", Properties.getValue("name0").toString());
+        updateLabelText("anniversary_name", _name);
         updateLabelText("anniversary_PoL", PoLText(_dura));
         updateLabelText("anniversary_date", dateText(_dura));
 
-        updateLabelLocat("anniversary_name", 0, dc.getHeight()/14);
-        updateLabelLocat("anniversary_PoL", Graphics.getFontDescent(Graphics.FONT_SMALL)*Properties.getValue("name0").toString().length()*_lanber.toNumber()+10, dc.getHeight()/14+Graphics.getFontDescent(Graphics.FONT_SMALL)-Graphics.getFontDescent(Graphics.FONT_XTINY));
-        updateLabelLocat("anniversary_date", 0, dc.getHeight()/14+Graphics.getFontAscent(Graphics.FONT_SMALL));
+        var spacingX = 2;
+        var spacingY = 2;
+        var nameTextX = 0;
+        var nameTextY = (dc.getHeight() - dc.getFontHeight(Graphics.FONT_SMALL) - dc.getFontHeight(Graphics.FONT_LARGE) - spacingY) / 2 ;
+        var PoLTextX = nameTextX + dc.getTextWidthInPixels(_name, Graphics.FONT_SMALL) + spacingX;
+        var PoLTextY = nameTextY + dc.getFontHeight(Graphics.FONT_SMALL) - dc.getFontHeight(Graphics.FONT_XTINY);
+        var dateTextX = nameTextX;
+        var dateTextY = nameTextY + dc.getFontHeight(Graphics.FONT_SMALL) + spacingY;
+        updateLabelLocat("anniversary_name", nameTextX, nameTextY);
+        updateLabelLocat("anniversary_PoL", PoLTextX, PoLTextY);
+        updateLabelLocat("anniversary_date", dateTextX, dateTextY);
 
         View.onUpdate(dc);
     }

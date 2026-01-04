@@ -1,0 +1,1700 @@
+[ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+using Toybox.Graphics;
+[ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+module Rez {
+    [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    module Drawables {
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [anniversary,9,27,38]; @symbol_type<0> = [ResourceId,9,42,52]; ]
+        var anniversary as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 10; @position = 27; initialized = true; @symbol_vardef = [work,10,27,31]; @symbol_type<0> = [ResourceId,10,35,45]; ]
+        var work as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 11; @position = 27; initialized = true; @symbol_vardef = [love,11,27,31]; @symbol_type<0> = [ResourceId,11,35,45]; ]
+        var love as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 12; @position = 27; initialized = true; @symbol_vardef = [marry,12,27,32]; @symbol_type<0> = [ResourceId,12,36,46]; ]
+        var marry as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 13; @position = 27; initialized = true; @symbol_vardef = [graduate,13,27,35]; @symbol_type<0> = [ResourceId,13,39,49]; ]
+        var graduate as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 14; @position = 27; initialized = true; @symbol_vardef = [birth,14,27,32]; @symbol_type<0> = [ResourceId,14,36,46]; ]
+        var birth as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 15; @position = 27; initialized = true; @symbol_vardef = [studay,15,27,33]; @symbol_type<0> = [ResourceId,15,37,47]; ]
+        var studay as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 16; @position = 27; initialized = true; @symbol_vardef = [spring,16,27,33]; @symbol_type<0> = [ResourceId,16,37,47]; ]
+        var spring as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 17; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon40,17,27,41]; @symbol_type<0> = [ResourceId,17,45,55]; ]
+        var LauncherIcon40 as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 18; @position = 27; initialized = true; @symbol_vardef = [anniversary40,18,27,40]; @symbol_type<0> = [ResourceId,18,44,54]; ]
+        var anniversary40 as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 19; @position = 27; initialized = true; @symbol_vardef = [work40,19,27,33]; @symbol_type<0> = [ResourceId,19,37,47]; ]
+        var work40 as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 20; @position = 27; initialized = true; @symbol_vardef = [love40,20,27,33]; @symbol_type<0> = [ResourceId,20,37,47]; ]
+        var love40 as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 21; @position = 27; initialized = true; @symbol_vardef = [marry40,21,27,34]; @symbol_type<0> = [ResourceId,21,38,48]; ]
+        var marry40 as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 22; @position = 27; initialized = true; @symbol_vardef = [graduate40,22,27,37]; @symbol_type<0> = [ResourceId,22,41,51]; ]
+        var graduate40 as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 23; @position = 27; initialized = true; @symbol_vardef = [birth40,23,27,34]; @symbol_type<0> = [ResourceId,23,38,48]; ]
+        var birth40 as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 24; @position = 27; initialized = true; @symbol_vardef = [studay40,24,27,35]; @symbol_type<0> = [ResourceId,24,39,49]; ]
+        var studay40 as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 25; @position = 27; initialized = true; @symbol_vardef = [spring40,25,27,35]; @symbol_type<0> = [ResourceId,25,39,49]; ]
+        var spring40 as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 26; @position = 27; initialized = true; @symbol_vardef = [add,26,27,30]; @symbol_type<0> = [ResourceId,26,34,44]; ]
+        var add as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 27; @position = 27; initialized = true; @symbol_vardef = [add40,27,27,32]; @symbol_type<0> = [ResourceId,27,36,46]; ]
+        var add40 as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 28; @position = 27; initialized = true; @symbol_vardef = [settings,28,27,35]; @symbol_type<0> = [ResourceId,28,39,49]; ]
+        var settings as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 29; @position = 27; initialized = true; @symbol_vardef = [settings40,29,27,37]; @symbol_type<0> = [ResourceId,29,41,51]; ]
+        var settings40 as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 30; @position = 27; initialized = true; @symbol_vardef = [switch_on,30,27,36]; @symbol_type<0> = [ResourceId,30,40,50]; ]
+        var switch_on as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 31; @position = 27; initialized = true; @symbol_vardef = [switch_on40,31,27,38]; @symbol_type<0> = [ResourceId,31,42,52]; ]
+        var switch_on40 as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 32; @position = 27; initialized = true; @symbol_vardef = [switch_off,32,27,37]; @symbol_type<0> = [ResourceId,32,41,51]; ]
+        var switch_off as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 33; @position = 27; initialized = true; @symbol_vardef = [switch_off40,33,27,39]; @symbol_type<0> = [ResourceId,33,43,53]; ]
+        var switch_off40 as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 34; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,34,27,39]; @symbol_type<0> = [ResourceId,34,43,53]; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 37; @symbol_moduledef = [Layouts,37,11,18]; ]
+    module Layouts {
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 37; ]
+        <init> {
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 38; @symbol_functiondef = [GlanceLayout,38,17,29]; @symbol_param<0> = [dc,38,30,32]; @symbol_param<0>_type<0> = [Graphics,38,36,44]; @symbol_param<0>_type<1> = [Dc,38,45,47]; @symbol_return<0> = [Array,38,52,57]; @symbol_return<1> = [WatchUi,38,58,65]; @symbol_return<2> = [Drawable,38,66,74]; ]
+        function GlanceLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+c__Users_wolfa_Desktop_Garmin_Anniversary_bin_gen_006_B4656_00_source_Rez_mcgen_38_76_46_8_start:
+[ "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen" 39 12 ]
+            [ "c__Users_wolfa_Desktop_Garmin_Anniversary_bin_gen_006_B4656_00_source_Rez_mcgen_38_76_46_8_start" "c__Users_wolfa_Desktop_Garmin_Anniversary_bin_gen_006_B4656_00_source_Rez_mcgen_38_76_46_8_stop" ]
+            %rez_cmp_local_text_anniversary_name.1 = local;
+            symbol [ rez_cmp_local_text_anniversary_name %rez_cmp_local_text_anniversary_name.1 39 16 51 ];
+            symbol [ WatchUi %tmp.3 39 58 65 ];
+            %tmp.3 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.4 39 66 70 ];
+            %tmp.4 = getv function ? %tmp.3 :Text;
+            %tmp.5 = newd 3;
+            %tmp.7 = const :identifier;
+            symbol [ identifier %tmp.7 39 73 83 const ];
+            %tmp.8 = "anniversary_name";
+            %tmp.9 = dup %tmp.5;
+            %tmp.10 = aputv %tmp.9 %tmp.7 %tmp.8;
+            %tmp.12 = const :color;
+            symbol [ color %tmp.12 39 106 111 const ];
+            symbol [ Graphics %tmp.13 39 113 121 ];
+            %tmp.13 = getm $.Toybox.Graphics;
+            symbol [ COLOR_WHITE %tmp.14 39 122 133 ];
+            %tmp.14 = getv %tmp.13 :COLOR_WHITE;
+            %tmp.15 = dup %tmp.10;
+            %tmp.16 = aputv %tmp.15 %tmp.12 %tmp.14;
+            %tmp.18 = const :font;
+            symbol [ font %tmp.18 39 136 140 const ];
+            symbol [ Graphics %tmp.19 39 142 150 ];
+            %tmp.19 = getm $.Toybox.Graphics;
+            symbol [ FONT_SMALL %tmp.20 39 151 161 ];
+            %tmp.20 = getv %tmp.19 :FONT_SMALL;
+            %tmp.21 = dup %tmp.16;
+            %tmp.22 = aputv %tmp.21 %tmp.18 %tmp.20;
+            %tmp.1 = newc %tmp.4 (%tmp.22);
+            lputv %rez_cmp_local_text_anniversary_name.1 %tmp.1;
+            symbol [ rez_cmp_local_text_anniversary_name %rez_cmp_local_text_anniversary_name.1 39 16 51 ];
+[ "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen" 41 12 ]
+            [ "c__Users_wolfa_Desktop_Garmin_Anniversary_bin_gen_006_B4656_00_source_Rez_mcgen_38_76_46_8_start" "c__Users_wolfa_Desktop_Garmin_Anniversary_bin_gen_006_B4656_00_source_Rez_mcgen_38_76_46_8_stop" ]
+            %rez_cmp_local_text_anniversary_PoL.2 = local;
+            symbol [ rez_cmp_local_text_anniversary_PoL %rez_cmp_local_text_anniversary_PoL.2 41 16 50 ];
+            symbol [ WatchUi %tmp.25 41 57 64 ];
+            %tmp.25 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.26 41 65 69 ];
+            %tmp.26 = getv function ? %tmp.25 :Text;
+            %tmp.27 = newd 3;
+            %tmp.29 = const :identifier;
+            symbol [ identifier %tmp.29 41 72 82 const ];
+            %tmp.30 = "anniversary_PoL";
+            %tmp.31 = dup %tmp.27;
+            %tmp.32 = aputv %tmp.31 %tmp.29 %tmp.30;
+            %tmp.34 = const :color;
+            symbol [ color %tmp.34 41 104 109 const ];
+            symbol [ Graphics %tmp.35 41 111 119 ];
+            %tmp.35 = getm $.Toybox.Graphics;
+            symbol [ COLOR_LT_GRAY %tmp.36 41 120 133 ];
+            %tmp.36 = getv %tmp.35 :COLOR_LT_GRAY;
+            %tmp.37 = dup %tmp.32;
+            %tmp.38 = aputv %tmp.37 %tmp.34 %tmp.36;
+            %tmp.40 = const :font;
+            symbol [ font %tmp.40 41 136 140 const ];
+            symbol [ Graphics %tmp.41 41 142 150 ];
+            %tmp.41 = getm $.Toybox.Graphics;
+            symbol [ FONT_XTINY %tmp.42 41 151 161 ];
+            %tmp.42 = getv %tmp.41 :FONT_XTINY;
+            %tmp.43 = dup %tmp.38;
+            %tmp.44 = aputv %tmp.43 %tmp.40 %tmp.42;
+            %tmp.23 = newc %tmp.26 (%tmp.44);
+            lputv %rez_cmp_local_text_anniversary_PoL.2 %tmp.23;
+            symbol [ rez_cmp_local_text_anniversary_PoL %rez_cmp_local_text_anniversary_PoL.2 41 16 50 ];
+[ "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen" 43 12 ]
+            [ "c__Users_wolfa_Desktop_Garmin_Anniversary_bin_gen_006_B4656_00_source_Rez_mcgen_38_76_46_8_start" "c__Users_wolfa_Desktop_Garmin_Anniversary_bin_gen_006_B4656_00_source_Rez_mcgen_38_76_46_8_stop" ]
+            %rez_cmp_local_text_anniversary_date.3 = local;
+            symbol [ rez_cmp_local_text_anniversary_date %rez_cmp_local_text_anniversary_date.3 43 16 51 ];
+            symbol [ WatchUi %tmp.47 43 58 65 ];
+            %tmp.47 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.48 43 66 70 ];
+            %tmp.48 = getv function ? %tmp.47 :Text;
+            %tmp.49 = newd 3;
+            %tmp.51 = const :identifier;
+            symbol [ identifier %tmp.51 43 73 83 const ];
+            %tmp.52 = "anniversary_date";
+            %tmp.53 = dup %tmp.49;
+            %tmp.54 = aputv %tmp.53 %tmp.51 %tmp.52;
+            %tmp.56 = const :color;
+            symbol [ color %tmp.56 43 106 111 const ];
+            symbol [ Graphics %tmp.57 43 113 121 ];
+            %tmp.57 = getm $.Toybox.Graphics;
+            symbol [ COLOR_WHITE %tmp.58 43 122 133 ];
+            %tmp.58 = getv %tmp.57 :COLOR_WHITE;
+            %tmp.59 = dup %tmp.54;
+            %tmp.60 = aputv %tmp.59 %tmp.56 %tmp.58;
+            %tmp.62 = const :font;
+            symbol [ font %tmp.62 43 136 140 const ];
+            symbol [ Graphics %tmp.63 43 142 150 ];
+            %tmp.63 = getm $.Toybox.Graphics;
+            symbol [ FONT_LARGE %tmp.64 43 151 161 ];
+            %tmp.64 = getv %tmp.63 :FONT_LARGE;
+            %tmp.65 = dup %tmp.60;
+            %tmp.66 = aputv %tmp.65 %tmp.62 %tmp.64;
+            %tmp.45 = newc %tmp.48 (%tmp.66);
+            lputv %rez_cmp_local_text_anniversary_date.3 %tmp.45;
+            symbol [ rez_cmp_local_text_anniversary_date %rez_cmp_local_text_anniversary_date.3 43 16 51 ];
+[ "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen" 45 12 ]
+            %tmp.67 = newa 3 Array<WatchUi.Drawable>;
+            symbol [ Array %tmp.67 45 133 138 ];
+            symbol [ WatchUi %tmp.67 45 139 146 ];
+            symbol [ Drawable %tmp.67 45 147 155 ];
+            %tmp.68 = lgetv %rez_cmp_local_text_anniversary_name.1;
+            symbol [ rez_cmp_local_text_anniversary_name %tmp.68 45 20 55 ];
+            %tmp.69 = dup %tmp.67;
+            %tmp.70 = aputv %tmp.69 0 %tmp.68;
+            %tmp.71 = lgetv %rez_cmp_local_text_anniversary_PoL.2;
+            symbol [ rez_cmp_local_text_anniversary_PoL %tmp.71 45 57 91 ];
+            %tmp.72 = dup %tmp.70;
+            %tmp.73 = aputv %tmp.72 1 %tmp.71;
+            %tmp.74 = lgetv %rez_cmp_local_text_anniversary_date.3;
+            symbol [ rez_cmp_local_text_anniversary_date %tmp.74 45 93 128 ];
+            %tmp.75 = dup %tmp.73;
+            %tmp.76 = aputv %tmp.75 2 %tmp.74;
+            ret %tmp.76;
+c__Users_wolfa_Desktop_Garmin_Anniversary_bin_gen_006_B4656_00_source_Rez_mcgen_38_76_46_8_stop:
+        }
+    }
+    [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 49; @symbol_moduledef = [Strings,49,11,18]; ]
+    module Strings {
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 49; ]
+        <init> {
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 50; @position = 27; initialized = true; @symbol_vardef = [love,50,27,31]; @symbol_type<0> = [ResourceId,50,35,45]; ]
+        var love as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 51; @position = 27; initialized = true; @symbol_vardef = [dateSeparator,51,27,40]; @symbol_type<0> = [ResourceId,51,44,54]; ]
+        var dateSeparator as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 52; @position = 27; initialized = true; @symbol_vardef = [marry,52,27,32]; @symbol_type<0> = [ResourceId,52,36,46]; ]
+        var marry as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 53; @position = 27; initialized = true; @symbol_vardef = [set_anni_shouldNotify,53,27,48]; @symbol_type<0> = [ResourceId,53,52,62]; ]
+        var set_anni_shouldNotify as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 54; @position = 27; initialized = true; @symbol_vardef = [add_new,54,27,34]; @symbol_type<0> = [ResourceId,54,38,48]; ]
+        var add_new as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 55; @position = 27; initialized = true; @symbol_vardef = [AppName,55,27,34]; @symbol_type<0> = [ResourceId,55,38,48]; ]
+        var AppName as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 56; @position = 27; initialized = true; @symbol_vardef = [set_anni_date,56,27,40]; @symbol_type<0> = [ResourceId,56,44,54]; ]
+        var set_anni_date as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 57; @position = 27; initialized = true; @symbol_vardef = [spring,57,27,33]; @symbol_type<0> = [ResourceId,57,37,47]; ]
+        var spring as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 58; @position = 27; initialized = true; @symbol_vardef = [datePickerTitle,58,27,42]; @symbol_type<0> = [ResourceId,58,46,56]; ]
+        var datePickerTitle as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 59; @position = 27; initialized = true; @symbol_vardef = [month12,59,27,34]; @symbol_type<0> = [ResourceId,59,38,48]; ]
+        var month12 as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 60; @position = 27; initialized = true; @symbol_vardef = [month11,60,27,34]; @symbol_type<0> = [ResourceId,60,38,48]; ]
+        var month11 as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 61; @position = 27; initialized = true; @symbol_vardef = [graduate,61,27,35]; @symbol_type<0> = [ResourceId,61,39,49]; ]
+        var graduate as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 62; @position = 27; initialized = true; @symbol_vardef = [set_anni_icon,62,27,40]; @symbol_type<0> = [ResourceId,62,44,54]; ]
+        var set_anni_icon as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 63; @position = 27; initialized = true; @symbol_vardef = [passed,63,27,33]; @symbol_type<0> = [ResourceId,63,37,47]; ]
+        var passed as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 64; @position = 27; initialized = true; @symbol_vardef = [day,64,27,30]; @symbol_type<0> = [ResourceId,64,34,44]; ]
+        var day as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 65; @position = 27; initialized = true; @symbol_vardef = [settings,65,27,35]; @symbol_type<0> = [ResourceId,65,39,49]; ]
+        var settings as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 66; @position = 27; initialized = true; @symbol_vardef = [work,66,27,31]; @symbol_type<0> = [ResourceId,66,35,45]; ]
+        var work as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 67; @position = 27; initialized = true; @symbol_vardef = [set_anni_showInGlance,67,27,48]; @symbol_type<0> = [ResourceId,67,52,62]; ]
+        var set_anni_showInGlance as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 68; @position = 27; initialized = true; @symbol_vardef = [birth,68,27,32]; @symbol_type<0> = [ResourceId,68,36,46]; ]
+        var birth as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 69; @position = 27; initialized = true; @symbol_vardef = [set_anni_delete,69,27,42]; @symbol_type<0> = [ResourceId,69,46,56]; ]
+        var set_anni_delete as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 70; @position = 27; initialized = true; @symbol_vardef = [month10,70,27,34]; @symbol_type<0> = [ResourceId,70,38,48]; ]
+        var month10 as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 71; @position = 27; initialized = true; @symbol_vardef = [set_anni_name,71,27,40]; @symbol_type<0> = [ResourceId,71,44,54]; ]
+        var set_anni_name as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 72; @position = 27; initialized = true; @symbol_vardef = [month05,72,27,34]; @symbol_type<0> = [ResourceId,72,38,48]; ]
+        var month05 as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 73; @position = 27; initialized = true; @symbol_vardef = [month04,73,27,34]; @symbol_type<0> = [ResourceId,73,38,48]; ]
+        var month04 as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 74; @position = 27; initialized = true; @symbol_vardef = [month07,74,27,34]; @symbol_type<0> = [ResourceId,74,38,48]; ]
+        var month07 as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 75; @position = 27; initialized = true; @symbol_vardef = [month06,75,27,34]; @symbol_type<0> = [ResourceId,75,38,48]; ]
+        var month06 as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 76; @position = 27; initialized = true; @symbol_vardef = [month01,76,27,34]; @symbol_type<0> = [ResourceId,76,38,48]; ]
+        var month01 as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 77; @position = 27; initialized = true; @symbol_vardef = [left,77,27,31]; @symbol_type<0> = [ResourceId,77,35,45]; ]
+        var left as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 78; @position = 27; initialized = true; @symbol_vardef = [month03,78,27,34]; @symbol_type<0> = [ResourceId,78,38,48]; ]
+        var month03 as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 79; @position = 27; initialized = true; @symbol_vardef = [month02,79,27,34]; @symbol_type<0> = [ResourceId,79,38,48]; ]
+        var month02 as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 80; @position = 27; initialized = true; @symbol_vardef = [days,80,27,31]; @symbol_type<0> = [ResourceId,80,35,45]; ]
+        var days as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 81; @position = 27; initialized = true; @symbol_vardef = [UserLanguage,81,27,39]; @symbol_type<0> = [ResourceId,81,43,53]; ]
+        var UserLanguage as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 82; @position = 27; initialized = true; @symbol_vardef = [set_anni_NotifyTime,82,27,46]; @symbol_type<0> = [ResourceId,82,50,60]; ]
+        var set_anni_NotifyTime as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 83; @position = 27; initialized = true; @symbol_vardef = [month09,83,27,34]; @symbol_type<0> = [ResourceId,83,38,48]; ]
+        var month09 as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 84; @position = 27; initialized = true; @symbol_vardef = [month08,84,27,34]; @symbol_type<0> = [ResourceId,84,38,48]; ]
+        var month08 as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 85; @position = 27; initialized = true; @symbol_vardef = [anniversary,85,27,38]; @symbol_type<0> = [ResourceId,85,42,52]; ]
+        var anniversary as ResourceId;
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 86; @position = 27; initialized = true; @symbol_vardef = [studay,86,27,33]; @symbol_type<0> = [ResourceId,86,37,47]; ]
+        var studay as ResourceId;
+    }
+    [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 89; @symbol_moduledef = [Styles,89,11,17]; ]
+    module Styles {
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 89; ]
+        <init> {
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 90; @symbol_moduledef = [prompt_font_enhanced_readability__body_with_title,90,15,64]; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 90; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 91; @position = 18; @symbol_constdef = [exclude,91,18,25]; @symbol_type<0> = [Boolean,91,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 94; @symbol_moduledef = [system_size__menu_header,94,15,39]; ]
+        module system_size__menu_header {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 94; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 95; @position = 18; @symbol_constdef = [width,95,18,23]; @symbol_type<0> = [Number,95,27,33]; ]
+            const width as Number = 390;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 96; @position = 18; @symbol_constdef = [height,96,18,24]; @symbol_type<0> = [Number,96,28,34]; ]
+            const height as Number = 130;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 99; @symbol_moduledef = [system_loc__hint_button_left_bottom,99,15,50]; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 99; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 100; @position = 18; @symbol_constdef = [exclude,100,18,25]; @symbol_type<0> = [Boolean,100,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 103; @symbol_moduledef = [prompt_font_enhanced_readability__body_no_title,103,15,62]; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 103; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 104; @position = 18; @symbol_constdef = [exclude,104,18,25]; @symbol_type<0> = [Boolean,104,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 107; @symbol_moduledef = [prompt_loc__body_no_title,107,15,40]; ]
+        module prompt_loc__body_no_title {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 107; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 108; @position = 18; @symbol_constdef = [x,108,18,19]; @symbol_type<0> = [Number,108,23,29]; ]
+            const x as Number = 40;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 109; @position = 18; @symbol_constdef = [y,109,18,19]; @symbol_type<0> = [Number,109,23,29]; ]
+            const y as Number = 95;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 112; @symbol_moduledef = [system_icon_dark__about,112,15,38]; ]
+        module system_icon_dark__about {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 112; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 113; @position = 18; @symbol_constdef = [filename,113,18,26]; @symbol_type<0> = [String,113,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__about.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 114; @position = 18; @symbol_constdef = [compress,114,18,26]; @symbol_type<0> = [String,114,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 115; @position = 18; @symbol_constdef = [dithering,115,18,27]; @symbol_type<0> = [String,115,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 116; @position = 18; @symbol_constdef = [automaticPalette,116,18,34]; @symbol_type<0> = [String,116,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 119; @symbol_moduledef = [system_icon_light__question,119,15,42]; ]
+        module system_icon_light__question {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 119; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 120; @position = 18; @symbol_constdef = [filename,120,18,26]; @symbol_type<0> = [String,120,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__question.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 121; @position = 18; @symbol_constdef = [compress,121,18,26]; @symbol_type<0> = [String,121,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 122; @position = 18; @symbol_constdef = [dithering,122,18,27]; @symbol_type<0> = [String,122,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 123; @position = 18; @symbol_constdef = [automaticPalette,123,18,34]; @symbol_type<0> = [String,123,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 126; @symbol_moduledef = [system_loc__hint_button_left_top,126,15,47]; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 126; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 127; @position = 18; @symbol_constdef = [exclude,127,18,25]; @symbol_type<0> = [Boolean,127,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 130; @symbol_moduledef = [prompt_font__title,130,15,33]; ]
+        module prompt_font__title {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 130; ]
+            <init> {
+[ "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen" 131 18 ]
+                symbol [ Graphics %tmp.77 131 34 42 ];
+                %tmp.77 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.78 131 43 62 ];
+                %tmp.78 = getv %tmp.77 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.79 131 63 71 ];
+                %tmp.79 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.80 131 72 92 ];
+                %tmp.80 = getv %tmp.79 :TEXT_JUSTIFY_VCENTER;
+                %tmp.81 = bitor %tmp.78 %tmp.80;
+                putv self :justification %tmp.81;
+[ "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen" 132 18 ]
+                symbol [ Graphics %tmp.82 132 25 33 ];
+                %tmp.82 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.83 132 34 44 ];
+                %tmp.83 = getv %tmp.82 :FONT_XTINY;
+                putv self :font %tmp.83;
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 131; @position = 18; @symbol_constdef = [justification,131,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 132; @position = 18; @symbol_constdef = [font,132,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 135; @symbol_moduledef = [system_icon_dark__discard,135,15,40]; ]
+        module system_icon_dark__discard {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 135; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 136; @position = 18; @symbol_constdef = [filename,136,18,26]; @symbol_type<0> = [String,136,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__discard.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 137; @position = 18; @symbol_constdef = [compress,137,18,26]; @symbol_type<0> = [String,137,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 138; @position = 18; @symbol_constdef = [dithering,138,18,27]; @symbol_type<0> = [String,138,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 139; @position = 18; @symbol_constdef = [automaticPalette,139,18,34]; @symbol_type<0> = [String,139,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 142; @symbol_moduledef = [system_size__menu_item,142,15,37]; ]
+        module system_size__menu_item {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 142; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 143; @position = 18; @symbol_constdef = [width,143,18,23]; @symbol_type<0> = [Number,143,27,33]; ]
+            const width as Number = 390;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 144; @position = 18; @symbol_constdef = [height,144,18,24]; @symbol_type<0> = [Number,144,28,34]; ]
+            const height as Number = 130;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 147; @symbol_moduledef = [system_color_dark__text,147,15,38]; ]
+        module system_color_dark__text {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 147; ]
+            <init> {
+[ "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen" 149 18 ]
+                symbol [ Graphics %tmp.84 149 31 39 ];
+                %tmp.84 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.85 149 40 57 ];
+                %tmp.85 = getv %tmp.84 :COLOR_TRANSPARENT;
+                putv self :background %tmp.85;
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 148; @position = 18; @symbol_constdef = [color,148,18,23]; @symbol_type<0> = [Number,148,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 149; @position = 18; @symbol_constdef = [background,149,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 152; @symbol_moduledef = [system_icon_destructive__discard,152,15,47]; ]
+        module system_icon_destructive__discard {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 152; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 153; @position = 18; @symbol_constdef = [filename,153,18,26]; @symbol_type<0> = [String,153,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_destructive__discard.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 154; @position = 18; @symbol_constdef = [dithering,154,18,27]; @symbol_type<0> = [String,154,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 157; @symbol_moduledef = [system_icon_dark__hint_action_menu,157,15,49]; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 157; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 158; @position = 18; @symbol_constdef = [filename,158,18,26]; @symbol_type<0> = [String,158,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 159; @position = 18; @symbol_constdef = [dithering,159,18,27]; @symbol_type<0> = [String,159,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 162; @symbol_moduledef = [prompt_size__title,162,15,33]; ]
+        module prompt_size__title {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 162; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 163; @position = 18; @symbol_constdef = [width,163,18,23]; @symbol_type<0> = [Number,163,27,33]; ]
+            const width as Number = 272;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 164; @position = 18; @symbol_constdef = [height,164,18,24]; @symbol_type<0> = [Number,164,28,34]; ]
+            const height as Number = 70;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 167; @symbol_moduledef = [confirmation_font__body,167,15,38]; ]
+        module confirmation_font__body {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 167; ]
+            <init> {
+[ "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen" 168 18 ]
+                symbol [ Graphics %tmp.86 168 34 42 ];
+                %tmp.86 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.87 168 43 62 ];
+                %tmp.87 = getv %tmp.86 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.88 168 63 71 ];
+                %tmp.88 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.89 168 72 92 ];
+                %tmp.89 = getv %tmp.88 :TEXT_JUSTIFY_VCENTER;
+                %tmp.90 = bitor %tmp.87 %tmp.89;
+                putv self :justification %tmp.90;
+[ "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen" 169 18 ]
+                symbol [ Graphics %tmp.91 169 25 33 ];
+                %tmp.91 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.92 169 34 43 ];
+                %tmp.92 = getv %tmp.91 :FONT_TINY;
+                putv self :font %tmp.92;
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 168; @position = 18; @symbol_constdef = [justification,168,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 169; @position = 18; @symbol_constdef = [font,169,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 172; @symbol_moduledef = [system_color_dark__background,172,15,44]; ]
+        module system_color_dark__background {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 172; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 173; @position = 18; @symbol_constdef = [color,173,18,23]; @symbol_type<0> = [Number,173,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 174; @position = 18; @symbol_constdef = [background,174,18,28]; @symbol_type<0> = [Number,174,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 177; @symbol_moduledef = [system_icon_destructive__hint_button_left_top,177,15,60]; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 177; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 178; @position = 18; @symbol_constdef = [exclude,178,18,25]; @symbol_type<0> = [Boolean,178,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 181; @symbol_moduledef = [system_size__launch_icon,181,15,39]; ]
+        module system_size__launch_icon {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 181; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 182; @position = 18; @symbol_constdef = [scaleX,182,18,24]; @symbol_type<0> = [Number,182,28,34]; ]
+            const scaleX as Number = 56;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 183; @position = 18; @symbol_constdef = [scaleY,183,18,24]; @symbol_type<0> = [Number,183,28,34]; ]
+            const scaleY as Number = 56;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 184; @position = 18; @symbol_constdef = [scaleRelativeTo,184,18,33]; @symbol_type<0> = [String,184,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 187; @symbol_moduledef = [confirmation_input__confirm,187,15,42]; ]
+        module confirmation_input__confirm {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 187; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 188; @position = 18; @symbol_constdef = [y1,188,18,20]; @symbol_type<0> = [Number,188,24,30]; ]
+            const y1 as Number = 310;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 189; @position = 18; @symbol_constdef = [x1,189,18,20]; @symbol_type<0> = [Number,189,24,30]; ]
+            const x1 as Number = 100;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 190; @position = 18; @symbol_constdef = [y2,190,18,20]; @symbol_type<0> = [Number,190,24,30]; ]
+            const y2 as Number = 390;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 191; @position = 18; @symbol_constdef = [x2,191,18,20]; @symbol_type<0> = [Number,191,24,30]; ]
+            const x2 as Number = 290;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 194; @symbol_moduledef = [prompt_font__body_with_title,194,15,43]; ]
+        module prompt_font__body_with_title {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 194; ]
+            <init> {
+[ "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen" 195 18 ]
+                symbol [ Graphics %tmp.93 195 34 42 ];
+                %tmp.93 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.94 195 43 62 ];
+                %tmp.94 = getv %tmp.93 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.94;
+[ "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen" 196 18 ]
+                symbol [ Graphics %tmp.95 196 25 33 ];
+                %tmp.95 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.96 196 34 43 ];
+                %tmp.96 = getv %tmp.95 :FONT_TINY;
+                putv self :font %tmp.96;
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 195; @position = 18; @symbol_constdef = [justification,195,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 196; @position = 18; @symbol_constdef = [font,196,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 199; @symbol_moduledef = [confirmation_loc__body,199,15,37]; ]
+        module confirmation_loc__body {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 199; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 200; @position = 18; @symbol_constdef = [x,200,18,19]; @symbol_type<0> = [Number,200,23,29]; ]
+            const x as Number = 40;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 201; @position = 18; @symbol_constdef = [y,201,18,19]; @symbol_type<0> = [Number,201,23,29]; ]
+            const y as Number = 95;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 204; @symbol_moduledef = [system_icon_destructive__hint_button_left_bottom,204,15,63]; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 204; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 205; @position = 18; @symbol_constdef = [exclude,205,18,25]; @symbol_type<0> = [Boolean,205,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 208; @symbol_moduledef = [prompt_color_dark__background,208,15,44]; ]
+        module prompt_color_dark__background {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 208; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 209; @position = 18; @symbol_constdef = [color,209,18,23]; @symbol_type<0> = [Number,209,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 210; @position = 18; @symbol_constdef = [background,210,18,28]; @symbol_type<0> = [Number,210,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 213; @symbol_moduledef = [system_icon_destructive__hint_action_menu,213,15,56]; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 213; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 214; @position = 18; @symbol_constdef = [filename,214,18,26]; @symbol_type<0> = [String,214,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_destructive__hint_action_menu.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 215; @position = 18; @symbol_constdef = [dithering,215,18,27]; @symbol_type<0> = [String,215,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 218; @symbol_moduledef = [system_loc__hint_action_menu,218,15,43]; ]
+        module system_loc__hint_action_menu {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 218; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 219; @position = 18; @symbol_constdef = [x,219,18,19]; @symbol_type<0> = [Number,219,23,29]; ]
+            const x as Number = 336;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 220; @position = 18; @symbol_constdef = [y,220,18,19]; @symbol_type<0> = [Number,220,23,29]; ]
+            const y as Number = 74;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 223; @symbol_moduledef = [confirmation_icon__hint_confirm,223,15,46]; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 223; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 224; @position = 18; @symbol_constdef = [filename,224,18,26]; @symbol_type<0> = [String,224,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 225; @position = 18; @symbol_constdef = [dithering,225,18,27]; @symbol_type<0> = [String,225,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 228; @symbol_moduledef = [system_loc__hint_button_left_middle,228,15,50]; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 228; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 229; @position = 18; @symbol_constdef = [exclude,229,18,25]; @symbol_type<0> = [Boolean,229,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 232; @symbol_moduledef = [prompt_size__body_no_title,232,15,41]; ]
+        module prompt_size__body_no_title {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 232; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 233; @position = 18; @symbol_constdef = [width,233,18,23]; @symbol_type<0> = [Number,233,27,33]; ]
+            const width as Number = 310;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 234; @position = 18; @symbol_constdef = [height,234,18,24]; @symbol_type<0> = [Number,234,28,34]; ]
+            const height as Number = 211;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 237; @symbol_moduledef = [system_icon_light__hint_button_left_top,237,15,54]; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 237; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 238; @position = 18; @symbol_constdef = [exclude,238,18,25]; @symbol_type<0> = [Boolean,238,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 241; @symbol_moduledef = [prompt_color_light__background,241,15,45]; ]
+        module prompt_color_light__background {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 241; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 242; @position = 18; @symbol_constdef = [color,242,18,23]; @symbol_type<0> = [Number,242,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 243; @position = 18; @symbol_constdef = [background,243,18,28]; @symbol_type<0> = [Number,243,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 246; @symbol_moduledef = [confirmation_input__delete,246,15,41]; ]
+        module confirmation_input__delete {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 246; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 247; @position = 18; @symbol_constdef = [y1,247,18,20]; @symbol_type<0> = [Number,247,24,30]; ]
+            const y1 as Number = 0;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 248; @position = 18; @symbol_constdef = [x1,248,18,20]; @symbol_type<0> = [Number,248,24,30]; ]
+            const x1 as Number = 100;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 249; @position = 18; @symbol_constdef = [y2,249,18,20]; @symbol_type<0> = [Number,249,24,30]; ]
+            const y2 as Number = 90;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 250; @position = 18; @symbol_constdef = [x2,250,18,20]; @symbol_type<0> = [Number,250,24,30]; ]
+            const x2 as Number = 290;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 253; @symbol_moduledef = [system_icon_dark__hint_button_left_top,253,15,53]; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 253; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 254; @position = 18; @symbol_constdef = [exclude,254,18,25]; @symbol_type<0> = [Boolean,254,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 257; @symbol_moduledef = [system_input__action_menu,257,15,40]; ]
+        module system_input__action_menu {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 257; ]
+            <init> {
+[ "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen" 258 18 ]
+                symbol [ WatchUi %tmp.97 258 27 34 ];
+                %tmp.97 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.98 258 35 44 ];
+                %tmp.98 = getv %tmp.97 :KEY_ENTER;
+                putv self :button %tmp.98;
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 258; @position = 18; @symbol_constdef = [button,258,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 261; @symbol_moduledef = [system_icon_light__save,261,15,38]; ]
+        module system_icon_light__save {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 261; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 262; @position = 18; @symbol_constdef = [filename,262,18,26]; @symbol_type<0> = [String,262,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__save.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 263; @position = 18; @symbol_constdef = [compress,263,18,26]; @symbol_type<0> = [String,263,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 264; @position = 18; @symbol_constdef = [dithering,264,18,27]; @symbol_type<0> = [String,264,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 265; @position = 18; @symbol_constdef = [automaticPalette,265,18,34]; @symbol_type<0> = [String,265,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 268; @symbol_moduledef = [prompt_color_light__body,268,15,39]; ]
+        module prompt_color_light__body {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 268; ]
+            <init> {
+[ "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen" 270 18 ]
+                symbol [ Graphics %tmp.99 270 31 39 ];
+                %tmp.99 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.100 270 40 57 ];
+                %tmp.100 = getv %tmp.99 :COLOR_TRANSPARENT;
+                putv self :background %tmp.100;
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 269; @position = 18; @symbol_constdef = [color,269,18,23]; @symbol_type<0> = [Number,269,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 270; @position = 18; @symbol_constdef = [background,270,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 273; @symbol_moduledef = [system_loc__subwindow,273,15,36]; ]
+        module system_loc__subwindow {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 273; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 274; @position = 18; @symbol_constdef = [exclude,274,18,25]; @symbol_type<0> = [Boolean,274,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 277; @symbol_moduledef = [system_icon_light__warning,277,15,41]; ]
+        module system_icon_light__warning {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 277; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 278; @position = 18; @symbol_constdef = [filename,278,18,26]; @symbol_type<0> = [String,278,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__warning.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 279; @position = 18; @symbol_constdef = [compress,279,18,26]; @symbol_type<0> = [String,279,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 280; @position = 18; @symbol_constdef = [dithering,280,18,27]; @symbol_type<0> = [String,280,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 281; @position = 18; @symbol_constdef = [automaticPalette,281,18,34]; @symbol_type<0> = [String,281,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 284; @symbol_moduledef = [confirmation_color_light__body,284,15,45]; ]
+        module confirmation_color_light__body {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 284; ]
+            <init> {
+[ "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen" 286 18 ]
+                symbol [ Graphics %tmp.101 286 31 39 ];
+                %tmp.101 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.102 286 40 57 ];
+                %tmp.102 = getv %tmp.101 :COLOR_TRANSPARENT;
+                putv self :background %tmp.102;
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 285; @position = 18; @symbol_constdef = [color,285,18,23]; @symbol_type<0> = [Number,285,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 286; @position = 18; @symbol_constdef = [background,286,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 289; @symbol_moduledef = [confirmation_icon_light__hint_keep,289,15,49]; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 289; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 290; @position = 18; @symbol_constdef = [filename,290,18,26]; @symbol_type<0> = [String,290,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 291; @position = 18; @symbol_constdef = [dithering,291,18,27]; @symbol_type<0> = [String,291,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 294; @symbol_moduledef = [activity_color_light__background,294,15,47]; ]
+        module activity_color_light__background {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 294; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 295; @position = 18; @symbol_constdef = [color,295,18,23]; @symbol_type<0> = [Number,295,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 296; @position = 18; @symbol_constdef = [background,296,18,28]; @symbol_type<0> = [Number,296,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 299; @symbol_moduledef = [system_icon_positive__hint_button_right_top,299,15,58]; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 299; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 300; @position = 18; @symbol_constdef = [filename,300,18,26]; @symbol_type<0> = [String,300,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_positive__hint_button_right_top.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 301; @position = 18; @symbol_constdef = [dithering,301,18,27]; @symbol_type<0> = [String,301,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 304; @symbol_moduledef = [system_size__screen,304,15,34]; ]
+        module system_size__screen {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 304; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 305; @position = 18; @symbol_constdef = [width,305,18,23]; @symbol_type<0> = [Number,305,27,33]; ]
+            const width as Number = 390;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 306; @position = 18; @symbol_constdef = [height,306,18,24]; @symbol_type<0> = [Number,306,28,34]; ]
+            const height as Number = 390;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 309; @symbol_moduledef = [system_icon_destructive__hint_button_right_bottom,309,15,64]; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 309; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 310; @position = 18; @symbol_constdef = [filename,310,18,26]; @symbol_type<0> = [String,310,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 311; @position = 18; @symbol_constdef = [dithering,311,18,27]; @symbol_type<0> = [String,311,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 314; @symbol_moduledef = [system_color_light__background,314,15,45]; ]
+        module system_color_light__background {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 314; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 315; @position = 18; @symbol_constdef = [color,315,18,23]; @symbol_type<0> = [Number,315,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 316; @position = 18; @symbol_constdef = [background,316,18,28]; @symbol_type<0> = [Number,316,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 319; @symbol_moduledef = [system_icon_destructive__hint_button_right_top,319,15,61]; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 319; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 320; @position = 18; @symbol_constdef = [filename,320,18,26]; @symbol_type<0> = [String,320,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 321; @position = 18; @symbol_constdef = [dithering,321,18,27]; @symbol_type<0> = [String,321,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 324; @symbol_moduledef = [confirmation_loc__hint_confirm,324,15,45]; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 324; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 325; @position = 18; @symbol_constdef = [x,325,18,19]; @symbol_type<0> = [Number,325,23,29]; ]
+            const x as Number = 195;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 326; @position = 18; @symbol_constdef = [horizontalJustification,326,18,41]; @symbol_type<0> = [String,326,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 327; @position = 18; @symbol_constdef = [y,327,18,19]; @symbol_type<0> = [Number,327,23,29]; ]
+            const y as Number = 310;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 330; @symbol_moduledef = [activity_color_dark__text,330,15,40]; ]
+        module activity_color_dark__text {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 330; ]
+            <init> {
+[ "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen" 332 18 ]
+                symbol [ Graphics %tmp.103 332 31 39 ];
+                %tmp.103 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.104 332 40 57 ];
+                %tmp.104 = getv %tmp.103 :COLOR_TRANSPARENT;
+                putv self :background %tmp.104;
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 331; @position = 18; @symbol_constdef = [color,331,18,23]; @symbol_type<0> = [Number,331,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 332; @position = 18; @symbol_constdef = [background,332,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 335; @symbol_moduledef = [confirmation_input__keep,335,15,39]; ]
+        module confirmation_input__keep {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 335; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 336; @position = 18; @symbol_constdef = [y1,336,18,20]; @symbol_type<0> = [Number,336,24,30]; ]
+            const y1 as Number = 310;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 337; @position = 18; @symbol_constdef = [x1,337,18,20]; @symbol_type<0> = [Number,337,24,30]; ]
+            const x1 as Number = 100;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 338; @position = 18; @symbol_constdef = [y2,338,18,20]; @symbol_type<0> = [Number,338,24,30]; ]
+            const y2 as Number = 390;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 339; @position = 18; @symbol_constdef = [x2,339,18,20]; @symbol_type<0> = [Number,339,24,30]; ]
+            const x2 as Number = 290;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 342; @symbol_moduledef = [prompt_loc__body_with_title,342,15,42]; ]
+        module prompt_loc__body_with_title {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 342; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 343; @position = 18; @symbol_constdef = [x,343,18,19]; @symbol_type<0> = [Number,343,23,29]; ]
+            const x as Number = 40;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 344; @position = 18; @symbol_constdef = [y,344,18,19]; @symbol_type<0> = [Number,344,23,29]; ]
+            const y as Number = 139;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 347; @symbol_moduledef = [system_icon_dark__search,347,15,39]; ]
+        module system_icon_dark__search {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 347; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 348; @position = 18; @symbol_constdef = [filename,348,18,26]; @symbol_type<0> = [String,348,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__search.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 349; @position = 18; @symbol_constdef = [compress,349,18,26]; @symbol_type<0> = [String,349,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 350; @position = 18; @symbol_constdef = [dithering,350,18,27]; @symbol_type<0> = [String,350,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 351; @position = 18; @symbol_constdef = [automaticPalette,351,18,34]; @symbol_type<0> = [String,351,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 354; @symbol_moduledef = [activity_color_light__text,354,15,41]; ]
+        module activity_color_light__text {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 354; ]
+            <init> {
+[ "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen" 356 18 ]
+                symbol [ Graphics %tmp.105 356 31 39 ];
+                %tmp.105 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.106 356 40 57 ];
+                %tmp.106 = getv %tmp.105 :COLOR_TRANSPARENT;
+                putv self :background %tmp.106;
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 355; @position = 18; @symbol_constdef = [color,355,18,23]; @symbol_type<0> = [Number,355,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 356; @position = 18; @symbol_constdef = [background,356,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 359; @symbol_moduledef = [confirmation_icon__hint_keep,359,15,43]; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 359; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 360; @position = 18; @symbol_constdef = [filename,360,18,26]; @symbol_type<0> = [String,360,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 361; @position = 18; @symbol_constdef = [dithering,361,18,27]; @symbol_type<0> = [String,361,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 364; @symbol_moduledef = [system_icon_dark__save,364,15,37]; ]
+        module system_icon_dark__save {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 364; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 365; @position = 18; @symbol_constdef = [filename,365,18,26]; @symbol_type<0> = [String,365,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__save.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 366; @position = 18; @symbol_constdef = [compress,366,18,26]; @symbol_type<0> = [String,366,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 367; @position = 18; @symbol_constdef = [dithering,367,18,27]; @symbol_type<0> = [String,367,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 368; @position = 18; @symbol_constdef = [automaticPalette,368,18,34]; @symbol_type<0> = [String,368,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 371; @symbol_moduledef = [system_icon_destructive__hint_button_left_middle,371,15,63]; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 371; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 372; @position = 18; @symbol_constdef = [exclude,372,18,25]; @symbol_type<0> = [Boolean,372,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 375; @symbol_moduledef = [system_icon_light__search,375,15,40]; ]
+        module system_icon_light__search {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 375; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 376; @position = 18; @symbol_constdef = [filename,376,18,26]; @symbol_type<0> = [String,376,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__search.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 377; @position = 18; @symbol_constdef = [compress,377,18,26]; @symbol_type<0> = [String,377,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 378; @position = 18; @symbol_constdef = [dithering,378,18,27]; @symbol_type<0> = [String,378,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 379; @position = 18; @symbol_constdef = [automaticPalette,379,18,34]; @symbol_type<0> = [String,379,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 382; @symbol_moduledef = [system_icon_dark__hint_button_left_bottom,382,15,56]; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 382; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 383; @position = 18; @symbol_constdef = [exclude,383,18,25]; @symbol_type<0> = [Boolean,383,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 386; @symbol_moduledef = [system_icon_positive__hint_button_left_top,386,15,57]; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 386; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 387; @position = 18; @symbol_constdef = [exclude,387,18,25]; @symbol_type<0> = [Boolean,387,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 390; @symbol_moduledef = [system_loc__hint_button_right_bottom,390,15,51]; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 390; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 391; @position = 18; @symbol_constdef = [x,391,18,19]; @symbol_type<0> = [Number,391,23,29]; ]
+            const x as Number = 337;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 392; @position = 18; @symbol_constdef = [y,392,18,19]; @symbol_type<0> = [Number,392,23,29]; ]
+            const y as Number = 259;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 395; @symbol_moduledef = [confirmation_icon_dark__hint_reject,395,15,50]; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 395; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 396; @position = 18; @symbol_constdef = [filename,396,18,26]; @symbol_type<0> = [String,396,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 397; @position = 18; @symbol_constdef = [dithering,397,18,27]; @symbol_type<0> = [String,397,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 400; @symbol_moduledef = [confirmation_color_dark__body,400,15,44]; ]
+        module confirmation_color_dark__body {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 400; ]
+            <init> {
+[ "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen" 402 18 ]
+                symbol [ Graphics %tmp.107 402 31 39 ];
+                %tmp.107 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.108 402 40 57 ];
+                %tmp.108 = getv %tmp.107 :COLOR_TRANSPARENT;
+                putv self :background %tmp.108;
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 401; @position = 18; @symbol_constdef = [color,401,18,23]; @symbol_type<0> = [Number,401,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 402; @position = 18; @symbol_constdef = [background,402,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 405; @symbol_moduledef = [confirmation_icon_light__hint_confirm,405,15,52]; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 405; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 406; @position = 18; @symbol_constdef = [filename,406,18,26]; @symbol_type<0> = [String,406,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 407; @position = 18; @symbol_constdef = [dithering,407,18,27]; @symbol_type<0> = [String,407,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 410; @symbol_moduledef = [prompt_color_dark__title,410,15,39]; ]
+        module prompt_color_dark__title {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 410; ]
+            <init> {
+[ "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen" 412 18 ]
+                symbol [ Graphics %tmp.109 412 31 39 ];
+                %tmp.109 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.110 412 40 57 ];
+                %tmp.110 = getv %tmp.109 :COLOR_TRANSPARENT;
+                putv self :background %tmp.110;
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 411; @position = 18; @symbol_constdef = [color,411,18,23]; @symbol_type<0> = [Number,411,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 412; @position = 18; @symbol_constdef = [background,412,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 415; @symbol_moduledef = [system_icon_destructive__cancel,415,15,46]; ]
+        module system_icon_destructive__cancel {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 415; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 416; @position = 18; @symbol_constdef = [filename,416,18,26]; @symbol_type<0> = [String,416,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_destructive__cancel.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 417; @position = 18; @symbol_constdef = [dithering,417,18,27]; @symbol_type<0> = [String,417,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 420; @symbol_moduledef = [system_icon_light__hint_button_right_bottom,420,15,58]; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 420; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 421; @position = 18; @symbol_constdef = [filename,421,18,26]; @symbol_type<0> = [String,421,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 422; @position = 18; @symbol_constdef = [dithering,422,18,27]; @symbol_type<0> = [String,422,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 425; @symbol_moduledef = [prompt_loc__title,425,15,32]; ]
+        module prompt_loc__title {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 425; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 426; @position = 18; @symbol_constdef = [x,426,18,19]; @symbol_type<0> = [Number,426,23,29]; ]
+            const x as Number = 59;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 427; @position = 18; @symbol_constdef = [y,427,18,19]; @symbol_type<0> = [Number,427,23,29]; ]
+            const y as Number = 78;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 430; @symbol_moduledef = [confirmation_font_enhanced_readability__body,430,15,59]; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 430; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 431; @position = 18; @symbol_constdef = [exclude,431,18,25]; @symbol_type<0> = [Boolean,431,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 434; @symbol_moduledef = [prompt_color_light__title,434,15,40]; ]
+        module prompt_color_light__title {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 434; ]
+            <init> {
+[ "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen" 436 18 ]
+                symbol [ Graphics %tmp.111 436 31 39 ];
+                %tmp.111 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.112 436 40 57 ];
+                %tmp.112 = getv %tmp.111 :COLOR_TRANSPARENT;
+                putv self :background %tmp.112;
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 435; @position = 18; @symbol_constdef = [color,435,18,23]; @symbol_type<0> = [Number,435,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 436; @position = 18; @symbol_constdef = [background,436,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 439; @symbol_moduledef = [system_icon_dark__hint_button_right_top,439,15,54]; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 439; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 440; @position = 18; @symbol_constdef = [filename,440,18,26]; @symbol_type<0> = [String,440,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 441; @position = 18; @symbol_constdef = [dithering,441,18,27]; @symbol_type<0> = [String,441,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 444; @symbol_moduledef = [system_icon_dark__hint_button_left_middle,444,15,56]; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 444; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 445; @position = 18; @symbol_constdef = [exclude,445,18,25]; @symbol_type<0> = [Boolean,445,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 448; @symbol_moduledef = [confirmation_icon_dark__hint_keep,448,15,48]; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 448; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 449; @position = 18; @symbol_constdef = [filename,449,18,26]; @symbol_type<0> = [String,449,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 450; @position = 18; @symbol_constdef = [dithering,450,18,27]; @symbol_type<0> = [String,450,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 453; @symbol_moduledef = [system_icon_light__cancel,453,15,40]; ]
+        module system_icon_light__cancel {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 453; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 454; @position = 18; @symbol_constdef = [filename,454,18,26]; @symbol_type<0> = [String,454,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__cancel.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 455; @position = 18; @symbol_constdef = [compress,455,18,26]; @symbol_type<0> = [String,455,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 456; @position = 18; @symbol_constdef = [dithering,456,18,27]; @symbol_type<0> = [String,456,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 457; @position = 18; @symbol_constdef = [automaticPalette,457,18,34]; @symbol_type<0> = [String,457,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 460; @symbol_moduledef = [confirmation_icon_light__hint_reject,460,15,51]; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 460; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 461; @position = 18; @symbol_constdef = [filename,461,18,26]; @symbol_type<0> = [String,461,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 462; @position = 18; @symbol_constdef = [dithering,462,18,27]; @symbol_type<0> = [String,462,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 465; @symbol_moduledef = [system_icon_light__about,465,15,39]; ]
+        module system_icon_light__about {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 465; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 466; @position = 18; @symbol_constdef = [filename,466,18,26]; @symbol_type<0> = [String,466,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__about.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 467; @position = 18; @symbol_constdef = [compress,467,18,26]; @symbol_type<0> = [String,467,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 468; @position = 18; @symbol_constdef = [dithering,468,18,27]; @symbol_type<0> = [String,468,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 469; @position = 18; @symbol_constdef = [automaticPalette,469,18,34]; @symbol_type<0> = [String,469,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 472; @symbol_moduledef = [system_size__toast_icon,472,15,38]; ]
+        module system_size__toast_icon {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 472; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 473; @position = 18; @symbol_constdef = [scaleX,473,18,24]; @symbol_type<0> = [Number,473,28,34]; ]
+            const scaleX as Number = 40;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 474; @position = 18; @symbol_constdef = [scaleY,474,18,24]; @symbol_type<0> = [Number,474,28,34]; ]
+            const scaleY as Number = 40;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 475; @position = 18; @symbol_constdef = [scaleRelativeTo,475,18,33]; @symbol_type<0> = [String,475,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 478; @symbol_moduledef = [system_icon_dark__hint_button_right_middle,478,15,57]; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 478; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 479; @position = 18; @symbol_constdef = [exclude,479,18,25]; @symbol_type<0> = [Boolean,479,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 482; @symbol_moduledef = [confirmation_icon__hint_reject,482,15,45]; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 482; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 483; @position = 18; @symbol_constdef = [filename,483,18,26]; @symbol_type<0> = [String,483,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 484; @position = 18; @symbol_constdef = [dithering,484,18,27]; @symbol_type<0> = [String,484,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 487; @symbol_moduledef = [system_icon_light__hint_action_menu,487,15,50]; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 487; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 488; @position = 18; @symbol_constdef = [filename,488,18,26]; @symbol_type<0> = [String,488,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 489; @position = 18; @symbol_constdef = [dithering,489,18,27]; @symbol_type<0> = [String,489,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 492; @symbol_moduledef = [system_icon_light__hint_button_right_middle,492,15,58]; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 492; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 493; @position = 18; @symbol_constdef = [exclude,493,18,25]; @symbol_type<0> = [Boolean,493,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 496; @symbol_moduledef = [system_icon_destructive__hint_button_right_middle,496,15,64]; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 496; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 497; @position = 18; @symbol_constdef = [exclude,497,18,25]; @symbol_type<0> = [Boolean,497,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 500; @symbol_moduledef = [confirmation_loc__hint_reject,500,15,44]; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 500; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 501; @position = 18; @symbol_constdef = [x,501,18,19]; @symbol_type<0> = [Number,501,23,29]; ]
+            const x as Number = 195;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 502; @position = 18; @symbol_constdef = [horizontalJustification,502,18,41]; @symbol_type<0> = [String,502,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 503; @position = 18; @symbol_constdef = [y,503,18,19]; @symbol_type<0> = [Number,503,23,29]; ]
+            const y as Number = 0;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 506; @symbol_moduledef = [confirmation_icon_dark__hint_delete,506,15,50]; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 506; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 507; @position = 18; @symbol_constdef = [filename,507,18,26]; @symbol_type<0> = [String,507,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 508; @position = 18; @symbol_constdef = [dithering,508,18,27]; @symbol_type<0> = [String,508,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 511; @symbol_moduledef = [activity_color_dark__background,511,15,46]; ]
+        module activity_color_dark__background {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 511; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 512; @position = 18; @symbol_constdef = [color,512,18,23]; @symbol_type<0> = [Number,512,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 513; @position = 18; @symbol_constdef = [background,513,18,28]; @symbol_type<0> = [Number,513,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 516; @symbol_moduledef = [system_icon_light__hint_button_left_bottom,516,15,57]; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 516; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 517; @position = 18; @symbol_constdef = [exclude,517,18,25]; @symbol_type<0> = [Boolean,517,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 520; @symbol_moduledef = [system_icon_positive__hint_button_left_middle,520,15,60]; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 520; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 521; @position = 18; @symbol_constdef = [exclude,521,18,25]; @symbol_type<0> = [Boolean,521,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 524; @symbol_moduledef = [system_size__menu_icon,524,15,37]; ]
+        module system_size__menu_icon {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 524; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 525; @position = 18; @symbol_constdef = [scaleX,525,18,24]; @symbol_type<0> = [Number,525,28,34]; ]
+            const scaleX as Number = 60;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 526; @position = 18; @symbol_constdef = [scaleY,526,18,24]; @symbol_type<0> = [Number,526,28,34]; ]
+            const scaleY as Number = 60;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 527; @position = 18; @symbol_constdef = [scaleRelativeTo,527,18,33]; @symbol_type<0> = [String,527,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 530; @symbol_moduledef = [system_icon_destructive__warning,530,15,47]; ]
+        module system_icon_destructive__warning {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 530; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 531; @position = 18; @symbol_constdef = [filename,531,18,26]; @symbol_type<0> = [String,531,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_destructive__warning.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 532; @position = 18; @symbol_constdef = [dithering,532,18,27]; @symbol_type<0> = [String,532,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 535; @symbol_moduledef = [system_loc__hint_button_right_middle,535,15,51]; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 535; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 536; @position = 18; @symbol_constdef = [exclude,536,18,25]; @symbol_type<0> = [Boolean,536,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 539; @symbol_moduledef = [system_icon_dark__cancel,539,15,39]; ]
+        module system_icon_dark__cancel {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 539; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 540; @position = 18; @symbol_constdef = [filename,540,18,26]; @symbol_type<0> = [String,540,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__cancel.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 541; @position = 18; @symbol_constdef = [compress,541,18,26]; @symbol_type<0> = [String,541,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 542; @position = 18; @symbol_constdef = [dithering,542,18,27]; @symbol_type<0> = [String,542,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 543; @position = 18; @symbol_constdef = [automaticPalette,543,18,34]; @symbol_type<0> = [String,543,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 546; @symbol_moduledef = [prompt_size__body_with_title,546,15,43]; ]
+        module prompt_size__body_with_title {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 546; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 547; @position = 18; @symbol_constdef = [width,547,18,23]; @symbol_type<0> = [Number,547,27,33]; ]
+            const width as Number = 310;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 548; @position = 18; @symbol_constdef = [height,548,18,24]; @symbol_type<0> = [Number,548,28,34]; ]
+            const height as Number = 167;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 551; @symbol_moduledef = [system_loc__hint_button_right_top,551,15,48]; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 551; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 552; @position = 18; @symbol_constdef = [x,552,18,19]; @symbol_type<0> = [Number,552,23,29]; ]
+            const x as Number = 338;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 553; @position = 18; @symbol_constdef = [y,553,18,19]; @symbol_type<0> = [Number,553,23,29]; ]
+            const y as Number = 73;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 556; @symbol_moduledef = [system_color_light__text,556,15,39]; ]
+        module system_color_light__text {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 556; ]
+            <init> {
+[ "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen" 558 18 ]
+                symbol [ Graphics %tmp.113 558 31 39 ];
+                %tmp.113 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.114 558 40 57 ];
+                %tmp.114 = getv %tmp.113 :COLOR_TRANSPARENT;
+                putv self :background %tmp.114;
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 557; @position = 18; @symbol_constdef = [color,557,18,23]; @symbol_type<0> = [Number,557,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 558; @position = 18; @symbol_constdef = [background,558,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 561; @symbol_moduledef = [system_icon_light__check,561,15,39]; ]
+        module system_icon_light__check {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 561; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 562; @position = 18; @symbol_constdef = [filename,562,18,26]; @symbol_type<0> = [String,562,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__check.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 563; @position = 18; @symbol_constdef = [compress,563,18,26]; @symbol_type<0> = [String,563,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 564; @position = 18; @symbol_constdef = [dithering,564,18,27]; @symbol_type<0> = [String,564,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 565; @position = 18; @symbol_constdef = [automaticPalette,565,18,34]; @symbol_type<0> = [String,565,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 568; @symbol_moduledef = [confirmation_input__reject,568,15,41]; ]
+        module confirmation_input__reject {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 568; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 569; @position = 18; @symbol_constdef = [y1,569,18,20]; @symbol_type<0> = [Number,569,24,30]; ]
+            const y1 as Number = 0;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 570; @position = 18; @symbol_constdef = [x1,570,18,20]; @symbol_type<0> = [Number,570,24,30]; ]
+            const x1 as Number = 100;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 571; @position = 18; @symbol_constdef = [y2,571,18,20]; @symbol_type<0> = [Number,571,24,30]; ]
+            const y2 as Number = 80;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 572; @position = 18; @symbol_constdef = [x2,572,18,20]; @symbol_type<0> = [Number,572,24,30]; ]
+            const x2 as Number = 290;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 575; @symbol_moduledef = [system_icon_light__revert,575,15,40]; ]
+        module system_icon_light__revert {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 575; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 576; @position = 18; @symbol_constdef = [filename,576,18,26]; @symbol_type<0> = [String,576,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__revert.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 577; @position = 18; @symbol_constdef = [compress,577,18,26]; @symbol_type<0> = [String,577,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 578; @position = 18; @symbol_constdef = [dithering,578,18,27]; @symbol_type<0> = [String,578,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 579; @position = 18; @symbol_constdef = [automaticPalette,579,18,34]; @symbol_type<0> = [String,579,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 582; @symbol_moduledef = [system_size__subwindow,582,15,37]; ]
+        module system_size__subwindow {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 582; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 583; @position = 18; @symbol_constdef = [exclude,583,18,25]; @symbol_type<0> = [Boolean,583,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 586; @symbol_moduledef = [system_icon_positive__hint_button_left_bottom,586,15,60]; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 586; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 587; @position = 18; @symbol_constdef = [exclude,587,18,25]; @symbol_type<0> = [Boolean,587,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 590; @symbol_moduledef = [system_icon_dark__check,590,15,38]; ]
+        module system_icon_dark__check {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 590; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 591; @position = 18; @symbol_constdef = [filename,591,18,26]; @symbol_type<0> = [String,591,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__check.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 592; @position = 18; @symbol_constdef = [compress,592,18,26]; @symbol_type<0> = [String,592,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 593; @position = 18; @symbol_constdef = [dithering,593,18,27]; @symbol_type<0> = [String,593,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 594; @position = 18; @symbol_constdef = [automaticPalette,594,18,34]; @symbol_type<0> = [String,594,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 597; @symbol_moduledef = [confirmation_loc__hint_keep,597,15,42]; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 597; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 598; @position = 18; @symbol_constdef = [x,598,18,19]; @symbol_type<0> = [Number,598,23,29]; ]
+            const x as Number = 195;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 599; @position = 18; @symbol_constdef = [horizontalJustification,599,18,41]; @symbol_type<0> = [String,599,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 600; @position = 18; @symbol_constdef = [y,600,18,19]; @symbol_type<0> = [Number,600,23,29]; ]
+            const y as Number = 310;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 603; @symbol_moduledef = [confirmation_loc__hint_delete,603,15,44]; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 603; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 604; @position = 18; @symbol_constdef = [x,604,18,19]; @symbol_type<0> = [Number,604,23,29]; ]
+            const x as Number = 195;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 605; @position = 18; @symbol_constdef = [horizontalJustification,605,18,41]; @symbol_type<0> = [String,605,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 606; @position = 18; @symbol_constdef = [y,606,18,19]; @symbol_type<0> = [Number,606,23,29]; ]
+            const y as Number = 0;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 609; @symbol_moduledef = [system_icon_positive__hint_action_menu,609,15,53]; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 609; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 610; @position = 18; @symbol_constdef = [filename,610,18,26]; @symbol_type<0> = [String,610,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_positive__hint_button_right_top.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 611; @position = 18; @symbol_constdef = [dithering,611,18,27]; @symbol_type<0> = [String,611,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 614; @symbol_moduledef = [system_icon_positive__hint_button_right_middle,614,15,61]; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 614; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 615; @position = 18; @symbol_constdef = [exclude,615,18,25]; @symbol_type<0> = [Boolean,615,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 618; @symbol_moduledef = [system_icon_light__hint_button_left_middle,618,15,57]; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 618; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 619; @position = 18; @symbol_constdef = [exclude,619,18,25]; @symbol_type<0> = [Boolean,619,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 622; @symbol_moduledef = [system_icon_dark__hint_button_right_bottom,622,15,57]; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 622; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 623; @position = 18; @symbol_constdef = [filename,623,18,26]; @symbol_type<0> = [String,623,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 624; @position = 18; @symbol_constdef = [dithering,624,18,27]; @symbol_type<0> = [String,624,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 627; @symbol_moduledef = [system_icon_positive__hint_button_right_bottom,627,15,61]; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 627; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 628; @position = 18; @symbol_constdef = [filename,628,18,26]; @symbol_type<0> = [String,628,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 629; @position = 18; @symbol_constdef = [dithering,629,18,27]; @symbol_type<0> = [String,629,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 632; @symbol_moduledef = [system_icon_dark__revert,632,15,39]; ]
+        module system_icon_dark__revert {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 632; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 633; @position = 18; @symbol_constdef = [filename,633,18,26]; @symbol_type<0> = [String,633,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__revert.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 634; @position = 18; @symbol_constdef = [compress,634,18,26]; @symbol_type<0> = [String,634,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 635; @position = 18; @symbol_constdef = [dithering,635,18,27]; @symbol_type<0> = [String,635,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 636; @position = 18; @symbol_constdef = [automaticPalette,636,18,34]; @symbol_type<0> = [String,636,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 639; @symbol_moduledef = [confirmation_icon_light__hint_delete,639,15,51]; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 639; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 640; @position = 18; @symbol_constdef = [filename,640,18,26]; @symbol_type<0> = [String,640,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 641; @position = 18; @symbol_constdef = [dithering,641,18,27]; @symbol_type<0> = [String,641,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 644; @symbol_moduledef = [system_icon_dark__question,644,15,41]; ]
+        module system_icon_dark__question {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 644; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 645; @position = 18; @symbol_constdef = [filename,645,18,26]; @symbol_type<0> = [String,645,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__question.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 646; @position = 18; @symbol_constdef = [compress,646,18,26]; @symbol_type<0> = [String,646,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 647; @position = 18; @symbol_constdef = [dithering,647,18,27]; @symbol_type<0> = [String,647,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 648; @position = 18; @symbol_constdef = [automaticPalette,648,18,34]; @symbol_type<0> = [String,648,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 651; @symbol_moduledef = [system_icon_light__discard,651,15,41]; ]
+        module system_icon_light__discard {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 651; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 652; @position = 18; @symbol_constdef = [filename,652,18,26]; @symbol_type<0> = [String,652,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__discard.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 653; @position = 18; @symbol_constdef = [compress,653,18,26]; @symbol_type<0> = [String,653,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 654; @position = 18; @symbol_constdef = [dithering,654,18,27]; @symbol_type<0> = [String,654,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 655; @position = 18; @symbol_constdef = [automaticPalette,655,18,34]; @symbol_type<0> = [String,655,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 658; @symbol_moduledef = [device_info,658,15,26]; ]
+        module device_info {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 658; ]
+            <init> {
+[ "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen" 660 18 ]
+                symbol [ Toybox %tmp.116 660 32 38 ];
+                %tmp.116 = getv ? :Toybox;
+                symbol [ System %tmp.117 660 39 45 ];
+                %tmp.117 = getv %tmp.116 :System;
+                symbol [ SCREEN_SHAPE_ROUND %tmp.118 660 46 64 ];
+                %tmp.118 = getv %tmp.117 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.118;
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 659; @position = 18; @symbol_constdef = [screenWidth,659,18,29]; @symbol_type<0> = [Number,659,33,39]; ]
+            const screenWidth as Number = 390;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 660; @position = 18; @symbol_constdef = [screenShape,660,18,29]; ]
+            const screenShape;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 661; @position = 18; @symbol_constdef = [hasNightMode,661,18,30]; @symbol_type<0> = [Boolean,661,34,41]; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 662; @position = 18; @symbol_constdef = [hasGpu,662,18,24]; @symbol_type<0> = [Boolean,662,28,35]; ]
+            const hasGpu as Boolean = false;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 663; @position = 18; @symbol_constdef = [screenHeight,663,18,30]; @symbol_type<0> = [Number,663,34,40]; ]
+            const screenHeight as Number = 390;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 664; @position = 18; @symbol_constdef = [hasTouchScreen,664,18,32]; @symbol_type<0> = [Boolean,664,36,43]; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 665; @position = 18; @symbol_constdef = [hasEnhancedReadabilityMode,665,18,44]; @symbol_type<0> = [Boolean,665,48,55]; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 668; @symbol_moduledef = [confirmation_icon_dark__hint_confirm,668,15,51]; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 668; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 669; @position = 18; @symbol_constdef = [filename,669,18,26]; @symbol_type<0> = [String,669,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 670; @position = 18; @symbol_constdef = [dithering,670,18,27]; @symbol_type<0> = [String,670,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 673; @symbol_moduledef = [prompt_font__body_no_title,673,15,41]; ]
+        module prompt_font__body_no_title {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 673; ]
+            <init> {
+[ "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen" 674 18 ]
+                symbol [ Graphics %tmp.119 674 34 42 ];
+                %tmp.119 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.120 674 43 62 ];
+                %tmp.120 = getv %tmp.119 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.121 674 63 71 ];
+                %tmp.121 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.122 674 72 92 ];
+                %tmp.122 = getv %tmp.121 :TEXT_JUSTIFY_VCENTER;
+                %tmp.123 = bitor %tmp.120 %tmp.122;
+                putv self :justification %tmp.123;
+[ "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen" 675 18 ]
+                symbol [ Graphics %tmp.124 675 25 33 ];
+                %tmp.124 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.125 675 34 43 ];
+                %tmp.125 = getv %tmp.124 :FONT_TINY;
+                putv self :font %tmp.125;
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 674; @position = 18; @symbol_constdef = [justification,674,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 675; @position = 18; @symbol_constdef = [font,675,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 678; @symbol_moduledef = [prompt_size__title_icon,678,15,38]; ]
+        module prompt_size__title_icon {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 678; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 679; @position = 18; @symbol_constdef = [scaleX,679,18,24]; @symbol_type<0> = [Float,679,28,33]; ]
+            const scaleX as Float = 0.14;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 680; @position = 18; @symbol_constdef = [scaleRelativeTo,680,18,33]; @symbol_type<0> = [String,680,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 683; @symbol_moduledef = [system_icon_dark__warning,683,15,40]; ]
+        module system_icon_dark__warning {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 683; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 684; @position = 18; @symbol_constdef = [filename,684,18,26]; @symbol_type<0> = [String,684,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__warning.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 685; @position = 18; @symbol_constdef = [compress,685,18,26]; @symbol_type<0> = [String,685,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 686; @position = 18; @symbol_constdef = [dithering,686,18,27]; @symbol_type<0> = [String,686,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 687; @position = 18; @symbol_constdef = [automaticPalette,687,18,34]; @symbol_type<0> = [String,687,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 690; @symbol_moduledef = [prompt_loc__title_icon,690,15,37]; ]
+        module prompt_loc__title_icon {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 690; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 691; @position = 18; @symbol_constdef = [x,691,18,19]; @symbol_type<0> = [Number,691,23,29]; ]
+            const x as Number = 195;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 692; @position = 18; @symbol_constdef = [y,692,18,19]; @symbol_type<0> = [Number,692,23,29]; ]
+            const y as Number = 45;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 693; @position = 18; @symbol_constdef = [horizontalJustification,693,18,41]; @symbol_type<0> = [String,693,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 694; @position = 18; @symbol_constdef = [verticalJustification,694,18,39]; @symbol_type<0> = [String,694,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 697; @symbol_moduledef = [prompt_font_enhanced_readability__title,697,15,54]; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 697; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 698; @position = 18; @symbol_constdef = [exclude,698,18,25]; @symbol_type<0> = [Boolean,698,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 701; @symbol_moduledef = [prompt_color_dark__body,701,15,38]; ]
+        module prompt_color_dark__body {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 701; ]
+            <init> {
+[ "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen" 703 18 ]
+                symbol [ Graphics %tmp.126 703 31 39 ];
+                %tmp.126 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.127 703 40 57 ];
+                %tmp.127 = getv %tmp.126 :COLOR_TRANSPARENT;
+                putv self :background %tmp.127;
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 702; @position = 18; @symbol_constdef = [color,702,18,23]; @symbol_type<0> = [Number,702,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 703; @position = 18; @symbol_constdef = [background,703,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 706; @symbol_moduledef = [confirmation_icon__hint_delete,706,15,45]; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 706; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 707; @position = 18; @symbol_constdef = [filename,707,18,26]; @symbol_type<0> = [String,707,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 708; @position = 18; @symbol_constdef = [dithering,708,18,27]; @symbol_type<0> = [String,708,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 711; @symbol_moduledef = [system_icon_light__hint_button_right_top,711,15,55]; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 711; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 712; @position = 18; @symbol_constdef = [filename,712,18,26]; @symbol_type<0> = [String,712,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 713; @position = 18; @symbol_constdef = [dithering,713,18,27]; @symbol_type<0> = [String,713,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 716; @symbol_moduledef = [confirmation_size__body,716,15,38]; ]
+        module confirmation_size__body {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 716; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 717; @position = 18; @symbol_constdef = [width,717,18,23]; @symbol_type<0> = [Number,717,27,33]; ]
+            const width as Number = 310;
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 718; @position = 18; @symbol_constdef = [height,718,18,24]; @symbol_type<0> = [Number,718,28,34]; ]
+            const height as Number = 211;
+        }
+        [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 721; @symbol_moduledef = [system_icon_positive__check,721,15,42]; ]
+        module system_icon_positive__check {
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 721; ]
+            <init> {
+            }
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 722; @position = 18; @symbol_constdef = [filename,722,18,26]; @symbol_type<0> = [String,722,30,36]; ]
+            const filename as String = "C:\\Users\\wolfa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_positive__check.svg";
+            [ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 723; @position = 18; @symbol_constdef = [dithering,723,18,27]; @symbol_type<0> = [String,723,31,37]; ]
+            const dithering as String = "none";
+        }
+    }
+}
+[ @file = "c:\Users\wolfa\Desktop\Garmin_Anniversary\bin\gen\006-B4656-00\source\Rez.mcgen"; @line = 1; ]
+<init> {
+}

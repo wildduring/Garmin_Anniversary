@@ -18,4 +18,15 @@
     <bitmap id="birth40" filename="birth40.png"/>
     <bitmap id="studay40" filename="studay40.png"/>
     <bitmap id="spring40" filename="spring40.png"/>
+
+    <bitmap id="add" filename="add.png"/>
+    <bitmap id="add40" filename="add40.png"/>
+    <bitmap id="settings" filename="settings.png"/>
+    <bitmap id="settings40" filename="settings40.png"/>
+
+    <bitmap id="switch_on" filename="switch_on.png"/>
+    <bitmap id="switch_on40" filename="switch_on40.png"/>
+    <bitmap id="switch_off" filename="switch_off.png"/>
+    <bitmap id="switch_off40" filename="switch_off40.png"/>
+
 </drawables>
