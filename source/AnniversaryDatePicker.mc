@@ -155,7 +155,8 @@ class DayPickerDelegate extends WatchUi.PickerDelegate {
     public function onAccept(values as Array) as Boolean {
         WatchUi.popView(WatchUi.SLIDE_LEFT);
         if(_needTime) {
-
+            _date.add(values[0]);
+            WatchUi.pushView(new AnniversaryTimePicker(_default_time), new TimePickerDelegate(_menuView, _date), WatchUi.SLIDE_LEFT);
         } else {
             var options = {
                 :year   => _date[0],
@@ -168,6 +169,52 @@ class DayPickerDelegate extends WatchUi.PickerDelegate {
     }
 
 }
+
+class AnniversaryTimePicker extends WatchUi.Picker {
+
+    private var _default_time as Time.Moment;
+
+    public function initialize(default_time as Time.Moment) {
+        _default_time = default_time;
+        var title = new WatchUi.Text({:text=>$.Rez.Strings.timePickerTitle, :locX=>WatchUi.LAYOUT_HALIGN_CENTER,
+            :locY=>WatchUi.LAYOUT_VALIGN_BOTTOM, :color=>Graphics.COLOR_WHITE});
+        var separator = new WatchUi.Text({:text=>$.Rez.Strings.dateSeparator, :locX=>WatchUi.LAYOUT_HALIGN_CENTER,
+            :locY=>WatchUi.LAYOUT_VALIGN_CENTER, :color=>Graphics.COLOR_WHITE});
+        Picker.initialize({:title=>title, :pattern=>[new $.NumberPickerFactory(0, 23, 1, {:format=>"%02d"}), separator, new $.NumberPickerFactory(0, 59, 1, {:format=>"%02d"})], :defaults=>[Gregorian.utcInfo(_default_time, Time.FORMAT_SHORT).hour, 0, Gregorian.utcInfo(_default_time, Time.FORMAT_SHORT).min]});
+    }
+
+}
+
+class TimePickerDelegate extends WatchUi.PickerDelegate {
+    private var _menuView as AnniversaryEditMenu;
+    private var _date as Lang.Array;
+
+    public function initialize(menuView as AnniversaryEditMenu, date as Lang.Array) {
+        PickerDelegate.initialize();
+        _menuView = menuView;
+        _date = date;
+    }
+
+    public function onCancel() as Boolean {
+        WatchUi.popView(WatchUi.SLIDE_IMMEDIATE);
+        return true;
+    }
+
+    public function onAccept(values as Array) as Boolean {
+        WatchUi.popView(WatchUi.SLIDE_LEFT);
+        var options = {
+            :year   => _date[0],
+            :month  => _date[1],
+            :day    => _date[2],
+            :hour   => values[0],
+            :minute => values[2]
+        };
+        _menuView.set_value("NotifyTime", Gregorian.moment(options).value());
+        return true;
+    }
+
+}
+
 
 class NumberPickerFactory extends WatchUi.PickerFactory {
 

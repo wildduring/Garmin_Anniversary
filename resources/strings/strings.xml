@@ -27,7 +27,8 @@
     <string id="set_anni_delete">Delete</string>
 
     <string id="datePickerTitle">Select Date</string>
-    <string id="dateSeparator">-</string>
+    <string id="timePickerTitle">Select Time</string>
+    <string id="dateSeparator">:</string>
 
     <string id="month01">Jan</string>
     <string id="month02">Feb</string>

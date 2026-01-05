@@ -27,7 +27,8 @@
     <string id="set_anni_delete">删除</string>
 
     <string id="datePickerTitle">选择日期</string>
-    <string id="dateSeparator">-</string>
+    <string id="timePickerTitle">选择时间</string>
+    <string id="dateSeparator">:</string>
 
     <string id="month01">1月</string>
     <string id="month02">2月</string>

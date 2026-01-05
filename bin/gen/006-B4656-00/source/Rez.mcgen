@@ -48,6 +48,7 @@ module Rez {
 
     module Strings {
         (:initialized) var love as ResourceId;
+        (:initialized) var timePickerTitle as ResourceId;
         (:initialized) var dateSeparator as ResourceId;
         (:initialized) var marry as ResourceId;
         (:initialized) var set_anni_shouldNotify as ResourceId;

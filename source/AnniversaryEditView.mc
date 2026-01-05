@@ -46,7 +46,7 @@ class AnniversaryEditMenu extends WatchUi.Menu2 {
         self.addItem(new IconMenuItem($.Rez.Strings.set_anni_shouldNotify, null, "shouldNotify", new DrawableEditIcon(_item["shouldNotify"] ? $.Rez.Drawables.switch_on40 : $.Rez.Drawables.switch_off40), null));
         if(_item["shouldNotify"]) {
             var _NotifyTime = new Time.Moment(_item["NotifyTime"]);
-            var _temp_date = Gregorian.info(_NotifyTime, Time.FORMAT_SHORT);
+            var _temp_date = Gregorian.utcInfo(_NotifyTime, Time.FORMAT_SHORT);
             var NotifyTime = Lang.format("$1$.$2$.$3$ $4$:$5$", [
                 _temp_date.year.format("%04u"),
                 _temp_date.month.format("%02u"),
@@ -158,7 +158,7 @@ class AnniversaryEditMenu extends WatchUi.Menu2 {
             if (_item["shouldNotify"]) {
                 self.deleteItem(self.findItemById("delete"));
                 var _NotifyTime = new Time.Moment(_item["NotifyTime"]);
-                var _temp_date = Gregorian.info(_NotifyTime, Time.FORMAT_SHORT);
+                var _temp_date = Gregorian.utcInfo(_NotifyTime, Time.FORMAT_SHORT);
                 var NotifyTime = Lang.format("$1$.$2$.$3$ $4$:$5$", [
                     _temp_date.year.format("%04u"),
                     _temp_date.month.format("%02u"),
@@ -172,7 +172,8 @@ class AnniversaryEditMenu extends WatchUi.Menu2 {
                 self.deleteItem(self.findItemById("NotifyTime"));
             }
         } else if(key.equals("NotifyTime")) {
-            
+            _anniversaries[_index].put("NotifyTime", value);
+            Storage.setValue(STORAGE_KEY, _anniversaries);
         } else if(key.equals("delete")) {
             _anniversaries.remove(_anniversaries[_index]);
             Storage.setValue(STORAGE_KEY, _anniversaries);
@@ -221,7 +222,8 @@ class AnniversaryEditMenuDelegate extends WatchUi.Menu2InputDelegate {
         } else if(id.equals("shouldNotify")) {
             _view.set_value("shouldNotify", 0);
         } else if(id.equals("NotifyTime")) {
-            
+            var default_time  = new Time.Moment(_view.getAnniversaryDictionary()["NotifyTime"]);
+            WatchUi.pushView(new AnniversaryDatePicker(default_time), new DatePickerDelegate(_view, default_time, true), WatchUi.SLIDE_LEFT);
         } else if(id.equals("delete")) {
             _view.set_value("delete", 0);
         }
