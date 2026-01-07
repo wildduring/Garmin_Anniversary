@@ -1,7 +1,6 @@
 import Toybox.Application;
 import Toybox.Graphics;
 import Toybox.Lang;
-import Toybox.Math;
 import Toybox.Time;
 import Toybox.WatchUi;
 
@@ -200,8 +199,8 @@ class CustomAnniItem extends WatchUi.CustomMenuItem {
     }
 
     private function calculate_duration(anni as Time.Moment) as Number{
-        var today = new Time.Moment(Time.today().value());
-        var dura = Math.ceil(today.compare(anni).toDouble()/3600/24).toNumber();
+        var now = Time.now();
+        var dura = now.compare(anni)/3600/24;
         return dura;
     }
 

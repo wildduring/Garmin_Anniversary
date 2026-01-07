@@ -1,5 +1,6 @@
 import Toybox.Graphics;
 import Toybox.Lang;
+import Toybox.System;
 import Toybox.Time;
 import Toybox.WatchUi;
 
@@ -163,7 +164,9 @@ class DayPickerDelegate extends WatchUi.PickerDelegate {
                 :month  => _date[1],
                 :day    => values[0]
             };
-            _menuView.set_value("date", Gregorian.moment(options).value());
+            var clockTime = System.getClockTime();
+            var timeZoneOffset = clockTime.timeZoneOffset;
+            _menuView.set_value("date", Gregorian.moment(options).value() - timeZoneOffset);
         }
         return true;
     }
@@ -209,7 +212,9 @@ class TimePickerDelegate extends WatchUi.PickerDelegate {
             :hour   => values[0],
             :minute => values[2]
         };
-        _menuView.set_value("NotifyTime", Gregorian.moment(options).value());
+        var clockTime = System.getClockTime();
+        var timeZoneOffset = clockTime.timeZoneOffset;
+        _menuView.set_value("NotifyTime", Gregorian.moment(options).value() - timeZoneOffset);
         return true;
     }
 

@@ -46,7 +46,7 @@ class AnniversaryEditMenu extends WatchUi.Menu2 {
         self.addItem(new IconMenuItem($.Rez.Strings.set_anni_shouldNotify, null, "shouldNotify", new DrawableEditIcon(_item["shouldNotify"] ? $.Rez.Drawables.switch_on40 : $.Rez.Drawables.switch_off40), null));
         if(_item["shouldNotify"]) {
             var _NotifyTime = new Time.Moment(_item["NotifyTime"]);
-            var _temp_date = Gregorian.utcInfo(_NotifyTime, Time.FORMAT_SHORT);
+            var _temp_date = Gregorian.info(_NotifyTime, Time.FORMAT_SHORT);
             var NotifyTime = Lang.format("$1$.$2$.$3$ $4$:$5$", [
                 _temp_date.year.format("%04u"),
                 _temp_date.month.format("%02u"),
@@ -158,7 +158,7 @@ class AnniversaryEditMenu extends WatchUi.Menu2 {
             if (_item["shouldNotify"]) {
                 self.deleteItem(self.findItemById("delete"));
                 var _NotifyTime = new Time.Moment(_item["NotifyTime"]);
-                var _temp_date = Gregorian.utcInfo(_NotifyTime, Time.FORMAT_SHORT);
+                var _temp_date = Gregorian.info(_NotifyTime, Time.FORMAT_SHORT);
                 var NotifyTime = Lang.format("$1$.$2$.$3$ $4$:$5$", [
                     _temp_date.year.format("%04u"),
                     _temp_date.month.format("%02u"),

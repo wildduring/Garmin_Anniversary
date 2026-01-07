@@ -2,46 +2,46 @@
 <debugInfo>
     <manifest filename="C:\Users\wolfa\Desktop\Garmin_Anniversary\manifest.xml"/>
     <pcToLineNum>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="1" lineNum="62" parent="globals/MonthPickerDelegate" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="1" lineNum="63" parent="globals/MonthPickerDelegate" pc="268435460" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryApp.mc" id="2" lineNum="6" parent="globals/AnniversaryApp" pc="268435472" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="3" lineNum="219" parent="globals/NumberPickerFactory" pc="268435484" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="4" lineNum="95" parent="globals/AnniversaryDayPicker" pc="268435496" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="5" lineNum="173" parent="globals/AnniversaryTimePicker" pc="268435508" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="3" lineNum="224" parent="globals/NumberPickerFactory" pc="268435484" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="4" lineNum="96" parent="globals/AnniversaryDayPicker" pc="268435496" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="5" lineNum="176" parent="globals/AnniversaryTimePicker" pc="268435508" symbol="&lt;init&gt;"/>
         <entry filename="c:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\bin\\gen\\006-B4532-00\\source\\Rez.mcgen" id="6" lineNum="7" parent="globals/Rez" pc="268435520" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="7" lineNum="7" parent="globals/AnniversaryEditMenu" pc="268435540" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="8" lineNum="264" parent="globals/DrawableEditIcon" pc="268435552" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="9" lineNum="6" parent="globals/AnniversaryDatePicker" pc="268435564" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="10" lineNum="45" parent="globals/AnniversaryMonthPicker" pc="268435576" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="9" lineNum="7" parent="globals/AnniversaryDatePicker" pc="268435564" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="10" lineNum="46" parent="globals/AnniversaryMonthPicker" pc="268435576" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="11" lineNum="234" parent="globals/DrawableEditTitle" pc="268435588" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="12" lineNum="190" parent="globals/AnniversaryEditMenuDelegate" pc="268435600" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="13" lineNum="104" parent="globals/CustomAnniItem" pc="268435612" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="14" lineNum="135" parent="globals/DayPickerDelegate" pc="268435624" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="13" lineNum="103" parent="globals/CustomAnniItem" pc="268435612" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="14" lineNum="136" parent="globals/DayPickerDelegate" pc="268435624" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="15" lineNum="305" parent="globals/AnniversaryIconMenuDelegate" pc="268435636" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="16" lineNum="19" parent="globals/DatePickerDelegate" pc="268435648" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryApp.mc" id="17" lineNum="38" parent="globals" pc="268435660" symbol="getApp"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryApp.mc" id="17" lineNum="39" parent="globals" pc="268435670" symbol="getApp"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="18" lineNum="74" parent="globals/DrawableMenuTitle" pc="268435681" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="19" lineNum="8" parent="globals/AnniversaryGlance" pc="268435693" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="20" lineNum="8" parent="globals/AnniversaryMenu" pc="268435705" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="21" lineNum="188" parent="globals/TimePickerDelegate" pc="268435717" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="16" lineNum="20" parent="globals/DatePickerDelegate" pc="268435648" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryApp.mc" id="17" lineNum="37" parent="globals" pc="268435660" symbol="getApp"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryApp.mc" id="17" lineNum="38" parent="globals" pc="268435670" symbol="getApp"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="18" lineNum="73" parent="globals/DrawableMenuTitle" pc="268435681" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="19" lineNum="7" parent="globals/AnniversaryGlance" pc="268435693" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="20" lineNum="7" parent="globals/AnniversaryMenu" pc="268435705" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="21" lineNum="191" parent="globals/TimePickerDelegate" pc="268435717" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="22" lineNum="289" parent="globals/KeyboardDelegate" pc="268435729" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="23" lineNum="55" parent="globals/AnniversaryMenuDelegate" pc="268435741" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="24" lineNum="276" parent="globals/WordPickerFactory" pc="268435753" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="25" lineNum="77" parent="globals/MonthPickerDelegate" pc="268435765" symbol="onCancel"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="25" lineNum="78" parent="globals/MonthPickerDelegate" pc="268435767" symbol="onCancel"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="25" lineNum="79" parent="globals/MonthPickerDelegate" pc="268435781" symbol="onCancel"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="26" lineNum="69" parent="globals/MonthPickerDelegate" pc="268435783" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="26" lineNum="70" parent="globals/MonthPickerDelegate" pc="268435785" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="26" lineNum="71" parent="globals/MonthPickerDelegate" pc="268435797" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="26" lineNum="72" parent="globals/MonthPickerDelegate" pc="268435806" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="26" lineNum="73" parent="globals/MonthPickerDelegate" pc="268435815" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="26" lineNum="74" parent="globals/MonthPickerDelegate" pc="268435824" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="27" lineNum="82" parent="globals/MonthPickerDelegate" pc="268435834" symbol="onAccept"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="27" lineNum="83" parent="globals/MonthPickerDelegate" pc="268435837" symbol="onAccept"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="27" lineNum="87" parent="globals/MonthPickerDelegate" pc="268436107" symbol="onAccept"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="27" lineNum="88" parent="globals/MonthPickerDelegate" pc="268436137" symbol="onAccept"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="27" lineNum="89" parent="globals/MonthPickerDelegate" pc="268436152" symbol="onAccept"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="27" lineNum="90" parent="globals/MonthPickerDelegate" pc="268436243" symbol="onAccept"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="23" lineNum="54" parent="globals/AnniversaryMenuDelegate" pc="268435741" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="24" lineNum="281" parent="globals/WordPickerFactory" pc="268435753" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="25" lineNum="78" parent="globals/MonthPickerDelegate" pc="268435765" symbol="onCancel"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="25" lineNum="79" parent="globals/MonthPickerDelegate" pc="268435767" symbol="onCancel"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="25" lineNum="80" parent="globals/MonthPickerDelegate" pc="268435781" symbol="onCancel"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="26" lineNum="70" parent="globals/MonthPickerDelegate" pc="268435783" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="26" lineNum="71" parent="globals/MonthPickerDelegate" pc="268435785" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="26" lineNum="72" parent="globals/MonthPickerDelegate" pc="268435797" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="26" lineNum="73" parent="globals/MonthPickerDelegate" pc="268435806" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="26" lineNum="74" parent="globals/MonthPickerDelegate" pc="268435815" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="26" lineNum="75" parent="globals/MonthPickerDelegate" pc="268435824" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="27" lineNum="83" parent="globals/MonthPickerDelegate" pc="268435834" symbol="onAccept"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="27" lineNum="84" parent="globals/MonthPickerDelegate" pc="268435837" symbol="onAccept"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="27" lineNum="88" parent="globals/MonthPickerDelegate" pc="268436107" symbol="onAccept"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="27" lineNum="89" parent="globals/MonthPickerDelegate" pc="268436137" symbol="onAccept"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="27" lineNum="90" parent="globals/MonthPickerDelegate" pc="268436152" symbol="onAccept"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="27" lineNum="91" parent="globals/MonthPickerDelegate" pc="268436243" symbol="onAccept"/>
         <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryApp.mc" id="28" lineNum="13" parent="globals/AnniversaryApp" pc="268436245" symbol="onStart"/>
         <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryApp.mc" id="29" lineNum="31" parent="globals/AnniversaryApp" pc="268436248" symbol="onSettingsChanged"/>
         <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryApp.mc" id="29" lineNum="32" parent="globals/AnniversaryApp" pc="268436250" symbol="onSettingsChanged"/>
@@ -52,53 +52,53 @@
         <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryApp.mc" id="32" lineNum="25" parent="globals/AnniversaryApp" pc="268436326" symbol="getGlanceView"/>
         <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryApp.mc" id="32" lineNum="26" parent="globals/AnniversaryApp" pc="268436328" symbol="getGlanceView"/>
         <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryApp.mc" id="33" lineNum="17" parent="globals/AnniversaryApp" pc="268436354" symbol="onStop"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="34" lineNum="266" parent="globals/NumberPickerFactory" pc="268436357" symbol="getValue"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="34" lineNum="267" parent="globals/NumberPickerFactory" pc="268436359" symbol="getValue"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="35" lineNum="256" parent="globals/NumberPickerFactory" pc="268436374" symbol="getDrawable"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="35" lineNum="257" parent="globals/NumberPickerFactory" pc="268436377" symbol="getDrawable"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="35" lineNum="258" parent="globals/NumberPickerFactory" pc="268436389" symbol="getDrawable"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="35" lineNum="259" parent="globals/NumberPickerFactory" pc="268436396" symbol="getDrawable"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="35" lineNum="260" parent="globals/NumberPickerFactory" pc="268436411" symbol="getDrawable"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="35" lineNum="262" parent="globals/NumberPickerFactory" pc="268436431" symbol="getDrawable"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="36" lineNum="270" parent="globals/NumberPickerFactory" pc="268436511" symbol="getSize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="36" lineNum="271" parent="globals/NumberPickerFactory" pc="268436513" symbol="getSize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="37" lineNum="252" parent="globals/NumberPickerFactory" pc="268436534" symbol="getIndex"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="37" lineNum="253" parent="globals/NumberPickerFactory" pc="268436536" symbol="getIndex"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="38" lineNum="227" parent="globals/NumberPickerFactory" pc="268436551" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="38" lineNum="231" parent="globals/NumberPickerFactory" pc="268436554" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="38" lineNum="233" parent="globals/NumberPickerFactory" pc="268436566" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="38" lineNum="234" parent="globals/NumberPickerFactory" pc="268436575" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="38" lineNum="235" parent="globals/NumberPickerFactory" pc="268436584" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="38" lineNum="237" parent="globals/NumberPickerFactory" pc="268436593" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="38" lineNum="238" parent="globals/NumberPickerFactory" pc="268436609" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="38" lineNum="239" parent="globals/NumberPickerFactory" pc="268436615" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="38" lineNum="241" parent="globals/NumberPickerFactory" pc="268436627" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="38" lineNum="244" parent="globals/NumberPickerFactory" pc="268436639" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="38" lineNum="245" parent="globals/NumberPickerFactory" pc="268436655" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="38" lineNum="246" parent="globals/NumberPickerFactory" pc="268436661" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="38" lineNum="248" parent="globals/NumberPickerFactory" pc="268436673" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="39" lineNum="112" parent="globals/AnniversaryDayPicker" pc="268436683" symbol="&lt;globals/AnniversaryDayPicker/&lt;&gt;getDaysInMonthOptimized&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="39" lineNum="113" parent="globals/AnniversaryDayPicker" pc="268436686" symbol="&lt;globals/AnniversaryDayPicker/&lt;&gt;getDaysInMonthOptimized&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="39" lineNum="114" parent="globals/AnniversaryDayPicker" pc="268436702" symbol="&lt;globals/AnniversaryDayPicker/&lt;&gt;getDaysInMonthOptimized&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="39" lineNum="118" parent="globals/AnniversaryDayPicker" pc="268436707" symbol="&lt;globals/AnniversaryDayPicker/&lt;&gt;getDaysInMonthOptimized&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="39" lineNum="119" parent="globals/AnniversaryDayPicker" pc="268436739" symbol="&lt;globals/AnniversaryDayPicker/&lt;&gt;getDaysInMonthOptimized&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="39" lineNum="123" parent="globals/AnniversaryDayPicker" pc="268436745" symbol="&lt;globals/AnniversaryDayPicker/&lt;&gt;getDaysInMonthOptimized&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="39" lineNum="125" parent="globals/AnniversaryDayPicker" pc="268436753" symbol="&lt;globals/AnniversaryDayPicker/&lt;&gt;getDaysInMonthOptimized&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="39" lineNum="126" parent="globals/AnniversaryDayPicker" pc="268436789" symbol="&lt;globals/AnniversaryDayPicker/&lt;&gt;getDaysInMonthOptimized&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="39" lineNum="130" parent="globals/AnniversaryDayPicker" pc="268436805" symbol="&lt;globals/AnniversaryDayPicker/&lt;&gt;getDaysInMonthOptimized&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="40" lineNum="101" parent="globals/AnniversaryDayPicker" pc="268436808" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="40" lineNum="102" parent="globals/AnniversaryDayPicker" pc="268436811" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="40" lineNum="103" parent="globals/AnniversaryDayPicker" pc="268436820" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="40" lineNum="104" parent="globals/AnniversaryDayPicker" pc="268436829" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="40" lineNum="105" parent="globals/AnniversaryDayPicker" pc="268436838" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="40" lineNum="106" parent="globals/AnniversaryDayPicker" pc="268436858" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="40" lineNum="107" parent="globals/AnniversaryDayPicker" pc="268436917" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="40" lineNum="109" parent="globals/AnniversaryDayPicker" pc="268437004" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="41" lineNum="177" parent="globals/AnniversaryTimePicker" pc="268437093" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="41" lineNum="178" parent="globals/AnniversaryTimePicker" pc="268437096" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="41" lineNum="179" parent="globals/AnniversaryTimePicker" pc="268437105" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="41" lineNum="181" parent="globals/AnniversaryTimePicker" pc="268437192" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="41" lineNum="183" parent="globals/AnniversaryTimePicker" pc="268437279" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="34" lineNum="271" parent="globals/NumberPickerFactory" pc="268436357" symbol="getValue"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="34" lineNum="272" parent="globals/NumberPickerFactory" pc="268436359" symbol="getValue"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="35" lineNum="261" parent="globals/NumberPickerFactory" pc="268436374" symbol="getDrawable"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="35" lineNum="262" parent="globals/NumberPickerFactory" pc="268436377" symbol="getDrawable"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="35" lineNum="263" parent="globals/NumberPickerFactory" pc="268436389" symbol="getDrawable"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="35" lineNum="264" parent="globals/NumberPickerFactory" pc="268436396" symbol="getDrawable"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="35" lineNum="265" parent="globals/NumberPickerFactory" pc="268436411" symbol="getDrawable"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="35" lineNum="267" parent="globals/NumberPickerFactory" pc="268436431" symbol="getDrawable"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="36" lineNum="275" parent="globals/NumberPickerFactory" pc="268436511" symbol="getSize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="36" lineNum="276" parent="globals/NumberPickerFactory" pc="268436513" symbol="getSize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="37" lineNum="257" parent="globals/NumberPickerFactory" pc="268436534" symbol="getIndex"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="37" lineNum="258" parent="globals/NumberPickerFactory" pc="268436536" symbol="getIndex"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="38" lineNum="232" parent="globals/NumberPickerFactory" pc="268436551" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="38" lineNum="236" parent="globals/NumberPickerFactory" pc="268436554" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="38" lineNum="238" parent="globals/NumberPickerFactory" pc="268436566" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="38" lineNum="239" parent="globals/NumberPickerFactory" pc="268436575" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="38" lineNum="240" parent="globals/NumberPickerFactory" pc="268436584" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="38" lineNum="242" parent="globals/NumberPickerFactory" pc="268436593" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="38" lineNum="243" parent="globals/NumberPickerFactory" pc="268436609" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="38" lineNum="244" parent="globals/NumberPickerFactory" pc="268436615" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="38" lineNum="246" parent="globals/NumberPickerFactory" pc="268436627" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="38" lineNum="249" parent="globals/NumberPickerFactory" pc="268436639" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="38" lineNum="250" parent="globals/NumberPickerFactory" pc="268436655" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="38" lineNum="251" parent="globals/NumberPickerFactory" pc="268436661" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="38" lineNum="253" parent="globals/NumberPickerFactory" pc="268436673" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="39" lineNum="113" parent="globals/AnniversaryDayPicker" pc="268436683" symbol="&lt;globals/AnniversaryDayPicker/&lt;&gt;getDaysInMonthOptimized&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="39" lineNum="114" parent="globals/AnniversaryDayPicker" pc="268436686" symbol="&lt;globals/AnniversaryDayPicker/&lt;&gt;getDaysInMonthOptimized&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="39" lineNum="115" parent="globals/AnniversaryDayPicker" pc="268436702" symbol="&lt;globals/AnniversaryDayPicker/&lt;&gt;getDaysInMonthOptimized&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="39" lineNum="119" parent="globals/AnniversaryDayPicker" pc="268436707" symbol="&lt;globals/AnniversaryDayPicker/&lt;&gt;getDaysInMonthOptimized&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="39" lineNum="120" parent="globals/AnniversaryDayPicker" pc="268436739" symbol="&lt;globals/AnniversaryDayPicker/&lt;&gt;getDaysInMonthOptimized&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="39" lineNum="124" parent="globals/AnniversaryDayPicker" pc="268436745" symbol="&lt;globals/AnniversaryDayPicker/&lt;&gt;getDaysInMonthOptimized&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="39" lineNum="126" parent="globals/AnniversaryDayPicker" pc="268436753" symbol="&lt;globals/AnniversaryDayPicker/&lt;&gt;getDaysInMonthOptimized&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="39" lineNum="127" parent="globals/AnniversaryDayPicker" pc="268436789" symbol="&lt;globals/AnniversaryDayPicker/&lt;&gt;getDaysInMonthOptimized&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="39" lineNum="131" parent="globals/AnniversaryDayPicker" pc="268436805" symbol="&lt;globals/AnniversaryDayPicker/&lt;&gt;getDaysInMonthOptimized&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="40" lineNum="102" parent="globals/AnniversaryDayPicker" pc="268436808" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="40" lineNum="103" parent="globals/AnniversaryDayPicker" pc="268436811" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="40" lineNum="104" parent="globals/AnniversaryDayPicker" pc="268436820" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="40" lineNum="105" parent="globals/AnniversaryDayPicker" pc="268436829" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="40" lineNum="106" parent="globals/AnniversaryDayPicker" pc="268436838" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="40" lineNum="107" parent="globals/AnniversaryDayPicker" pc="268436858" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="40" lineNum="108" parent="globals/AnniversaryDayPicker" pc="268436917" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="40" lineNum="110" parent="globals/AnniversaryDayPicker" pc="268437004" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="41" lineNum="180" parent="globals/AnniversaryTimePicker" pc="268437093" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="41" lineNum="181" parent="globals/AnniversaryTimePicker" pc="268437096" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="41" lineNum="182" parent="globals/AnniversaryTimePicker" pc="268437105" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="41" lineNum="184" parent="globals/AnniversaryTimePicker" pc="268437192" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="41" lineNum="186" parent="globals/AnniversaryTimePicker" pc="268437279" symbol="initialize"/>
         <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="42" lineNum="22" parent="globals/AnniversaryEditMenu" pc="268437478" symbol="onShow"/>
         <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="42" lineNum="23" parent="globals/AnniversaryEditMenu" pc="268437481" symbol="onShow"/>
         <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="42" lineNum="24" parent="globals/AnniversaryEditMenu" pc="268437505" symbol="onShow"/>
@@ -204,15 +204,15 @@
         <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="50" lineNum="281" parent="globals/DrawableEditIcon" pc="268440440" symbol="draw"/>
         <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="50" lineNum="282" parent="globals/DrawableEditIcon" pc="268440454" symbol="draw"/>
         <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="50" lineNum="284" parent="globals/DrawableEditIcon" pc="268440462" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="51" lineNum="10" parent="globals/AnniversaryDatePicker" pc="268440479" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="51" lineNum="11" parent="globals/AnniversaryDatePicker" pc="268440482" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="51" lineNum="12" parent="globals/AnniversaryDatePicker" pc="268440491" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="51" lineNum="14" parent="globals/AnniversaryDatePicker" pc="268440578" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="52" lineNum="49" parent="globals/AnniversaryMonthPicker" pc="268440691" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="52" lineNum="50" parent="globals/AnniversaryMonthPicker" pc="268440694" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="52" lineNum="51" parent="globals/AnniversaryMonthPicker" pc="268440703" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="52" lineNum="55" parent="globals/AnniversaryMonthPicker" pc="268440973" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="52" lineNum="57" parent="globals/AnniversaryMonthPicker" pc="268441060" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="51" lineNum="11" parent="globals/AnniversaryDatePicker" pc="268440479" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="51" lineNum="12" parent="globals/AnniversaryDatePicker" pc="268440482" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="51" lineNum="13" parent="globals/AnniversaryDatePicker" pc="268440491" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="51" lineNum="15" parent="globals/AnniversaryDatePicker" pc="268440578" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="52" lineNum="50" parent="globals/AnniversaryMonthPicker" pc="268440691" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="52" lineNum="51" parent="globals/AnniversaryMonthPicker" pc="268440694" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="52" lineNum="52" parent="globals/AnniversaryMonthPicker" pc="268440703" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="52" lineNum="56" parent="globals/AnniversaryMonthPicker" pc="268440973" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="52" lineNum="58" parent="globals/AnniversaryMonthPicker" pc="268441060" symbol="initialize"/>
         <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="53" lineNum="237" parent="globals/DrawableEditTitle" pc="268441166" symbol="initialize"/>
         <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="53" lineNum="238" parent="globals/DrawableEditTitle" pc="268441168" symbol="initialize"/>
         <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="54" lineNum="243" parent="globals/DrawableEditTitle" pc="268441185" symbol="draw"/>
@@ -260,264 +260,268 @@
         <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="56" lineNum="226" parent="globals/AnniversaryEditMenuDelegate" pc="268442691" symbol="onSelect"/>
         <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="56" lineNum="227" parent="globals/AnniversaryEditMenuDelegate" pc="268442755" symbol="onSelect"/>
         <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="56" lineNum="228" parent="globals/AnniversaryEditMenuDelegate" pc="268442772" symbol="onSelect"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="57" lineNum="217" parent="globals/CustomAnniItem" pc="268442796" symbol="&lt;globals/CustomAnniItem/&lt;&gt;dateText&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="57" lineNum="218" parent="globals/CustomAnniItem" pc="268442798" symbol="&lt;globals/CustomAnniItem/&lt;&gt;dateText&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="57" lineNum="219" parent="globals/CustomAnniItem" pc="268442811" symbol="&lt;globals/CustomAnniItem/&lt;&gt;dateText&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="57" lineNum="222" parent="globals/CustomAnniItem" pc="268442860" symbol="&lt;globals/CustomAnniItem/&lt;&gt;dateText&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="172" parent="globals/CustomAnniItem" pc="268442907" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="173" parent="globals/CustomAnniItem" pc="268442909" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="174" parent="globals/CustomAnniItem" pc="268442926" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="176" parent="globals/CustomAnniItem" pc="268442949" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="177" parent="globals/CustomAnniItem" pc="268442966" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="179" parent="globals/CustomAnniItem" pc="268442989" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="180" parent="globals/CustomAnniItem" pc="268443006" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="182" parent="globals/CustomAnniItem" pc="268443029" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="183" parent="globals/CustomAnniItem" pc="268443046" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="185" parent="globals/CustomAnniItem" pc="268443069" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="186" parent="globals/CustomAnniItem" pc="268443086" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="188" parent="globals/CustomAnniItem" pc="268443109" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="189" parent="globals/CustomAnniItem" pc="268443126" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="191" parent="globals/CustomAnniItem" pc="268443149" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="192" parent="globals/CustomAnniItem" pc="268443166" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="194" parent="globals/CustomAnniItem" pc="268443189" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="195" parent="globals/CustomAnniItem" pc="268443206" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="198" parent="globals/CustomAnniItem" pc="268443229" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="59" lineNum="208" parent="globals/CustomAnniItem" pc="268443250" symbol="&lt;globals/CustomAnniItem/&lt;&gt;PoLText&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="59" lineNum="209" parent="globals/CustomAnniItem" pc="268443252" symbol="&lt;globals/CustomAnniItem/&lt;&gt;PoLText&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="59" lineNum="210" parent="globals/CustomAnniItem" pc="268443259" symbol="&lt;globals/CustomAnniItem/&lt;&gt;PoLText&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="59" lineNum="213" parent="globals/CustomAnniItem" pc="268443294" symbol="&lt;globals/CustomAnniItem/&lt;&gt;PoLText&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="60" lineNum="112" parent="globals/CustomAnniItem" pc="268443327" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="60" lineNum="113" parent="globals/CustomAnniItem" pc="268443329" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="60" lineNum="115" parent="globals/CustomAnniItem" pc="268443347" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="60" lineNum="116" parent="globals/CustomAnniItem" pc="268443356" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="60" lineNum="117" parent="globals/CustomAnniItem" pc="268443365" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="60" lineNum="118" parent="globals/CustomAnniItem" pc="268443374" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="123" parent="globals/CustomAnniItem" pc="268443384" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="124" parent="globals/CustomAnniItem" pc="268443387" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="125" parent="globals/CustomAnniItem" pc="268443416" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="127" parent="globals/CustomAnniItem" pc="268443428" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="128" parent="globals/CustomAnniItem" pc="268443449" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="129" parent="globals/CustomAnniItem" pc="268443453" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="130" parent="globals/CustomAnniItem" pc="268443486" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="131" parent="globals/CustomAnniItem" pc="268443495" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="133" parent="globals/CustomAnniItem" pc="268443513" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="134" parent="globals/CustomAnniItem" pc="268443534" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="135" parent="globals/CustomAnniItem" pc="268443554" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="136" parent="globals/CustomAnniItem" pc="268443564" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="138" parent="globals/CustomAnniItem" pc="268443576" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="139" parent="globals/CustomAnniItem" pc="268443588" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="141" parent="globals/CustomAnniItem" pc="268443596" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="142" parent="globals/CustomAnniItem" pc="268443612" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="143" parent="globals/CustomAnniItem" pc="268443629" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="145" parent="globals/CustomAnniItem" pc="268443655" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="146" parent="globals/CustomAnniItem" pc="268443659" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="147" parent="globals/CustomAnniItem" pc="268443663" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="148" parent="globals/CustomAnniItem" pc="268443690" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="150" parent="globals/CustomAnniItem" pc="268443699" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="151" parent="globals/CustomAnniItem" pc="268443702" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="152" parent="globals/CustomAnniItem" pc="268443722" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="153" parent="globals/CustomAnniItem" pc="268443732" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="154" parent="globals/CustomAnniItem" pc="268443759" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="155" parent="globals/CustomAnniItem" pc="268443783" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="156" parent="globals/CustomAnniItem" pc="268443813" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="157" parent="globals/CustomAnniItem" pc="268443817" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="159" parent="globals/CustomAnniItem" pc="268443851" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="160" parent="globals/CustomAnniItem" pc="268443863" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="162" parent="globals/CustomAnniItem" pc="268443871" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="163" parent="globals/CustomAnniItem" pc="268443887" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="164" parent="globals/CustomAnniItem" pc="268443904" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="165" parent="globals/CustomAnniItem" pc="268443927" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="166" parent="globals/CustomAnniItem" pc="268443944" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="167" parent="globals/CustomAnniItem" pc="268443971" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="168" parent="globals/CustomAnniItem" pc="268443988" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="62" lineNum="202" parent="globals/CustomAnniItem" pc="268444017" symbol="&lt;globals/CustomAnniItem/&lt;&gt;calculate_duration&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="62" lineNum="203" parent="globals/CustomAnniItem" pc="268444020" symbol="&lt;globals/CustomAnniItem/&lt;&gt;calculate_duration&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="62" lineNum="204" parent="globals/CustomAnniItem" pc="268444060" symbol="&lt;globals/CustomAnniItem/&lt;&gt;calculate_duration&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="62" lineNum="205" parent="globals/CustomAnniItem" pc="268444104" symbol="&lt;globals/CustomAnniItem/&lt;&gt;calculate_duration&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="63" lineNum="150" parent="globals/DayPickerDelegate" pc="268444107" symbol="onCancel"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="63" lineNum="151" parent="globals/DayPickerDelegate" pc="268444109" symbol="onCancel"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="63" lineNum="152" parent="globals/DayPickerDelegate" pc="268444123" symbol="onCancel"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="64" lineNum="142" parent="globals/DayPickerDelegate" pc="268444125" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="64" lineNum="143" parent="globals/DayPickerDelegate" pc="268444127" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="64" lineNum="144" parent="globals/DayPickerDelegate" pc="268444139" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="64" lineNum="145" parent="globals/DayPickerDelegate" pc="268444148" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="64" lineNum="146" parent="globals/DayPickerDelegate" pc="268444157" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="64" lineNum="147" parent="globals/DayPickerDelegate" pc="268444166" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="65" lineNum="155" parent="globals/DayPickerDelegate" pc="268444176" symbol="onAccept"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="65" lineNum="156" parent="globals/DayPickerDelegate" pc="268444179" symbol="onAccept"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="65" lineNum="157" parent="globals/DayPickerDelegate" pc="268444194" symbol="onAccept"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="65" lineNum="158" parent="globals/DayPickerDelegate" pc="268444202" symbol="onAccept"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="65" lineNum="159" parent="globals/DayPickerDelegate" pc="268444220" symbol="onAccept"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="65" lineNum="161" parent="globals/DayPickerDelegate" pc="268444289" symbol="onAccept"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="65" lineNum="166" parent="globals/DayPickerDelegate" pc="268444333" symbol="onAccept"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="65" lineNum="168" parent="globals/DayPickerDelegate" pc="268444372" symbol="onAccept"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="66" lineNum="309" parent="globals/AnniversaryIconMenuDelegate" pc="268444374" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="66" lineNum="310" parent="globals/AnniversaryIconMenuDelegate" pc="268444376" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="66" lineNum="311" parent="globals/AnniversaryIconMenuDelegate" pc="268444388" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="67" lineNum="314" parent="globals/AnniversaryIconMenuDelegate" pc="268444398" symbol="onSelect"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="67" lineNum="315" parent="globals/AnniversaryIconMenuDelegate" pc="268444401" symbol="onSelect"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="67" lineNum="316" parent="globals/AnniversaryIconMenuDelegate" pc="268444410" symbol="onSelect"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="67" lineNum="317" parent="globals/AnniversaryIconMenuDelegate" pc="268444431" symbol="onSelect"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="68" lineNum="32" parent="globals/DatePickerDelegate" pc="268444447" symbol="onCancel"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="68" lineNum="33" parent="globals/DatePickerDelegate" pc="268444449" symbol="onCancel"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="68" lineNum="34" parent="globals/DatePickerDelegate" pc="268444463" symbol="onCancel"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="69" lineNum="25" parent="globals/DatePickerDelegate" pc="268444465" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="69" lineNum="26" parent="globals/DatePickerDelegate" pc="268444467" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="69" lineNum="27" parent="globals/DatePickerDelegate" pc="268444479" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="69" lineNum="28" parent="globals/DatePickerDelegate" pc="268444488" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="69" lineNum="29" parent="globals/DatePickerDelegate" pc="268444497" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="70" lineNum="37" parent="globals/DatePickerDelegate" pc="268444507" symbol="onAccept"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="70" lineNum="38" parent="globals/DatePickerDelegate" pc="268444509" symbol="onAccept"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="70" lineNum="39" parent="globals/DatePickerDelegate" pc="268444524" symbol="onAccept"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="70" lineNum="40" parent="globals/DatePickerDelegate" pc="268444597" symbol="onAccept"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="71" lineNum="77" parent="globals/DrawableMenuTitle" pc="268444599" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="71" lineNum="78" parent="globals/DrawableMenuTitle" pc="268444601" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="72" lineNum="83" parent="globals/DrawableMenuTitle" pc="268444618" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="72" lineNum="84" parent="globals/DrawableMenuTitle" pc="268444621" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="72" lineNum="85" parent="globals/DrawableMenuTitle" pc="268444625" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="72" lineNum="86" parent="globals/DrawableMenuTitle" pc="268444658" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="72" lineNum="87" parent="globals/DrawableMenuTitle" pc="268444667" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="72" lineNum="89" parent="globals/DrawableMenuTitle" pc="268444722" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="72" lineNum="90" parent="globals/DrawableMenuTitle" pc="268444743" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="72" lineNum="91" parent="globals/DrawableMenuTitle" pc="268444763" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="72" lineNum="92" parent="globals/DrawableMenuTitle" pc="268444773" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="72" lineNum="94" parent="globals/DrawableMenuTitle" pc="268444785" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="72" lineNum="95" parent="globals/DrawableMenuTitle" pc="268444797" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="72" lineNum="97" parent="globals/DrawableMenuTitle" pc="268444805" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="72" lineNum="98" parent="globals/DrawableMenuTitle" pc="268444821" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="72" lineNum="99" parent="globals/DrawableMenuTitle" pc="268444838" symbol="draw"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="73" lineNum="107" parent="globals/AnniversaryGlance" pc="268444899" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;dateText&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="73" lineNum="108" parent="globals/AnniversaryGlance" pc="268444901" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;dateText&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="73" lineNum="109" parent="globals/AnniversaryGlance" pc="268444914" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;dateText&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="73" lineNum="112" parent="globals/AnniversaryGlance" pc="268444937" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;dateText&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="74" lineNum="45" parent="globals/AnniversaryGlance" pc="268444958" symbol="onLayout"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="74" lineNum="46" parent="globals/AnniversaryGlance" pc="268444960" symbol="onLayout"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="75" lineNum="98" parent="globals/AnniversaryGlance" pc="268444994" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;PoLText&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="75" lineNum="99" parent="globals/AnniversaryGlance" pc="268444996" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;PoLText&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="75" lineNum="100" parent="globals/AnniversaryGlance" pc="268445003" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;PoLText&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="75" lineNum="103" parent="globals/AnniversaryGlance" pc="268445012" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;PoLText&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="76" lineNum="92" parent="globals/AnniversaryGlance" pc="268445019" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;calculate_duration&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="76" lineNum="93" parent="globals/AnniversaryGlance" pc="268445022" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;calculate_duration&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="76" lineNum="94" parent="globals/AnniversaryGlance" pc="268445062" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;calculate_duration&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="76" lineNum="95" parent="globals/AnniversaryGlance" pc="268445106" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;calculate_duration&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="77" lineNum="85" parent="globals/AnniversaryGlance" pc="268445109" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelLocat&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="77" lineNum="86" parent="globals/AnniversaryGlance" pc="268445112" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelLocat&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="77" lineNum="87" parent="globals/AnniversaryGlance" pc="268445133" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelLocat&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="77" lineNum="88" parent="globals/AnniversaryGlance" pc="268445139" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelLocat&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="78" lineNum="74" parent="globals/AnniversaryGlance" pc="268445158" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelText&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="78" lineNum="75" parent="globals/AnniversaryGlance" pc="268445161" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelText&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="78" lineNum="76" parent="globals/AnniversaryGlance" pc="268445182" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelText&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="78" lineNum="77" parent="globals/AnniversaryGlance" pc="268445188" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelText&gt;"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="19" parent="globals/AnniversaryGlance" pc="268445205" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="20" parent="globals/AnniversaryGlance" pc="268445208" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="22" parent="globals/AnniversaryGlance" pc="268445220" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="23" parent="globals/AnniversaryGlance" pc="268445258" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="24" parent="globals/AnniversaryGlance" pc="268445296" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="25" parent="globals/AnniversaryGlance" pc="268445334" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="27" parent="globals/AnniversaryGlance" pc="268445372" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="28" parent="globals/AnniversaryGlance" pc="268445384" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="29" parent="globals/AnniversaryGlance" pc="268445418" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="31" parent="globals/AnniversaryGlance" pc="268445426" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="32" parent="globals/AnniversaryGlance" pc="268445445" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="33" parent="globals/AnniversaryGlance" pc="268445466" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="34" parent="globals/AnniversaryGlance" pc="268445483" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="35" parent="globals/AnniversaryGlance" pc="268445490" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="36" parent="globals/AnniversaryGlance" pc="268445503" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="37" parent="globals/AnniversaryGlance" pc="268445524" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="38" parent="globals/AnniversaryGlance" pc="268445561" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="49" parent="globals/AnniversaryGlance" pc="268445581" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="50" parent="globals/AnniversaryGlance" pc="268445584" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="52" parent="globals/AnniversaryGlance" pc="268445604" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="53" parent="globals/AnniversaryGlance" pc="268445623" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="54" parent="globals/AnniversaryGlance" pc="268445650" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="56" parent="globals/AnniversaryGlance" pc="268445677" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="57" parent="globals/AnniversaryGlance" pc="268445681" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="58" parent="globals/AnniversaryGlance" pc="268445685" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="59" parent="globals/AnniversaryGlance" pc="268445688" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="60" parent="globals/AnniversaryGlance" pc="268445727" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="61" parent="globals/AnniversaryGlance" pc="268445751" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="62" parent="globals/AnniversaryGlance" pc="268445778" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="63" parent="globals/AnniversaryGlance" pc="268445782" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="64" parent="globals/AnniversaryGlance" pc="268445801" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="65" parent="globals/AnniversaryGlance" pc="268445819" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="66" parent="globals/AnniversaryGlance" pc="268445837" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="68" parent="globals/AnniversaryGlance" pc="268445855" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="81" lineNum="22" parent="globals/AnniversaryMenu" pc="268445876" symbol="onShow"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="81" lineNum="23" parent="globals/AnniversaryMenu" pc="268445879" symbol="onShow"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="81" lineNum="24" parent="globals/AnniversaryMenu" pc="268445903" symbol="onShow"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="81" lineNum="25" parent="globals/AnniversaryMenu" pc="268445931" symbol="onShow"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="81" lineNum="26" parent="globals/AnniversaryMenu" pc="268445940" symbol="onShow"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="81" lineNum="29" parent="globals/AnniversaryMenu" pc="268445951" symbol="onShow"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="81" lineNum="33" parent="globals/AnniversaryMenu" pc="268445966" symbol="onShow"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="81" lineNum="34" parent="globals/AnniversaryMenu" pc="268445986" symbol="onShow"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="81" lineNum="35" parent="globals/AnniversaryMenu" pc="268445996" symbol="onShow"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="81" lineNum="36" parent="globals/AnniversaryMenu" pc="268446012" symbol="onShow"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="81" lineNum="37" parent="globals/AnniversaryMenu" pc="268446021" symbol="onShow"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="81" lineNum="38" parent="globals/AnniversaryMenu" pc="268446029" symbol="onShow"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="81" lineNum="40" parent="globals/AnniversaryMenu" pc="268446035" symbol="onShow"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="81" lineNum="43" parent="globals/AnniversaryMenu" pc="268446107" symbol="onShow"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="82" lineNum="14" parent="globals/AnniversaryMenu" pc="268446182" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="82" lineNum="15" parent="globals/AnniversaryMenu" pc="268446184" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="82" lineNum="18" parent="globals/AnniversaryMenu" pc="268446234" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="82" lineNum="19" parent="globals/AnniversaryMenu" pc="268446243" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="83" lineNum="46" parent="globals/AnniversaryMenu" pc="268446252" symbol="onHide"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="83" lineNum="47" parent="globals/AnniversaryMenu" pc="268446254" symbol="onHide"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="83" lineNum="48" parent="globals/AnniversaryMenu" pc="268446262" symbol="onHide"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="83" lineNum="49" parent="globals/AnniversaryMenu" pc="268446270" symbol="onHide"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="84" lineNum="198" parent="globals/TimePickerDelegate" pc="268446297" symbol="onCancel"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="84" lineNum="199" parent="globals/TimePickerDelegate" pc="268446299" symbol="onCancel"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="84" lineNum="200" parent="globals/TimePickerDelegate" pc="268446313" symbol="onCancel"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="85" lineNum="192" parent="globals/TimePickerDelegate" pc="268446315" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="85" lineNum="193" parent="globals/TimePickerDelegate" pc="268446317" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="85" lineNum="194" parent="globals/TimePickerDelegate" pc="268446329" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="85" lineNum="195" parent="globals/TimePickerDelegate" pc="268446338" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="86" lineNum="203" parent="globals/TimePickerDelegate" pc="268446348" symbol="onAccept"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="86" lineNum="204" parent="globals/TimePickerDelegate" pc="268446351" symbol="onAccept"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="86" lineNum="205" parent="globals/TimePickerDelegate" pc="268446366" symbol="onAccept"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="86" lineNum="212" parent="globals/TimePickerDelegate" pc="268446435" symbol="onAccept"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="86" lineNum="213" parent="globals/TimePickerDelegate" pc="268446474" symbol="onAccept"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="87" lineNum="298" parent="globals/KeyboardDelegate" pc="268446476" symbol="onTextEntered"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="87" lineNum="299" parent="globals/KeyboardDelegate" pc="268446478" symbol="onTextEntered"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="87" lineNum="300" parent="globals/KeyboardDelegate" pc="268446504" symbol="onTextEntered"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="88" lineNum="293" parent="globals/KeyboardDelegate" pc="268446506" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="88" lineNum="294" parent="globals/KeyboardDelegate" pc="268446508" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="88" lineNum="295" parent="globals/KeyboardDelegate" pc="268446524" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="89" lineNum="57" parent="globals/AnniversaryMenuDelegate" pc="268446534" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="89" lineNum="58" parent="globals/AnniversaryMenuDelegate" pc="268446536" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="90" lineNum="61" parent="globals/AnniversaryMenuDelegate" pc="268446549" symbol="onSelect"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="90" lineNum="62" parent="globals/AnniversaryMenuDelegate" pc="268446552" symbol="onSelect"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="90" lineNum="63" parent="globals/AnniversaryMenuDelegate" pc="268446561" symbol="onSelect"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="90" lineNum="64" parent="globals/AnniversaryMenuDelegate" pc="268446578" symbol="onSelect"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="90" lineNum="65" parent="globals/AnniversaryMenuDelegate" pc="268446604" symbol="onSelect"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="90" lineNum="67" parent="globals/AnniversaryMenuDelegate" pc="268446648" symbol="onSelect"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="90" lineNum="68" parent="globals/AnniversaryMenuDelegate" pc="268446679" symbol="onSelect"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="91" lineNum="316" parent="globals/WordPickerFactory" pc="268446721" symbol="getValue"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="91" lineNum="317" parent="globals/WordPickerFactory" pc="268446723" symbol="getValue"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="92" lineNum="312" parent="globals/WordPickerFactory" pc="268446732" symbol="getSize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="92" lineNum="313" parent="globals/WordPickerFactory" pc="268446734" symbol="getSize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="93" lineNum="320" parent="globals/WordPickerFactory" pc="268446746" symbol="getDrawable"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="93" lineNum="321" parent="globals/WordPickerFactory" pc="268446748" symbol="getDrawable"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="94" lineNum="294" parent="globals/WordPickerFactory" pc="268446834" symbol="getIndex"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="94" lineNum="295" parent="globals/WordPickerFactory" pc="268446837" symbol="getIndex"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="94" lineNum="296" parent="globals/WordPickerFactory" pc="268446852" symbol="getIndex"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="94" lineNum="297" parent="globals/WordPickerFactory" pc="268446872" symbol="getIndex"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="94" lineNum="298" parent="globals/WordPickerFactory" pc="268446905" symbol="getIndex"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="94" lineNum="302" parent="globals/WordPickerFactory" pc="268446924" symbol="getIndex"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="94" lineNum="303" parent="globals/WordPickerFactory" pc="268446944" symbol="getIndex"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="94" lineNum="304" parent="globals/WordPickerFactory" pc="268446965" symbol="getIndex"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="94" lineNum="309" parent="globals/WordPickerFactory" pc="268446981" symbol="getIndex"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="95" lineNum="281" parent="globals/WordPickerFactory" pc="268446983" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="95" lineNum="282" parent="globals/WordPickerFactory" pc="268446986" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="95" lineNum="284" parent="globals/WordPickerFactory" pc="268446998" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="95" lineNum="286" parent="globals/WordPickerFactory" pc="268447007" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="95" lineNum="287" parent="globals/WordPickerFactory" pc="268447023" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="95" lineNum="288" parent="globals/WordPickerFactory" pc="268447029" symbol="initialize"/>
-        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="95" lineNum="290" parent="globals/WordPickerFactory" pc="268447041" symbol="initialize"/>
-        <entry filename="c:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\bin\\gen\\006-B4532-00\\source\\Rez.mcgen" id="96" lineNum="38" parent="globals/Rez/Layouts" pc="268447051" symbol="GlanceLayout"/>
-        <entry filename="c:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\bin\\gen\\006-B4532-00\\source\\Rez.mcgen" id="96" lineNum="39" parent="globals/Rez/Layouts" pc="268447062" symbol="GlanceLayout"/>
-        <entry filename="c:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\bin\\gen\\006-B4532-00\\source\\Rez.mcgen" id="96" lineNum="41" parent="globals/Rez/Layouts" pc="268447121" symbol="GlanceLayout"/>
-        <entry filename="c:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\bin\\gen\\006-B4532-00\\source\\Rez.mcgen" id="96" lineNum="43" parent="globals/Rez/Layouts" pc="268447179" symbol="GlanceLayout"/>
-        <entry filename="c:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\bin\\gen\\006-B4532-00\\source\\Rez.mcgen" id="96" lineNum="45" parent="globals/Rez/Layouts" pc="268447238" symbol="GlanceLayout"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="57" lineNum="216" parent="globals/CustomAnniItem" pc="268442796" symbol="&lt;globals/CustomAnniItem/&lt;&gt;dateText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="57" lineNum="217" parent="globals/CustomAnniItem" pc="268442798" symbol="&lt;globals/CustomAnniItem/&lt;&gt;dateText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="57" lineNum="218" parent="globals/CustomAnniItem" pc="268442811" symbol="&lt;globals/CustomAnniItem/&lt;&gt;dateText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="57" lineNum="221" parent="globals/CustomAnniItem" pc="268442860" symbol="&lt;globals/CustomAnniItem/&lt;&gt;dateText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="171" parent="globals/CustomAnniItem" pc="268442907" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="172" parent="globals/CustomAnniItem" pc="268442909" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="173" parent="globals/CustomAnniItem" pc="268442926" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="175" parent="globals/CustomAnniItem" pc="268442949" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="176" parent="globals/CustomAnniItem" pc="268442966" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="178" parent="globals/CustomAnniItem" pc="268442989" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="179" parent="globals/CustomAnniItem" pc="268443006" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="181" parent="globals/CustomAnniItem" pc="268443029" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="182" parent="globals/CustomAnniItem" pc="268443046" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="184" parent="globals/CustomAnniItem" pc="268443069" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="185" parent="globals/CustomAnniItem" pc="268443086" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="187" parent="globals/CustomAnniItem" pc="268443109" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="188" parent="globals/CustomAnniItem" pc="268443126" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="190" parent="globals/CustomAnniItem" pc="268443149" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="191" parent="globals/CustomAnniItem" pc="268443166" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="193" parent="globals/CustomAnniItem" pc="268443189" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="194" parent="globals/CustomAnniItem" pc="268443206" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="58" lineNum="197" parent="globals/CustomAnniItem" pc="268443229" symbol="&lt;globals/CustomAnniItem/&lt;&gt;icon_translate&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="59" lineNum="207" parent="globals/CustomAnniItem" pc="268443250" symbol="&lt;globals/CustomAnniItem/&lt;&gt;PoLText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="59" lineNum="208" parent="globals/CustomAnniItem" pc="268443252" symbol="&lt;globals/CustomAnniItem/&lt;&gt;PoLText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="59" lineNum="209" parent="globals/CustomAnniItem" pc="268443259" symbol="&lt;globals/CustomAnniItem/&lt;&gt;PoLText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="59" lineNum="212" parent="globals/CustomAnniItem" pc="268443294" symbol="&lt;globals/CustomAnniItem/&lt;&gt;PoLText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="60" lineNum="111" parent="globals/CustomAnniItem" pc="268443327" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="60" lineNum="112" parent="globals/CustomAnniItem" pc="268443329" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="60" lineNum="114" parent="globals/CustomAnniItem" pc="268443347" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="60" lineNum="115" parent="globals/CustomAnniItem" pc="268443356" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="60" lineNum="116" parent="globals/CustomAnniItem" pc="268443365" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="60" lineNum="117" parent="globals/CustomAnniItem" pc="268443374" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="122" parent="globals/CustomAnniItem" pc="268443384" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="123" parent="globals/CustomAnniItem" pc="268443387" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="124" parent="globals/CustomAnniItem" pc="268443416" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="126" parent="globals/CustomAnniItem" pc="268443428" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="127" parent="globals/CustomAnniItem" pc="268443449" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="128" parent="globals/CustomAnniItem" pc="268443453" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="129" parent="globals/CustomAnniItem" pc="268443486" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="130" parent="globals/CustomAnniItem" pc="268443495" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="132" parent="globals/CustomAnniItem" pc="268443513" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="133" parent="globals/CustomAnniItem" pc="268443534" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="134" parent="globals/CustomAnniItem" pc="268443554" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="135" parent="globals/CustomAnniItem" pc="268443564" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="137" parent="globals/CustomAnniItem" pc="268443576" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="138" parent="globals/CustomAnniItem" pc="268443588" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="140" parent="globals/CustomAnniItem" pc="268443596" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="141" parent="globals/CustomAnniItem" pc="268443612" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="142" parent="globals/CustomAnniItem" pc="268443629" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="144" parent="globals/CustomAnniItem" pc="268443655" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="145" parent="globals/CustomAnniItem" pc="268443659" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="146" parent="globals/CustomAnniItem" pc="268443663" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="147" parent="globals/CustomAnniItem" pc="268443690" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="149" parent="globals/CustomAnniItem" pc="268443699" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="150" parent="globals/CustomAnniItem" pc="268443702" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="151" parent="globals/CustomAnniItem" pc="268443722" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="152" parent="globals/CustomAnniItem" pc="268443732" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="153" parent="globals/CustomAnniItem" pc="268443759" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="154" parent="globals/CustomAnniItem" pc="268443783" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="155" parent="globals/CustomAnniItem" pc="268443813" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="156" parent="globals/CustomAnniItem" pc="268443817" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="158" parent="globals/CustomAnniItem" pc="268443851" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="159" parent="globals/CustomAnniItem" pc="268443863" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="161" parent="globals/CustomAnniItem" pc="268443871" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="162" parent="globals/CustomAnniItem" pc="268443887" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="163" parent="globals/CustomAnniItem" pc="268443904" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="164" parent="globals/CustomAnniItem" pc="268443927" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="165" parent="globals/CustomAnniItem" pc="268443944" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="166" parent="globals/CustomAnniItem" pc="268443971" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="61" lineNum="167" parent="globals/CustomAnniItem" pc="268443988" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="62" lineNum="201" parent="globals/CustomAnniItem" pc="268444017" symbol="&lt;globals/CustomAnniItem/&lt;&gt;calculate_duration&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="62" lineNum="202" parent="globals/CustomAnniItem" pc="268444020" symbol="&lt;globals/CustomAnniItem/&lt;&gt;calculate_duration&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="62" lineNum="203" parent="globals/CustomAnniItem" pc="268444032" symbol="&lt;globals/CustomAnniItem/&lt;&gt;calculate_duration&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="62" lineNum="204" parent="globals/CustomAnniItem" pc="268444052" symbol="&lt;globals/CustomAnniItem/&lt;&gt;calculate_duration&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="63" lineNum="151" parent="globals/DayPickerDelegate" pc="268444055" symbol="onCancel"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="63" lineNum="152" parent="globals/DayPickerDelegate" pc="268444057" symbol="onCancel"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="63" lineNum="153" parent="globals/DayPickerDelegate" pc="268444071" symbol="onCancel"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="64" lineNum="143" parent="globals/DayPickerDelegate" pc="268444073" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="64" lineNum="144" parent="globals/DayPickerDelegate" pc="268444075" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="64" lineNum="145" parent="globals/DayPickerDelegate" pc="268444087" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="64" lineNum="146" parent="globals/DayPickerDelegate" pc="268444096" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="64" lineNum="147" parent="globals/DayPickerDelegate" pc="268444105" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="64" lineNum="148" parent="globals/DayPickerDelegate" pc="268444114" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="65" lineNum="156" parent="globals/DayPickerDelegate" pc="268444124" symbol="onAccept"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="65" lineNum="157" parent="globals/DayPickerDelegate" pc="268444127" symbol="onAccept"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="65" lineNum="158" parent="globals/DayPickerDelegate" pc="268444142" symbol="onAccept"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="65" lineNum="159" parent="globals/DayPickerDelegate" pc="268444150" symbol="onAccept"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="65" lineNum="160" parent="globals/DayPickerDelegate" pc="268444168" symbol="onAccept"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="65" lineNum="162" parent="globals/DayPickerDelegate" pc="268444237" symbol="onAccept"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="65" lineNum="167" parent="globals/DayPickerDelegate" pc="268444281" symbol="onAccept"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="65" lineNum="168" parent="globals/DayPickerDelegate" pc="268444293" symbol="onAccept"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="65" lineNum="169" parent="globals/DayPickerDelegate" pc="268444301" symbol="onAccept"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="65" lineNum="171" parent="globals/DayPickerDelegate" pc="268444343" symbol="onAccept"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="66" lineNum="309" parent="globals/AnniversaryIconMenuDelegate" pc="268444345" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="66" lineNum="310" parent="globals/AnniversaryIconMenuDelegate" pc="268444347" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="66" lineNum="311" parent="globals/AnniversaryIconMenuDelegate" pc="268444359" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="67" lineNum="314" parent="globals/AnniversaryIconMenuDelegate" pc="268444369" symbol="onSelect"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="67" lineNum="315" parent="globals/AnniversaryIconMenuDelegate" pc="268444372" symbol="onSelect"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="67" lineNum="316" parent="globals/AnniversaryIconMenuDelegate" pc="268444381" symbol="onSelect"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="67" lineNum="317" parent="globals/AnniversaryIconMenuDelegate" pc="268444402" symbol="onSelect"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="68" lineNum="33" parent="globals/DatePickerDelegate" pc="268444418" symbol="onCancel"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="68" lineNum="34" parent="globals/DatePickerDelegate" pc="268444420" symbol="onCancel"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="68" lineNum="35" parent="globals/DatePickerDelegate" pc="268444434" symbol="onCancel"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="69" lineNum="26" parent="globals/DatePickerDelegate" pc="268444436" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="69" lineNum="27" parent="globals/DatePickerDelegate" pc="268444438" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="69" lineNum="28" parent="globals/DatePickerDelegate" pc="268444450" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="69" lineNum="29" parent="globals/DatePickerDelegate" pc="268444459" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="69" lineNum="30" parent="globals/DatePickerDelegate" pc="268444468" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="70" lineNum="38" parent="globals/DatePickerDelegate" pc="268444478" symbol="onAccept"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="70" lineNum="39" parent="globals/DatePickerDelegate" pc="268444480" symbol="onAccept"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="70" lineNum="40" parent="globals/DatePickerDelegate" pc="268444495" symbol="onAccept"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="70" lineNum="41" parent="globals/DatePickerDelegate" pc="268444568" symbol="onAccept"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="71" lineNum="76" parent="globals/DrawableMenuTitle" pc="268444570" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="71" lineNum="77" parent="globals/DrawableMenuTitle" pc="268444572" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="72" lineNum="82" parent="globals/DrawableMenuTitle" pc="268444589" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="72" lineNum="83" parent="globals/DrawableMenuTitle" pc="268444592" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="72" lineNum="84" parent="globals/DrawableMenuTitle" pc="268444596" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="72" lineNum="85" parent="globals/DrawableMenuTitle" pc="268444629" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="72" lineNum="86" parent="globals/DrawableMenuTitle" pc="268444638" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="72" lineNum="88" parent="globals/DrawableMenuTitle" pc="268444693" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="72" lineNum="89" parent="globals/DrawableMenuTitle" pc="268444714" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="72" lineNum="90" parent="globals/DrawableMenuTitle" pc="268444734" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="72" lineNum="91" parent="globals/DrawableMenuTitle" pc="268444744" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="72" lineNum="93" parent="globals/DrawableMenuTitle" pc="268444756" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="72" lineNum="94" parent="globals/DrawableMenuTitle" pc="268444768" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="72" lineNum="96" parent="globals/DrawableMenuTitle" pc="268444776" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="72" lineNum="97" parent="globals/DrawableMenuTitle" pc="268444792" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="72" lineNum="98" parent="globals/DrawableMenuTitle" pc="268444809" symbol="draw"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="73" lineNum="106" parent="globals/AnniversaryGlance" pc="268444870" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;dateText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="73" lineNum="107" parent="globals/AnniversaryGlance" pc="268444872" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;dateText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="73" lineNum="108" parent="globals/AnniversaryGlance" pc="268444885" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;dateText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="73" lineNum="111" parent="globals/AnniversaryGlance" pc="268444908" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;dateText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="74" lineNum="44" parent="globals/AnniversaryGlance" pc="268444929" symbol="onLayout"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="74" lineNum="45" parent="globals/AnniversaryGlance" pc="268444931" symbol="onLayout"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="75" lineNum="97" parent="globals/AnniversaryGlance" pc="268444965" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;PoLText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="75" lineNum="98" parent="globals/AnniversaryGlance" pc="268444967" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;PoLText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="75" lineNum="99" parent="globals/AnniversaryGlance" pc="268444974" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;PoLText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="75" lineNum="102" parent="globals/AnniversaryGlance" pc="268444983" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;PoLText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="76" lineNum="91" parent="globals/AnniversaryGlance" pc="268444990" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;calculate_duration&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="76" lineNum="92" parent="globals/AnniversaryGlance" pc="268444993" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;calculate_duration&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="76" lineNum="93" parent="globals/AnniversaryGlance" pc="268445005" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;calculate_duration&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="76" lineNum="94" parent="globals/AnniversaryGlance" pc="268445025" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;calculate_duration&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="77" lineNum="84" parent="globals/AnniversaryGlance" pc="268445028" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelLocat&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="77" lineNum="85" parent="globals/AnniversaryGlance" pc="268445031" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelLocat&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="77" lineNum="86" parent="globals/AnniversaryGlance" pc="268445052" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelLocat&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="77" lineNum="87" parent="globals/AnniversaryGlance" pc="268445058" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelLocat&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="78" lineNum="73" parent="globals/AnniversaryGlance" pc="268445077" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="78" lineNum="74" parent="globals/AnniversaryGlance" pc="268445080" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="78" lineNum="75" parent="globals/AnniversaryGlance" pc="268445101" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="78" lineNum="76" parent="globals/AnniversaryGlance" pc="268445107" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelText&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="18" parent="globals/AnniversaryGlance" pc="268445124" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="19" parent="globals/AnniversaryGlance" pc="268445127" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="21" parent="globals/AnniversaryGlance" pc="268445139" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="22" parent="globals/AnniversaryGlance" pc="268445177" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="23" parent="globals/AnniversaryGlance" pc="268445215" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="24" parent="globals/AnniversaryGlance" pc="268445253" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="26" parent="globals/AnniversaryGlance" pc="268445291" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="27" parent="globals/AnniversaryGlance" pc="268445303" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="28" parent="globals/AnniversaryGlance" pc="268445337" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="30" parent="globals/AnniversaryGlance" pc="268445345" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="31" parent="globals/AnniversaryGlance" pc="268445364" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="32" parent="globals/AnniversaryGlance" pc="268445385" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="33" parent="globals/AnniversaryGlance" pc="268445402" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="34" parent="globals/AnniversaryGlance" pc="268445409" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="35" parent="globals/AnniversaryGlance" pc="268445422" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="36" parent="globals/AnniversaryGlance" pc="268445443" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="79" lineNum="37" parent="globals/AnniversaryGlance" pc="268445480" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="48" parent="globals/AnniversaryGlance" pc="268445500" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="49" parent="globals/AnniversaryGlance" pc="268445503" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="51" parent="globals/AnniversaryGlance" pc="268445523" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="52" parent="globals/AnniversaryGlance" pc="268445542" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="53" parent="globals/AnniversaryGlance" pc="268445569" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="55" parent="globals/AnniversaryGlance" pc="268445596" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="56" parent="globals/AnniversaryGlance" pc="268445600" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="57" parent="globals/AnniversaryGlance" pc="268445604" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="58" parent="globals/AnniversaryGlance" pc="268445607" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="59" parent="globals/AnniversaryGlance" pc="268445646" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="60" parent="globals/AnniversaryGlance" pc="268445670" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="61" parent="globals/AnniversaryGlance" pc="268445697" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="62" parent="globals/AnniversaryGlance" pc="268445701" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="63" parent="globals/AnniversaryGlance" pc="268445720" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="64" parent="globals/AnniversaryGlance" pc="268445738" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="65" parent="globals/AnniversaryGlance" pc="268445756" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryGlance.mc" id="80" lineNum="67" parent="globals/AnniversaryGlance" pc="268445774" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="81" lineNum="21" parent="globals/AnniversaryMenu" pc="268445795" symbol="onShow"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="81" lineNum="22" parent="globals/AnniversaryMenu" pc="268445798" symbol="onShow"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="81" lineNum="23" parent="globals/AnniversaryMenu" pc="268445822" symbol="onShow"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="81" lineNum="24" parent="globals/AnniversaryMenu" pc="268445850" symbol="onShow"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="81" lineNum="25" parent="globals/AnniversaryMenu" pc="268445859" symbol="onShow"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="81" lineNum="28" parent="globals/AnniversaryMenu" pc="268445870" symbol="onShow"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="81" lineNum="32" parent="globals/AnniversaryMenu" pc="268445885" symbol="onShow"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="81" lineNum="33" parent="globals/AnniversaryMenu" pc="268445905" symbol="onShow"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="81" lineNum="34" parent="globals/AnniversaryMenu" pc="268445915" symbol="onShow"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="81" lineNum="35" parent="globals/AnniversaryMenu" pc="268445931" symbol="onShow"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="81" lineNum="36" parent="globals/AnniversaryMenu" pc="268445940" symbol="onShow"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="81" lineNum="37" parent="globals/AnniversaryMenu" pc="268445948" symbol="onShow"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="81" lineNum="39" parent="globals/AnniversaryMenu" pc="268445954" symbol="onShow"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="81" lineNum="42" parent="globals/AnniversaryMenu" pc="268446026" symbol="onShow"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="82" lineNum="13" parent="globals/AnniversaryMenu" pc="268446101" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="82" lineNum="14" parent="globals/AnniversaryMenu" pc="268446103" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="82" lineNum="17" parent="globals/AnniversaryMenu" pc="268446153" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="82" lineNum="18" parent="globals/AnniversaryMenu" pc="268446162" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="83" lineNum="45" parent="globals/AnniversaryMenu" pc="268446171" symbol="onHide"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="83" lineNum="46" parent="globals/AnniversaryMenu" pc="268446173" symbol="onHide"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="83" lineNum="47" parent="globals/AnniversaryMenu" pc="268446181" symbol="onHide"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="83" lineNum="48" parent="globals/AnniversaryMenu" pc="268446189" symbol="onHide"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="84" lineNum="201" parent="globals/TimePickerDelegate" pc="268446216" symbol="onCancel"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="84" lineNum="202" parent="globals/TimePickerDelegate" pc="268446218" symbol="onCancel"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="84" lineNum="203" parent="globals/TimePickerDelegate" pc="268446232" symbol="onCancel"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="85" lineNum="195" parent="globals/TimePickerDelegate" pc="268446234" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="85" lineNum="196" parent="globals/TimePickerDelegate" pc="268446236" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="85" lineNum="197" parent="globals/TimePickerDelegate" pc="268446248" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="85" lineNum="198" parent="globals/TimePickerDelegate" pc="268446257" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="86" lineNum="206" parent="globals/TimePickerDelegate" pc="268446267" symbol="onAccept"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="86" lineNum="207" parent="globals/TimePickerDelegate" pc="268446270" symbol="onAccept"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="86" lineNum="208" parent="globals/TimePickerDelegate" pc="268446285" symbol="onAccept"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="86" lineNum="215" parent="globals/TimePickerDelegate" pc="268446354" symbol="onAccept"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="86" lineNum="216" parent="globals/TimePickerDelegate" pc="268446366" symbol="onAccept"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="86" lineNum="217" parent="globals/TimePickerDelegate" pc="268446374" symbol="onAccept"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="86" lineNum="218" parent="globals/TimePickerDelegate" pc="268446416" symbol="onAccept"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="87" lineNum="298" parent="globals/KeyboardDelegate" pc="268446418" symbol="onTextEntered"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="87" lineNum="299" parent="globals/KeyboardDelegate" pc="268446420" symbol="onTextEntered"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="87" lineNum="300" parent="globals/KeyboardDelegate" pc="268446446" symbol="onTextEntered"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="88" lineNum="293" parent="globals/KeyboardDelegate" pc="268446448" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="88" lineNum="294" parent="globals/KeyboardDelegate" pc="268446450" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryEditView.mc" id="88" lineNum="295" parent="globals/KeyboardDelegate" pc="268446466" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="89" lineNum="56" parent="globals/AnniversaryMenuDelegate" pc="268446476" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="89" lineNum="57" parent="globals/AnniversaryMenuDelegate" pc="268446478" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="90" lineNum="60" parent="globals/AnniversaryMenuDelegate" pc="268446491" symbol="onSelect"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="90" lineNum="61" parent="globals/AnniversaryMenuDelegate" pc="268446494" symbol="onSelect"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="90" lineNum="62" parent="globals/AnniversaryMenuDelegate" pc="268446503" symbol="onSelect"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="90" lineNum="63" parent="globals/AnniversaryMenuDelegate" pc="268446520" symbol="onSelect"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="90" lineNum="64" parent="globals/AnniversaryMenuDelegate" pc="268446546" symbol="onSelect"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="90" lineNum="66" parent="globals/AnniversaryMenuDelegate" pc="268446590" symbol="onSelect"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryMeu.mc" id="90" lineNum="67" parent="globals/AnniversaryMenuDelegate" pc="268446621" symbol="onSelect"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="91" lineNum="321" parent="globals/WordPickerFactory" pc="268446663" symbol="getValue"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="91" lineNum="322" parent="globals/WordPickerFactory" pc="268446665" symbol="getValue"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="92" lineNum="317" parent="globals/WordPickerFactory" pc="268446674" symbol="getSize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="92" lineNum="318" parent="globals/WordPickerFactory" pc="268446676" symbol="getSize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="93" lineNum="325" parent="globals/WordPickerFactory" pc="268446688" symbol="getDrawable"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="93" lineNum="326" parent="globals/WordPickerFactory" pc="268446690" symbol="getDrawable"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="94" lineNum="299" parent="globals/WordPickerFactory" pc="268446776" symbol="getIndex"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="94" lineNum="300" parent="globals/WordPickerFactory" pc="268446779" symbol="getIndex"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="94" lineNum="301" parent="globals/WordPickerFactory" pc="268446794" symbol="getIndex"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="94" lineNum="302" parent="globals/WordPickerFactory" pc="268446814" symbol="getIndex"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="94" lineNum="303" parent="globals/WordPickerFactory" pc="268446847" symbol="getIndex"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="94" lineNum="307" parent="globals/WordPickerFactory" pc="268446866" symbol="getIndex"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="94" lineNum="308" parent="globals/WordPickerFactory" pc="268446886" symbol="getIndex"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="94" lineNum="309" parent="globals/WordPickerFactory" pc="268446907" symbol="getIndex"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="94" lineNum="314" parent="globals/WordPickerFactory" pc="268446923" symbol="getIndex"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="95" lineNum="286" parent="globals/WordPickerFactory" pc="268446925" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="95" lineNum="287" parent="globals/WordPickerFactory" pc="268446928" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="95" lineNum="289" parent="globals/WordPickerFactory" pc="268446940" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="95" lineNum="291" parent="globals/WordPickerFactory" pc="268446949" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="95" lineNum="292" parent="globals/WordPickerFactory" pc="268446965" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="95" lineNum="293" parent="globals/WordPickerFactory" pc="268446971" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\source\\AnniversaryDatePicker.mc" id="95" lineNum="295" parent="globals/WordPickerFactory" pc="268446983" symbol="initialize"/>
+        <entry filename="c:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\bin\\gen\\006-B4532-00\\source\\Rez.mcgen" id="96" lineNum="38" parent="globals/Rez/Layouts" pc="268446993" symbol="GlanceLayout"/>
+        <entry filename="c:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\bin\\gen\\006-B4532-00\\source\\Rez.mcgen" id="96" lineNum="39" parent="globals/Rez/Layouts" pc="268447004" symbol="GlanceLayout"/>
+        <entry filename="c:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\bin\\gen\\006-B4532-00\\source\\Rez.mcgen" id="96" lineNum="41" parent="globals/Rez/Layouts" pc="268447063" symbol="GlanceLayout"/>
+        <entry filename="c:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\bin\\gen\\006-B4532-00\\source\\Rez.mcgen" id="96" lineNum="43" parent="globals/Rez/Layouts" pc="268447121" symbol="GlanceLayout"/>
+        <entry filename="c:\\Users\\wolfa\\Desktop\\Garmin_Anniversary\\bin\\gen\\006-B4532-00\\source\\Rez.mcgen" id="96" lineNum="45" parent="globals/Rez/Layouts" pc="268447180" symbol="GlanceLayout"/>
     </pcToLineNum>
     <symbolTable>
         <entry field="true" id="28" symbol="&lt;globals/MonthPickerDelegate/&lt;&gt;_date&gt;"/>
@@ -637,6 +641,7 @@
         <entry id="8389628" method="true" symbol="getDrawable"/>
         <entry field="true" id="71" symbol="&lt;globals/AnniversaryGlance/&lt;&gt;_day&gt;"/>
         <entry id="45" method="true" symbol="&lt;globals/AnniversaryEditMenu/&lt;&gt;date_translate&gt;"/>
+        <entry id="8388644" module="true" symbol="System"/>
         <entry field="true" id="134" symbol="set_anni_date"/>
         <entry field="true" id="109" symbol="switch_on"/>
         <entry id="8389619" method="true" symbol="onSelect"/>
@@ -670,7 +675,6 @@
         <entry id="8389279" method="true" symbol="onStart"/>
         <entry field="true" id="132" symbol="passed"/>
         <entry id="53" method="true" symbol="&lt;globals/CustomAnniItem/&lt;&gt;PoLText&gt;"/>
-        <entry id="8388641" module="true" symbol="Math"/>
         <entry id="8389541" method="true" symbol="onCancel"/>
         <entry id="8" object="true" symbol="AnniversaryDayPicker"/>
         <entry field="true" id="116" symbol="add_new"/>
@@ -819,82 +823,86 @@
         <entry endPc="268444015" name="PoLTextY" stackId="21" startPc="268443655"/>
         <entry endPc="268444015" name="dateTextX" stackId="22" startPc="268443655"/>
         <entry endPc="268444015" name="dateTextY" stackId="23" startPc="268443655"/>
-        <entry arg="true" endPc="268444106" name="anni" stackId="1" startPc="268444017"/>
-        <entry endPc="268444106" name="today" stackId="2" startPc="268444020"/>
-        <entry endPc="268444106" name="dura" stackId="3" startPc="268444020"/>
-        <entry arg="true" endPc="268444175" name="menuView" stackId="1" startPc="268444125"/>
-        <entry arg="true" endPc="268444175" name="default_time" stackId="2" startPc="268444125"/>
-        <entry arg="true" endPc="268444175" name="date" stackId="3" startPc="268444125"/>
-        <entry arg="true" endPc="268444175" name="needTime" stackId="4" startPc="268444125"/>
-        <entry arg="true" endPc="268444373" name="values" stackId="1" startPc="268444176"/>
-        <entry endPc="268444371" name="options" stackId="2" startPc="268444289"/>
-        <entry arg="true" endPc="268444397" name="view" stackId="1" startPc="268444374"/>
-        <entry arg="true" endPc="268444446" name="item" stackId="1" startPc="268444398"/>
-        <entry endPc="268444445" name="id" stackId="2" startPc="268444401"/>
-        <entry arg="true" endPc="268444506" name="menuView" stackId="1" startPc="268444465"/>
-        <entry arg="true" endPc="268444506" name="default_time" stackId="2" startPc="268444465"/>
-        <entry arg="true" endPc="268444506" name="needTime" stackId="3" startPc="268444465"/>
-        <entry arg="true" endPc="268444598" name="values" stackId="1" startPc="268444507"/>
-        <entry arg="true" endPc="268444898" name="dc" stackId="1" startPc="268444618"/>
-        <entry endPc="268444897" name="spacing" stackId="2" startPc="268444621"/>
-        <entry endPc="268444897" name="appIcon" stackId="3" startPc="268444621"/>
-        <entry endPc="268444897" name="bitmapWidth" stackId="4" startPc="268444621"/>
-        <entry endPc="268444897" name="labelWidth" stackId="5" startPc="268444621"/>
-        <entry endPc="268444897" name="bitmapX" stackId="6" startPc="268444621"/>
-        <entry endPc="268444897" name="bitmapY" stackId="7" startPc="268444621"/>
-        <entry endPc="268444897" name="labelX" stackId="8" startPc="268444621"/>
-        <entry endPc="268444897" name="labelY" stackId="9" startPc="268444621"/>
-        <entry arg="true" endPc="268444957" name="duration" stackId="1" startPc="268444899"/>
-        <entry arg="true" endPc="268444993" name="dc" stackId="1" startPc="268444958"/>
-        <entry arg="true" endPc="268445018" name="duration" stackId="1" startPc="268444994"/>
-        <entry arg="true" endPc="268445108" name="anni" stackId="1" startPc="268445019"/>
-        <entry endPc="268445108" name="today" stackId="2" startPc="268445022"/>
-        <entry endPc="268445108" name="dura" stackId="3" startPc="268445022"/>
-        <entry arg="true" endPc="268445157" name="labelId" stackId="1" startPc="268445109"/>
-        <entry arg="true" endPc="268445157" name="labelX" stackId="2" startPc="268445109"/>
-        <entry arg="true" endPc="268445157" name="labelY" stackId="3" startPc="268445109"/>
-        <entry endPc="268445156" name="drawable" stackId="4" startPc="268445112"/>
-        <entry arg="true" endPc="268445204" name="labelId" stackId="1" startPc="268445158"/>
-        <entry arg="true" endPc="268445204" name="labelText" stackId="2" startPc="268445158"/>
-        <entry endPc="268445203" name="drawable" stackId="3" startPc="268445161"/>
-        <entry endPc="268445579" name="anniversaries" stackId="1" startPc="268445208"/>
-        <entry endPc="268445576" name="i" stackId="2" startPc="268445483"/>
-        <entry endPc="268445566" name="item" stackId="3" startPc="268445483"/>
-        <entry arg="true" endPc="268445875" name="dc" stackId="1" startPc="268445581"/>
-        <entry endPc="268445874" name="spacingX" stackId="2" startPc="268445584"/>
-        <entry endPc="268445874" name="spacingY" stackId="3" startPc="268445584"/>
-        <entry endPc="268445874" name="nameTextX" stackId="4" startPc="268445584"/>
-        <entry endPc="268445874" name="nameTextY" stackId="5" startPc="268445584"/>
-        <entry endPc="268445874" name="PoLTextX" stackId="6" startPc="268445584"/>
-        <entry endPc="268445874" name="PoLTextY" stackId="7" startPc="268445584"/>
-        <entry endPc="268445874" name="dateTextX" stackId="8" startPc="268445584"/>
-        <entry endPc="268445874" name="dateTextY" stackId="9" startPc="268445584"/>
-        <entry endPc="268446106" name="i" stackId="1" startPc="268445986"/>
-        <entry endPc="268446096" name="item" stackId="2" startPc="268445986"/>
-        <entry arg="true" endPc="268446347" name="menuView" stackId="1" startPc="268446315"/>
-        <entry arg="true" endPc="268446347" name="date" stackId="2" startPc="268446315"/>
-        <entry arg="true" endPc="268446475" name="values" stackId="1" startPc="268446348"/>
-        <entry endPc="268446475" name="options" stackId="2" startPc="268446351"/>
-        <entry arg="true" endPc="268446505" name="text" stackId="1" startPc="268446476"/>
-        <entry arg="true" endPc="268446505" name="changed" stackId="2" startPc="268446476"/>
-        <entry arg="true" endPc="268446533" name="view" stackId="1" startPc="268446506"/>
-        <entry arg="true" endPc="268446720" name="item" stackId="1" startPc="268446549"/>
-        <entry endPc="268446719" name="id" stackId="2" startPc="268446552"/>
-        <entry endPc="268446644" name="view" stackId="3" startPc="268446578"/>
-        <entry endPc="268446719" name="view" stackId="4" startPc="268446648"/>
-        <entry arg="true" endPc="268446731" name="index" stackId="1" startPc="268446721"/>
-        <entry arg="true" endPc="268446833" name="index" stackId="1" startPc="268446746"/>
-        <entry arg="true" endPc="268446833" name="selected" stackId="2" startPc="268446746"/>
-        <entry arg="true" endPc="268446982" name="value" stackId="1" startPc="268446834"/>
-        <entry endPc="268446920" name="i" stackId="2" startPc="268446872"/>
-        <entry endPc="268446980" name="i" stackId="3" startPc="268446944"/>
-        <entry arg="true" endPc="268447050" name="words" stackId="1" startPc="268446983"/>
-        <entry arg="true" endPc="268447050" name="options" stackId="2" startPc="268446983"/>
-        <entry endPc="268447049" name="font" stackId="3" startPc="268446986"/>
-        <entry arg="true" endPc="268447257" name="dc" stackId="1" startPc="268447051"/>
-        <entry endPc="268447257" name="rez_cmp_local_text_anniversary_name" stackId="2" startPc="268447062"/>
-        <entry endPc="268447257" name="rez_cmp_local_text_anniversary_PoL" stackId="3" startPc="268447062"/>
-        <entry endPc="268447257" name="rez_cmp_local_text_anniversary_date" stackId="4" startPc="268447062"/>
+        <entry arg="true" endPc="268444054" name="anni" stackId="1" startPc="268444017"/>
+        <entry endPc="268444054" name="now" stackId="2" startPc="268444020"/>
+        <entry endPc="268444054" name="dura" stackId="3" startPc="268444020"/>
+        <entry arg="true" endPc="268444123" name="menuView" stackId="1" startPc="268444073"/>
+        <entry arg="true" endPc="268444123" name="default_time" stackId="2" startPc="268444073"/>
+        <entry arg="true" endPc="268444123" name="date" stackId="3" startPc="268444073"/>
+        <entry arg="true" endPc="268444123" name="needTime" stackId="4" startPc="268444073"/>
+        <entry arg="true" endPc="268444344" name="values" stackId="1" startPc="268444124"/>
+        <entry endPc="268444342" name="options" stackId="2" startPc="268444237"/>
+        <entry endPc="268444342" name="clockTime" stackId="3" startPc="268444237"/>
+        <entry endPc="268444342" name="timeZoneOffset" stackId="4" startPc="268444237"/>
+        <entry arg="true" endPc="268444368" name="view" stackId="1" startPc="268444345"/>
+        <entry arg="true" endPc="268444417" name="item" stackId="1" startPc="268444369"/>
+        <entry endPc="268444416" name="id" stackId="2" startPc="268444372"/>
+        <entry arg="true" endPc="268444477" name="menuView" stackId="1" startPc="268444436"/>
+        <entry arg="true" endPc="268444477" name="default_time" stackId="2" startPc="268444436"/>
+        <entry arg="true" endPc="268444477" name="needTime" stackId="3" startPc="268444436"/>
+        <entry arg="true" endPc="268444569" name="values" stackId="1" startPc="268444478"/>
+        <entry arg="true" endPc="268444869" name="dc" stackId="1" startPc="268444589"/>
+        <entry endPc="268444868" name="spacing" stackId="2" startPc="268444592"/>
+        <entry endPc="268444868" name="appIcon" stackId="3" startPc="268444592"/>
+        <entry endPc="268444868" name="bitmapWidth" stackId="4" startPc="268444592"/>
+        <entry endPc="268444868" name="labelWidth" stackId="5" startPc="268444592"/>
+        <entry endPc="268444868" name="bitmapX" stackId="6" startPc="268444592"/>
+        <entry endPc="268444868" name="bitmapY" stackId="7" startPc="268444592"/>
+        <entry endPc="268444868" name="labelX" stackId="8" startPc="268444592"/>
+        <entry endPc="268444868" name="labelY" stackId="9" startPc="268444592"/>
+        <entry arg="true" endPc="268444928" name="duration" stackId="1" startPc="268444870"/>
+        <entry arg="true" endPc="268444964" name="dc" stackId="1" startPc="268444929"/>
+        <entry arg="true" endPc="268444989" name="duration" stackId="1" startPc="268444965"/>
+        <entry arg="true" endPc="268445027" name="anni" stackId="1" startPc="268444990"/>
+        <entry endPc="268445027" name="now" stackId="2" startPc="268444993"/>
+        <entry endPc="268445027" name="dura" stackId="3" startPc="268444993"/>
+        <entry arg="true" endPc="268445076" name="labelId" stackId="1" startPc="268445028"/>
+        <entry arg="true" endPc="268445076" name="labelX" stackId="2" startPc="268445028"/>
+        <entry arg="true" endPc="268445076" name="labelY" stackId="3" startPc="268445028"/>
+        <entry endPc="268445075" name="drawable" stackId="4" startPc="268445031"/>
+        <entry arg="true" endPc="268445123" name="labelId" stackId="1" startPc="268445077"/>
+        <entry arg="true" endPc="268445123" name="labelText" stackId="2" startPc="268445077"/>
+        <entry endPc="268445122" name="drawable" stackId="3" startPc="268445080"/>
+        <entry endPc="268445498" name="anniversaries" stackId="1" startPc="268445127"/>
+        <entry endPc="268445495" name="i" stackId="2" startPc="268445402"/>
+        <entry endPc="268445485" name="item" stackId="3" startPc="268445402"/>
+        <entry arg="true" endPc="268445794" name="dc" stackId="1" startPc="268445500"/>
+        <entry endPc="268445793" name="spacingX" stackId="2" startPc="268445503"/>
+        <entry endPc="268445793" name="spacingY" stackId="3" startPc="268445503"/>
+        <entry endPc="268445793" name="nameTextX" stackId="4" startPc="268445503"/>
+        <entry endPc="268445793" name="nameTextY" stackId="5" startPc="268445503"/>
+        <entry endPc="268445793" name="PoLTextX" stackId="6" startPc="268445503"/>
+        <entry endPc="268445793" name="PoLTextY" stackId="7" startPc="268445503"/>
+        <entry endPc="268445793" name="dateTextX" stackId="8" startPc="268445503"/>
+        <entry endPc="268445793" name="dateTextY" stackId="9" startPc="268445503"/>
+        <entry endPc="268446025" name="i" stackId="1" startPc="268445905"/>
+        <entry endPc="268446015" name="item" stackId="2" startPc="268445905"/>
+        <entry arg="true" endPc="268446266" name="menuView" stackId="1" startPc="268446234"/>
+        <entry arg="true" endPc="268446266" name="date" stackId="2" startPc="268446234"/>
+        <entry arg="true" endPc="268446417" name="values" stackId="1" startPc="268446267"/>
+        <entry endPc="268446417" name="options" stackId="2" startPc="268446270"/>
+        <entry endPc="268446417" name="clockTime" stackId="3" startPc="268446270"/>
+        <entry endPc="268446417" name="timeZoneOffset" stackId="4" startPc="268446270"/>
+        <entry arg="true" endPc="268446447" name="text" stackId="1" startPc="268446418"/>
+        <entry arg="true" endPc="268446447" name="changed" stackId="2" startPc="268446418"/>
+        <entry arg="true" endPc="268446475" name="view" stackId="1" startPc="268446448"/>
+        <entry arg="true" endPc="268446662" name="item" stackId="1" startPc="268446491"/>
+        <entry endPc="268446661" name="id" stackId="2" startPc="268446494"/>
+        <entry endPc="268446586" name="view" stackId="3" startPc="268446520"/>
+        <entry endPc="268446661" name="view" stackId="4" startPc="268446590"/>
+        <entry arg="true" endPc="268446673" name="index" stackId="1" startPc="268446663"/>
+        <entry arg="true" endPc="268446775" name="index" stackId="1" startPc="268446688"/>
+        <entry arg="true" endPc="268446775" name="selected" stackId="2" startPc="268446688"/>
+        <entry arg="true" endPc="268446924" name="value" stackId="1" startPc="268446776"/>
+        <entry endPc="268446862" name="i" stackId="2" startPc="268446814"/>
+        <entry endPc="268446922" name="i" stackId="3" startPc="268446886"/>
+        <entry arg="true" endPc="268446992" name="words" stackId="1" startPc="268446925"/>
+        <entry arg="true" endPc="268446992" name="options" stackId="2" startPc="268446925"/>
+        <entry endPc="268446991" name="font" stackId="3" startPc="268446928"/>
+        <entry arg="true" endPc="268447199" name="dc" stackId="1" startPc="268446993"/>
+        <entry endPc="268447199" name="rez_cmp_local_text_anniversary_name" stackId="2" startPc="268447004"/>
+        <entry endPc="268447199" name="rez_cmp_local_text_anniversary_PoL" stackId="3" startPc="268447004"/>
+        <entry endPc="268447199" name="rez_cmp_local_text_anniversary_date" stackId="4" startPc="268447004"/>
     </localVars>
     <deviceInfo deviceVersion="5c7ae9cf907f88c116a91dc4ffd75be9b5b7d2e9" partNumber="006-B4532-00"/>
     <annotations>
@@ -1226,145 +1234,145 @@
             <param id="dc"/>
             <documentation><![CDATA[<div class="description"> Draw the application icon and main menu title<br/> <div class="param"> dc Device Context</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268444106" name="&lt;globals/CustomAnniItem/&lt;&gt;calculate_duration&gt;" parent="CustomAnniItem" startPc="268444017">
+        <functionEntry accessMode="private" endPc="268444054" name="&lt;globals/CustomAnniItem/&lt;&gt;calculate_duration&gt;" parent="CustomAnniItem" startPc="268444017">
             <param id="anni"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268444124" name="onCancel" parent="DayPickerDelegate" startPc="268444107">
+        <functionEntry accessMode="public" endPc="268444072" name="onCancel" parent="DayPickerDelegate" startPc="268444055">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268444175" name="initialize" parent="DayPickerDelegate" startPc="268444125">
+        <functionEntry accessMode="public" endPc="268444123" name="initialize" parent="DayPickerDelegate" startPc="268444073">
             <param id="menuView"/>
             <param id="default_time"/>
             <param id="date"/>
             <param id="needTime"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268444373" name="onAccept" parent="DayPickerDelegate" startPc="268444176">
+        <functionEntry accessMode="public" endPc="268444344" name="onAccept" parent="DayPickerDelegate" startPc="268444124">
             <param id="values"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268444397" name="initialize" parent="AnniversaryIconMenuDelegate" startPc="268444374">
+        <functionEntry accessMode="public" endPc="268444368" name="initialize" parent="AnniversaryIconMenuDelegate" startPc="268444345">
             <param id="view"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268444446" name="onSelect" parent="AnniversaryIconMenuDelegate" startPc="268444398">
+        <functionEntry accessMode="public" endPc="268444417" name="onSelect" parent="AnniversaryIconMenuDelegate" startPc="268444369">
             <param id="item"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268444464" name="onCancel" parent="DatePickerDelegate" startPc="268444447">
+        <functionEntry accessMode="public" endPc="268444435" name="onCancel" parent="DatePickerDelegate" startPc="268444418">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268444506" name="initialize" parent="DatePickerDelegate" startPc="268444465">
+        <functionEntry accessMode="public" endPc="268444477" name="initialize" parent="DatePickerDelegate" startPc="268444436">
             <param id="menuView"/>
             <param id="default_time"/>
             <param id="needTime"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268444598" name="onAccept" parent="DatePickerDelegate" startPc="268444507">
+        <functionEntry accessMode="public" endPc="268444569" name="onAccept" parent="DatePickerDelegate" startPc="268444478">
             <param id="values"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268444617" name="initialize" parent="DrawableMenuTitle" startPc="268444599">
+        <functionEntry accessMode="public" endPc="268444588" name="initialize" parent="DrawableMenuTitle" startPc="268444570">
             <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268444898" name="draw" parent="DrawableMenuTitle" startPc="268444618">
+        <functionEntry accessMode="public" endPc="268444869" name="draw" parent="DrawableMenuTitle" startPc="268444589">
             <param id="dc"/>
             <documentation><![CDATA[<div class="description"> Draw the application icon and main menu title<br/> <div class="param"> dc Device Context</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268444957" name="&lt;globals/AnniversaryGlance/&lt;&gt;dateText&gt;" parent="AnniversaryGlance" startPc="268444899">
+        <functionEntry accessMode="private" endPc="268444928" name="&lt;globals/AnniversaryGlance/&lt;&gt;dateText&gt;" parent="AnniversaryGlance" startPc="268444870">
             <param id="duration"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268444993" name="onLayout" parent="AnniversaryGlance" startPc="268444958">
+        <functionEntry accessMode="public" endPc="268444964" name="onLayout" parent="AnniversaryGlance" startPc="268444929">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268445018" name="&lt;globals/AnniversaryGlance/&lt;&gt;PoLText&gt;" parent="AnniversaryGlance" startPc="268444994">
+        <functionEntry accessMode="private" endPc="268444989" name="&lt;globals/AnniversaryGlance/&lt;&gt;PoLText&gt;" parent="AnniversaryGlance" startPc="268444965">
             <param id="duration"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268445108" name="&lt;globals/AnniversaryGlance/&lt;&gt;calculate_duration&gt;" parent="AnniversaryGlance" startPc="268445019">
+        <functionEntry accessMode="private" endPc="268445027" name="&lt;globals/AnniversaryGlance/&lt;&gt;calculate_duration&gt;" parent="AnniversaryGlance" startPc="268444990">
             <param id="anni"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268445157" name="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelLocat&gt;" parent="AnniversaryGlance" startPc="268445109">
+        <functionEntry accessMode="private" endPc="268445076" name="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelLocat&gt;" parent="AnniversaryGlance" startPc="268445028">
             <param id="labelId"/>
             <param id="labelX"/>
             <param id="labelY"/>
             <documentation><![CDATA[<div class="description"> Update a label with new location<br/> <div class="param"> labelId The label to update</div><br/> <div class="param"> labelX The X for the label</div><br/> <div class="param"> labelY The Y for the label</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268445204" name="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelText&gt;" parent="AnniversaryGlance" startPc="268445158">
+        <functionEntry accessMode="private" endPc="268445123" name="&lt;globals/AnniversaryGlance/&lt;&gt;updateLabelText&gt;" parent="AnniversaryGlance" startPc="268445077">
             <param id="labelId"/>
             <param id="labelText"/>
             <documentation><![CDATA[<div class="description"> Update a label with new text<br/> <div class="param"> labelId The label to update</div><br/> <div class="param"> labelText The text for the label</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268445580" name="initialize" parent="AnniversaryGlance" startPc="268445205">
+        <functionEntry accessMode="public" endPc="268445499" name="initialize" parent="AnniversaryGlance" startPc="268445124">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268445875" name="onUpdate" parent="AnniversaryGlance" startPc="268445581">
+        <functionEntry accessMode="public" endPc="268445794" name="onUpdate" parent="AnniversaryGlance" startPc="268445500">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268446181" name="onShow" parent="AnniversaryMenu" startPc="268445876">
+        <functionEntry accessMode="public" endPc="268446100" name="onShow" parent="AnniversaryMenu" startPc="268445795">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268446251" name="initialize" parent="AnniversaryMenu" startPc="268446182">
+        <functionEntry accessMode="public" endPc="268446170" name="initialize" parent="AnniversaryMenu" startPc="268446101">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268446296" name="onHide" parent="AnniversaryMenu" startPc="268446252">
+        <functionEntry accessMode="public" endPc="268446215" name="onHide" parent="AnniversaryMenu" startPc="268446171">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268446314" name="onCancel" parent="TimePickerDelegate" startPc="268446297">
+        <functionEntry accessMode="public" endPc="268446233" name="onCancel" parent="TimePickerDelegate" startPc="268446216">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268446347" name="initialize" parent="TimePickerDelegate" startPc="268446315">
+        <functionEntry accessMode="public" endPc="268446266" name="initialize" parent="TimePickerDelegate" startPc="268446234">
             <param id="menuView"/>
             <param id="date"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268446475" name="onAccept" parent="TimePickerDelegate" startPc="268446348">
+        <functionEntry accessMode="public" endPc="268446417" name="onAccept" parent="TimePickerDelegate" startPc="268446267">
             <param id="values"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268446505" name="onTextEntered" parent="KeyboardDelegate" startPc="268446476">
+        <functionEntry accessMode="public" endPc="268446447" name="onTextEntered" parent="KeyboardDelegate" startPc="268446418">
             <param id="text"/>
             <param id="changed"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268446533" name="initialize" parent="KeyboardDelegate" startPc="268446506">
+        <functionEntry accessMode="public" endPc="268446475" name="initialize" parent="KeyboardDelegate" startPc="268446448">
             <param id="view"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268446548" name="initialize" parent="AnniversaryMenuDelegate" startPc="268446534">
+        <functionEntry accessMode="public" endPc="268446490" name="initialize" parent="AnniversaryMenuDelegate" startPc="268446476">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268446720" name="onSelect" parent="AnniversaryMenuDelegate" startPc="268446549">
+        <functionEntry accessMode="public" endPc="268446662" name="onSelect" parent="AnniversaryMenuDelegate" startPc="268446491">
             <param id="item"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268446731" name="getValue" parent="WordPickerFactory" startPc="268446721">
+        <functionEntry accessMode="public" endPc="268446673" name="getValue" parent="WordPickerFactory" startPc="268446663">
             <param id="index"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268446745" name="getSize" parent="WordPickerFactory" startPc="268446732">
+        <functionEntry accessMode="public" endPc="268446687" name="getSize" parent="WordPickerFactory" startPc="268446674">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268446833" name="getDrawable" parent="WordPickerFactory" startPc="268446746">
+        <functionEntry accessMode="public" endPc="268446775" name="getDrawable" parent="WordPickerFactory" startPc="268446688">
             <param id="index"/>
             <param id="selected"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268446982" name="getIndex" parent="WordPickerFactory" startPc="268446834">
+        <functionEntry accessMode="public" endPc="268446924" name="getIndex" parent="WordPickerFactory" startPc="268446776">
             <param id="value"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268447050" name="initialize" parent="WordPickerFactory" startPc="268446983">
+        <functionEntry accessMode="public" endPc="268446992" name="initialize" parent="WordPickerFactory" startPc="268446925">
             <param id="words"/>
             <param id="options"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268447257" name="GlanceLayout" parent="Layouts" startPc="268447051">
+        <functionEntry accessMode="public" endPc="268447199" name="GlanceLayout" parent="Layouts" startPc="268446993">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
