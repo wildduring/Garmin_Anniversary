@@ -4,6 +4,8 @@ import Toybox.Lang;
 import Toybox.Time;
 import Toybox.WatchUi;
 
+import Toybox.Notifications;
+
 class AnniversaryMenu extends WatchUi.CustomMenu {
 
     const STORAGE_KEY = "anniversaries";

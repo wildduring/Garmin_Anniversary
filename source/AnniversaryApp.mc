@@ -20,15 +20,17 @@ class AnniversaryApp extends Application.AppBase {
     }
 
     // Return the initial view of your application here
+    (:typecheck(disableBackgroundCheck))
     public function getInitialView() as [ Views ] or [ Views, InputDelegates ] {
         return [ new AnniversaryMenu(), new AnniversaryMenuDelegate()];
     }
 
+    (:typecheck(disableBackgroundCheck))
     public function getGlanceView() as [ GlanceView ] or [ GlanceView, GlanceViewDelegate ] or Null {
         return [ new AnniversaryGlance() ];
     }
 
-    public function getServiceDelegate() as [ System.ServiceDelegate ] {
+    public function getServiceDelegate() as [ $.Toybox.System.ServiceDelegate ] {
         return [new AnniversaryBackGroundDelegate()];
     }
 

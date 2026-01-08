@@ -34,14 +34,13 @@ class AnniversaryGlance extends WatchUi.GlanceView{
         if(_anniversaries != null && _anniversaries instanceof Array) {
             for(var i = 0; i<_anniversaries.size(); i++) {
                 var item = _anniversaries[i] as Dictionary;
-                if(item["showInGlance"] == true) {
+                if(item["showInGlance"]) {
                     _name = item["name"].toString();
                     _anni = new Time.Moment(item["date"]);
                     break;
                 }
             }
         }
-        updateTemporalEvent();
     }
 
     // Load your resources here
@@ -113,26 +112,6 @@ class AnniversaryGlance extends WatchUi.GlanceView{
         }
         else {
             return duration.abs().toString() + _days;
-        }
-    }
-
-    private function updateTemporalEvent() {
-        var TemporalEventTime = [] as Lang.Array;
-        for(var i = 0; i<_anniversaries.size(); i++) {    //遍历纪念日列表
-            var item = _anniversaries[i] as Lang.Dictionary;
-            if(item["shouldNotify"]) {
-                var NotifyTime = new Time.Moment(item["NotifyTime"]);
-                if(Time.now().compare(NotifyTime) < 0) {    //NotifyTime在未来
-                    TemporalEventTime.add(NotifyTime.value());
-                }
-            }
-        }
-        if(TemporalEventTime.size()>0) {    //如果存在提醒
-            TemporalEventTime.sort(null);
-            var time = new Time.Moment(TemporalEventTime[0]);
-            Background.registerForTemporalEvent(time);
-        } else {
-            Background.deleteTemporalEvent();    //如果没有提醒，清除所有提醒
         }
     }
 

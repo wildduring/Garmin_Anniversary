@@ -9,10 +9,11 @@ import Toybox.Time;
 class AnniversaryBackGroundDelegate extends System.ServiceDelegate {
 
     private const STORAGE_KEY = "anniversaries";
-    private var _anniversaries = [] as Lang.Array;
+    private var _anniversaries as Lang.Array;
 
     public function initialize() {
         ServiceDelegate.initialize();
+        _anniversaries = [];
     }
 
     public function onTemporalEvent() as Void {
@@ -34,7 +35,7 @@ class AnniversaryBackGroundDelegate extends System.ServiceDelegate {
             var _dura = calculate_duration(_anni);
             var NotifyName = item["name"];
             var NotifySubtitle = NotifyName + PoLText(_dura) + dateText(_dura);
-            Notifications.showNotification(NotifyName, NotifySubtitle, {:icon=>icon_translate(item["icon"]), :body=>NotifySubtitle});
+            Notifications.showNotification(NotifyName, NotifySubtitle, {:icon=>icon_translate(item["icon"]), :body=>NotifySubtitle, :actions=>[{ :label => Application.loadResource(Rez.Strings.confirm), :data => null }]});
         }
         updateTemporalEvent();
     }
