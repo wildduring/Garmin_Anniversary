@@ -1,6 +1,6 @@
 <drawables>
 
-    <bitmap id="LauncherIcon" filename="anniversary40.png"/>
+    <bitmap id="LauncherIcon" filename="anniversary.png"/>
 
     <bitmap id="anniversary40" scope="background" filename="anniversary40.png"/>
     <bitmap id="work40" scope="background" filename="work40.png"/>
