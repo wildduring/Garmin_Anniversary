@@ -11,10 +11,10 @@
     <string id="studay">Studay</string>
     <string id="spring">Spring</string>
 
-    <string id="passed">has passed</string>
-    <string id="left">only left</string>
-    <string id="day">day</string>
-    <string id="days">days</string>
+    <string id="passed" scope="background">has passed</string>
+    <string id="left" scope="background">only left</string>
+    <string id="day" scope="background">day</string>
+    <string id="days" scope="background">days</string>
 
     <string id="add_new">Add Anniversary</string>
     <string id="settings">Settings</string>

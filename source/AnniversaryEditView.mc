@@ -1,4 +1,5 @@
 import Toybox.Application;
+import Toybox.Background;
 import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.Time;
@@ -171,6 +172,7 @@ class AnniversaryEditMenu extends WatchUi.Menu2 {
             } else {
                 self.deleteItem(self.findItemById("NotifyTime"));
             }
+            updateTemporalEvent();    //更新后台任务的时间
         } else if(key.equals("NotifyTime")) {
             _anniversaries[_index].put("NotifyTime", value);
             Storage.setValue(STORAGE_KEY, _anniversaries);
@@ -183,6 +185,26 @@ class AnniversaryEditMenu extends WatchUi.Menu2 {
 
     public function getAnniversaryDictionary() as Lang.Dictionary {
         return _anniversaries[_index];
+    }
+
+    private function updateTemporalEvent() {
+        var TemporalEventTime = [] as Lang.Array;
+        for(var i = 0; i<_anniversaries.size(); i++) {    //遍历纪念日列表
+            var item = _anniversaries[i] as Lang.Dictionary;
+            if(item["shouldNotify"]) {
+                var NotifyTime = new Time.Moment(item["NotifyTime"]);
+                if(Time.now().compare(NotifyTime) < 0) {    //NotifyTime在未来
+                    TemporalEventTime.add(NotifyTime.value());
+                }
+            }
+        }
+        if(TemporalEventTime.size()>0) {    //如果存在提醒
+            TemporalEventTime.sort(null);
+            var time = new Time.Moment(TemporalEventTime[0]);
+            Background.registerForTemporalEvent(time);
+        } else {
+            Background.deleteTemporalEvent();    //如果没有提醒，清除所有提醒
+        }
     }
 
 }

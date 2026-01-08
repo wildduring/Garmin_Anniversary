@@ -183,7 +183,7 @@ class AnniversaryTimePicker extends WatchUi.Picker {
             :locY=>WatchUi.LAYOUT_VALIGN_BOTTOM, :color=>Graphics.COLOR_WHITE});
         var separator = new WatchUi.Text({:text=>$.Rez.Strings.dateSeparator, :locX=>WatchUi.LAYOUT_HALIGN_CENTER,
             :locY=>WatchUi.LAYOUT_VALIGN_CENTER, :color=>Graphics.COLOR_WHITE});
-        Picker.initialize({:title=>title, :pattern=>[new $.NumberPickerFactory(0, 23, 1, {:format=>"%02d"}), separator, new $.NumberPickerFactory(0, 59, 1, {:format=>"%02d"})], :defaults=>[Gregorian.utcInfo(_default_time, Time.FORMAT_SHORT).hour, 0, Gregorian.utcInfo(_default_time, Time.FORMAT_SHORT).min]});
+        Picker.initialize({:title=>title, :pattern=>[new $.NumberPickerFactory(0, 23, 1, {:format=>"%02d"}), separator, new $.NumberPickerFactory(0, 59, 1, {:format=>"%02d"})], :defaults=>[Gregorian.info(_default_time, Time.FORMAT_SHORT).hour, 0, Gregorian.info(_default_time, Time.FORMAT_SHORT).min]});
     }
 
 }

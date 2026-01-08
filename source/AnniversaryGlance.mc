@@ -4,12 +4,15 @@ import Toybox.Lang;
 import Toybox.Time;
 import Toybox.WatchUi;
 
+(:glance)
 class AnniversaryGlance extends WatchUi.GlanceView{
 
     private var _passed as String;
     private var _left as String;
     private var _day as String;
     private var _days as String;
+
+    private var _anniversaries as Lang.Array;
 
     private var _name;
     private var _anni;
@@ -27,10 +30,10 @@ class AnniversaryGlance extends WatchUi.GlanceView{
         _anni = new Time.Moment(1674172800);
         _dura = 0;
 
-        var anniversaries = Storage.getValue("anniversaries");    //从 Storage 加载你的纪念日数据数组
-        if(anniversaries != null && anniversaries instanceof Array) {
-            for(var i = 0; i<anniversaries.size(); i++) {
-                var item = anniversaries[i] as Dictionary;
+        _anniversaries = Storage.getValue("anniversaries");    //从 Storage 加载你的纪念日数据数组
+        if(_anniversaries != null && _anniversaries instanceof Array) {
+            for(var i = 0; i<_anniversaries.size(); i++) {
+                var item = _anniversaries[i] as Dictionary;
                 if(item["showInGlance"] == true) {
                     _name = item["name"].toString();
                     _anni = new Time.Moment(item["date"]);
@@ -38,6 +41,7 @@ class AnniversaryGlance extends WatchUi.GlanceView{
                 }
             }
         }
+        updateTemporalEvent();
     }
 
     // Load your resources here
@@ -109,6 +113,26 @@ class AnniversaryGlance extends WatchUi.GlanceView{
         }
         else {
             return duration.abs().toString() + _days;
+        }
+    }
+
+    private function updateTemporalEvent() {
+        var TemporalEventTime = [] as Lang.Array;
+        for(var i = 0; i<_anniversaries.size(); i++) {    //遍历纪念日列表
+            var item = _anniversaries[i] as Lang.Dictionary;
+            if(item["shouldNotify"]) {
+                var NotifyTime = new Time.Moment(item["NotifyTime"]);
+                if(Time.now().compare(NotifyTime) < 0) {    //NotifyTime在未来
+                    TemporalEventTime.add(NotifyTime.value());
+                }
+            }
+        }
+        if(TemporalEventTime.size()>0) {    //如果存在提醒
+            TemporalEventTime.sort(null);
+            var time = new Time.Moment(TemporalEventTime[0]);
+            Background.registerForTemporalEvent(time);
+        } else {
+            Background.deleteTemporalEvent();    //如果没有提醒，清除所有提醒
         }
     }
 

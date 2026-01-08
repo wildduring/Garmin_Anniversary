@@ -1,8 +1,10 @@
 import Toybox.Application;
-import Toybox.Lang;
-import Toybox.WatchUi;
 import Toybox.Graphics;
+import Toybox.Lang;
+import Toybox.System;
+import Toybox.WatchUi;
 
+(:glance)
 class AnniversaryApp extends Application.AppBase {
 
     public function initialize() {
@@ -18,12 +20,16 @@ class AnniversaryApp extends Application.AppBase {
     }
 
     // Return the initial view of your application here
-    public function getInitialView() as [Views] or [ Views, InputDelegates ] {
+    public function getInitialView() as [ Views ] or [ Views, InputDelegates ] {
         return [ new AnniversaryMenu(), new AnniversaryMenuDelegate()];
     }
 
-    function getGlanceView() as [ GlanceView ] or [ GlanceView, GlanceViewDelegate ] or Null {
+    public function getGlanceView() as [ GlanceView ] or [ GlanceView, GlanceViewDelegate ] or Null {
         return [ new AnniversaryGlance() ];
+    }
+
+    public function getServiceDelegate() as [ System.ServiceDelegate ] {
+        return [new AnniversaryBackGroundDelegate()];
     }
 
     //! For this app all that needs to be done is trigger a WatchUi refresh

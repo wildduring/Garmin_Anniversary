@@ -11,10 +11,10 @@
     <string id="studay">学习</string>
     <string id="spring">春节</string>
 
-    <string id="passed">已经过去</string>
-    <string id="left">只剩下</string>
-    <string id="day">天啦</string>
-    <string id="days">天啦</string>
+    <string id="passed" scope="background">已经过去</string>
+    <string id="left" scope="background">只剩下</string>
+    <string id="day" scope="background">天啦</string>
+    <string id="days" scope="background">天啦</string>
 
     <string id="add_new">添加纪念日</string>
     <string id="settings">设置</string>

@@ -1,32 +1,20 @@
 <drawables>
-    <bitmap id="LauncherIcon" filename="anniversary.png"/>
-    <bitmap id="anniversary" filename="anniversary.png"/>
-    <bitmap id="work" filename="work.png"/>
-    <bitmap id="love" filename="love.png"/>
-    <bitmap id="marry" filename="marry.png"/>
-    <bitmap id="graduate" filename="graduate.png"/>
-    <bitmap id="birth" filename="birth.png"/>
-    <bitmap id="studay" filename="studay.png"/>
-    <bitmap id="spring" filename="spring.png"/>
 
-    <bitmap id="LauncherIcon40" filename="anniversary40.png"/>
-    <bitmap id="anniversary40" filename="anniversary40.png"/>
-    <bitmap id="work40" filename="work40.png"/>
-    <bitmap id="love40" filename="love40.png"/>
-    <bitmap id="marry40" filename="marry40.png"/>
-    <bitmap id="graduate40" filename="graduate40.png"/>
-    <bitmap id="birth40" filename="birth40.png"/>
-    <bitmap id="studay40" filename="studay40.png"/>
-    <bitmap id="spring40" filename="spring40.png"/>
+    <bitmap id="LauncherIcon" filename="anniversary40.png"/>
 
-    <bitmap id="add" filename="add.png"/>
+    <bitmap id="anniversary40" scope="background" filename="anniversary40.png"/>
+    <bitmap id="work40" scope="background" filename="work40.png"/>
+    <bitmap id="love40" scope="background" filename="love40.png"/>
+    <bitmap id="marry40" scope="background" filename="marry40.png"/>
+    <bitmap id="graduate40" scope="background" filename="graduate40.png"/>
+    <bitmap id="birth40" scope="background" filename="birth40.png"/>
+    <bitmap id="studay40" scope="background" filename="studay40.png"/>
+    <bitmap id="spring40" scope="background" filename="spring40.png"/>
+
     <bitmap id="add40" filename="add40.png"/>
-    <bitmap id="settings" filename="settings.png"/>
     <bitmap id="settings40" filename="settings40.png"/>
 
-    <bitmap id="switch_on" filename="switch_on.png"/>
     <bitmap id="switch_on40" filename="switch_on40.png"/>
-    <bitmap id="switch_off" filename="switch_off.png"/>
     <bitmap id="switch_off40" filename="switch_off40.png"/>
 
 </drawables>

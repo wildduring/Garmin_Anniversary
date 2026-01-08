@@ -1,100 +1,117 @@
 [ @file = "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Application,1,14,25]; ]
 import Toybox.Application;
-[ @file = "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
-import Toybox.Lang;
-[ @file = "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
-import Toybox.WatchUi;
-[ @file = "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [Graphics,4,14,22]; ]
+[ @file = "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Graphics,2,14,22]; ]
 import Toybox.Graphics;
-[ @file = "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc"; @line = 6; @symbol_classdef = [AnniversaryApp,6,6,20]; @symbol_extends<0> = [Application,6,29,40]; @symbol_extends<1> = [AppBase,6,41,48]; ]
+[ @file = "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Lang,3,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [System,4,14,20]; ]
+import Toybox.System;
+[ @file = "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [WatchUi,5,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc"; @line = 8; glance = true; @symbol_classdef = [AnniversaryApp,8,6,20]; @symbol_extends<0> = [Application,8,29,40]; @symbol_extends<1> = [AppBase,8,41,48]; ]
 class AnniversaryApp extends Application.AppBase {
-    [ @file = "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc"; @line = 6; ]
+    [ @file = "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc"; @line = 8; ]
     <init> {
     }
-    [ @file = "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc"; @line = 6; ]
+    [ @file = "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc"; @line = 8; ]
     static
     <init> {
     }
-    [ @file = "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc"; @line = 8; @symbol_functiondef = [initialize,8,20,30]; ]
+    [ @file = "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc"; @line = 10; @symbol_functiondef = [initialize,10,20,30]; ]
     public
     function initialize() as Void {
-C__Users_wolfa_Desktop_Garmin_Anniversary_source_AnniversaryApp_mc_8_33_10_4_start:
-[ "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc" 9 8 ]
-        symbol [ AppBase %tmp.2 9 8 15 ];
+C__Users_wolfa_Desktop_Garmin_Anniversary_source_AnniversaryApp_mc_10_33_12_4_start:
+[ "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc" 11 8 ]
+        symbol [ AppBase %tmp.2 11 8 15 ];
         %tmp.2 = getv ? :AppBase;
-        symbol [ initialize %tmp.3 9 16 26 ];
+        symbol [ initialize %tmp.3 11 16 26 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-C__Users_wolfa_Desktop_Garmin_Anniversary_source_AnniversaryApp_mc_8_33_10_4_stop:
+C__Users_wolfa_Desktop_Garmin_Anniversary_source_AnniversaryApp_mc_10_33_12_4_stop:
     }
-    [ @file = "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc"; @line = 13; @symbol_functiondef = [onStart,13,20,27]; @symbol_param<0> = [state,13,28,33]; @symbol_param<0>_type<0> = [Dictionary,13,37,47]; ]
+    [ @file = "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc"; @line = 15; @symbol_functiondef = [onStart,15,20,27]; @symbol_param<0> = [state,15,28,33]; @symbol_param<0>_type<0> = [Dictionary,15,37,47]; ]
     public
     function onStart(state as Dictionary or Null) as Void {
     }
-    [ @file = "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc"; @line = 17; @symbol_functiondef = [onStop,17,20,26]; @symbol_param<0> = [state,17,27,32]; @symbol_param<0>_type<0> = [Dictionary,17,36,46]; ]
+    [ @file = "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc"; @line = 19; @symbol_functiondef = [onStop,19,20,26]; @symbol_param<0> = [state,19,27,32]; @symbol_param<0>_type<0> = [Dictionary,19,36,46]; ]
     public
     function onStop(state as Dictionary or Null) as Void {
     }
-    [ @file = "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc"; @line = 21; @symbol_functiondef = [getInitialView,21,20,34]; @symbol_return<0> = [Views,21,41,46]; @symbol_return<1> = [Views,21,53,58]; @symbol_return<2> = [InputDelegates,21,60,74]; ]
+    [ @file = "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc"; @line = 23; @symbol_functiondef = [getInitialView,23,20,34]; @symbol_return<0> = [Views,23,42,47]; @symbol_return<1> = [Views,23,55,60]; @symbol_return<2> = [InputDelegates,23,62,76]; ]
     public
     function getInitialView() as [Views] or [Views, InputDelegates] {
-C__Users_wolfa_Desktop_Garmin_Anniversary_source_AnniversaryApp_mc_21_77_23_4_start:
-[ "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc" 22 8 ]
+C__Users_wolfa_Desktop_Garmin_Anniversary_source_AnniversaryApp_mc_23_79_25_4_start:
+[ "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc" 24 8 ]
         %tmp.1 = newa 2;
-        symbol [ AnniversaryMenu %tmp.5 22 21 36 ];
+        symbol [ AnniversaryMenu %tmp.5 24 21 36 ];
         %tmp.5 = getv ? :AnniversaryMenu;
         %tmp.2 = newc %tmp.5 ();
         %tmp.6 = dup %tmp.1;
         %tmp.7 = aputv %tmp.6 0 %tmp.2;
-        symbol [ AnniversaryMenuDelegate %tmp.11 22 44 67 ];
+        symbol [ AnniversaryMenuDelegate %tmp.11 24 44 67 ];
         %tmp.11 = getv ? :AnniversaryMenuDelegate;
         %tmp.8 = newc %tmp.11 ();
         %tmp.12 = dup %tmp.7;
         %tmp.13 = aputv %tmp.12 1 %tmp.8;
         ret %tmp.13;
-C__Users_wolfa_Desktop_Garmin_Anniversary_source_AnniversaryApp_mc_21_77_23_4_stop:
+C__Users_wolfa_Desktop_Garmin_Anniversary_source_AnniversaryApp_mc_23_79_25_4_stop:
     }
-    [ @file = "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc"; @line = 25; @symbol_functiondef = [getGlanceView,25,13,26]; @symbol_return<0> = [GlanceView,25,34,44]; @symbol_return<1> = [GlanceView,25,52,62]; @symbol_return<2> = [GlanceViewDelegate,25,64,82]; ]
+    [ @file = "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc"; @line = 27; @symbol_functiondef = [getGlanceView,27,20,33]; @symbol_return<0> = [GlanceView,27,41,51]; @symbol_return<1> = [GlanceView,27,59,69]; @symbol_return<2> = [GlanceViewDelegate,27,71,89]; ]
+    public
     function getGlanceView() as [GlanceView] or [GlanceView, GlanceViewDelegate] or Null {
-C__Users_wolfa_Desktop_Garmin_Anniversary_source_AnniversaryApp_mc_25_93_27_4_start:
-[ "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc" 26 8 ]
+C__Users_wolfa_Desktop_Garmin_Anniversary_source_AnniversaryApp_mc_27_100_29_4_start:
+[ "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc" 28 8 ]
         %tmp.1 = newa 1;
-        symbol [ AnniversaryGlance %tmp.5 26 21 38 ];
+        symbol [ AnniversaryGlance %tmp.5 28 21 38 ];
         %tmp.5 = getv ? :AnniversaryGlance;
         %tmp.2 = newc %tmp.5 ();
         %tmp.6 = dup %tmp.1;
         %tmp.7 = aputv %tmp.6 0 %tmp.2;
         ret %tmp.7;
-C__Users_wolfa_Desktop_Garmin_Anniversary_source_AnniversaryApp_mc_25_93_27_4_stop:
+C__Users_wolfa_Desktop_Garmin_Anniversary_source_AnniversaryApp_mc_27_100_29_4_stop:
+    }
+    [ @file = "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc"; @line = 31; @symbol_functiondef = [getServiceDelegate,31,20,38]; @symbol_return<0> = [System,31,46,52]; @symbol_return<1> = [ServiceDelegate,31,53,68]; ]
+    public
+    function getServiceDelegate() as [System.ServiceDelegate] {
+C__Users_wolfa_Desktop_Garmin_Anniversary_source_AnniversaryApp_mc_31_71_33_4_start:
+[ "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc" 32 8 ]
+        %tmp.1 = newa 1;
+        symbol [ AnniversaryBackGroundDelegate %tmp.5 32 20 49 ];
+        %tmp.5 = getv ? :AnniversaryBackGroundDelegate;
+        %tmp.2 = newc %tmp.5 ();
+        %tmp.6 = dup %tmp.1;
+        %tmp.7 = aputv %tmp.6 0 %tmp.2;
+        ret %tmp.7;
+C__Users_wolfa_Desktop_Garmin_Anniversary_source_AnniversaryApp_mc_31_71_33_4_stop:
     }
     //! For this app all that needs to be done is trigger a WatchUi refresh
     //! since the settings are only used in onUpdate().
-    [ @file = "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc"; @line = 31; @symbol_functiondef = [onSettingsChanged,31,20,37]; ]
+    [ @file = "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc"; @line = 37; @symbol_functiondef = [onSettingsChanged,37,20,37]; ]
     public
     function onSettingsChanged() as Void {
-C__Users_wolfa_Desktop_Garmin_Anniversary_source_AnniversaryApp_mc_31_48_33_4_start:
-[ "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc" 32 8 ]
-        symbol [ WatchUi %tmp.1 32 8 15 ];
+C__Users_wolfa_Desktop_Garmin_Anniversary_source_AnniversaryApp_mc_37_48_39_4_start:
+[ "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc" 38 8 ]
+        symbol [ WatchUi %tmp.1 38 8 15 ];
         %tmp.1 = getm $.Toybox.WatchUi;
-        symbol [ requestUpdate %tmp.2 32 16 29 ];
+        symbol [ requestUpdate %tmp.2 38 16 29 ];
         %tmp.2 = getv function %tmp.1 :requestUpdate;
         invoke %tmp.1 %tmp.2();
-C__Users_wolfa_Desktop_Garmin_Anniversary_source_AnniversaryApp_mc_31_48_33_4_stop:
+C__Users_wolfa_Desktop_Garmin_Anniversary_source_AnniversaryApp_mc_37_48_39_4_stop:
     }
 }
-[ @file = "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc"; @line = 37; @symbol_functiondef = [getApp,37,9,15]; @symbol_return<0> = [AnniversaryApp,37,21,35]; ]
+[ @file = "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc"; @line = 43; @symbol_functiondef = [getApp,43,9,15]; @symbol_return<0> = [AnniversaryApp,43,21,35]; ]
 function getApp() as AnniversaryApp {
-C__Users_wolfa_Desktop_Garmin_Anniversary_source_AnniversaryApp_mc_37_36_39_0_start:
-[ "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc" 38 4 ]
-    symbol [ Application %tmp.1 38 11 22 ];
+C__Users_wolfa_Desktop_Garmin_Anniversary_source_AnniversaryApp_mc_43_36_45_0_start:
+[ "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc" 44 4 ]
+    symbol [ Application %tmp.1 44 11 22 ];
     %tmp.1 = getm $.Toybox.Application;
-    symbol [ getApp %tmp.2 38 23 29 ];
+    symbol [ getApp %tmp.2 44 23 29 ];
     %tmp.2 = getv function %tmp.1 :getApp;
     %tmp.3 = invoke %tmp.1 %tmp.2();
     %tmp.4 = as %tmp.3 AnniversaryApp;
-    symbol [ AnniversaryApp %tmp.4 38 35 49 ];
+    symbol [ AnniversaryApp %tmp.4 44 35 49 ];
     ret %tmp.4;
-C__Users_wolfa_Desktop_Garmin_Anniversary_source_AnniversaryApp_mc_37_36_39_0_stop:
+C__Users_wolfa_Desktop_Garmin_Anniversary_source_AnniversaryApp_mc_43_36_45_0_stop:
 }
 [ @file = "C:\Users\wolfa\Desktop\Garmin_Anniversary\source\AnniversaryApp.mc"; @line = 1; ]
 <init> {
