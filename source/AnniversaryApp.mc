@@ -4,7 +4,6 @@ import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
 
-(:glance)
 class AnniversaryApp extends Application.AppBase {
 
     public function initialize() {
@@ -25,11 +24,12 @@ class AnniversaryApp extends Application.AppBase {
         return [ new AnniversaryMenu(), new AnniversaryMenuDelegate()];
     }
 
-    (:typecheck(disableBackgroundCheck))
+    (:typecheck(disableBackgroundCheck) :glance)
     public function getGlanceView() as [ GlanceView ] or [ GlanceView, GlanceViewDelegate ] or Null {
         return [ new AnniversaryGlance() ];
     }
 
+    (:background)
     public function getServiceDelegate() as [ $.Toybox.System.ServiceDelegate ] {
         return [new AnniversaryBackGroundDelegate()];
     }
