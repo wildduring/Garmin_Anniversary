@@ -250,7 +250,7 @@ class NumberPickerFactory extends WatchUi.PickerFactory {
         if (font != null) {
             _font = font;
         } else {
-            _font = Graphics.FONT_NUMBER_HOT;
+            _font = Graphics.FONT_LARGE;
         }
     }
 
